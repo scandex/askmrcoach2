@@ -1,1 +1,10 @@
-worker: java -jar  dataretrieve/askmrcoach.jar $MONGO_URI  $RIOT_KEY BR
+worker: java -jar  dataretrieve/askmrcoach.jar $MONGO_URI  $RIOT_KEY BR &
+worker: java -jar  dataretrieve/askmrcoach.jar $MONGO_URI  $RIOT_KEY EUNE &
+worker: java -jar  dataretrieve/askmrcoach.jar $MONGO_URI  $RIOT_KEY EUW &
+worker: java -jar  dataretrieve/askmrcoach.jar $MONGO_URI  $RIOT_KEY KR &
+worker: java -jar  dataretrieve/askmrcoach.jar $MONGO_URI  $RIOT_KEY LAN &
+worker: java -jar  dataretrieve/askmrcoach.jar $MONGO_URI  $RIOT_KEY LAS &
+worker: java -jar  dataretrieve/askmrcoach.jar $MONGO_URI  $RIOT_KEY NA &
+worker: java -jar  dataretrieve/askmrcoach.jar $MONGO_URI  $RIOT_KEY OCE &
+worker: java -jar  dataretrieve/askmrcoach.jar $MONGO_URI  $RIOT_KEY RU &
+worker: java -jar  dataretrieve/askmrcoach.jar $MONGO_URI  $RIOT_KEY TR &
