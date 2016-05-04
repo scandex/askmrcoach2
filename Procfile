@@ -1,1 +1,1 @@
-worker: sh start
+worker: java -jar  dataretrieve/askmrcoach.jar $MONGO_URI  $RIOT_KEY

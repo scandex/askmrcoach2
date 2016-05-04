@@ -14,7 +14,7 @@ import com.robrua.orianna.type.core.game.Player;
 import com.robrua.orianna.type.core.match.Match;
 import com.robrua.orianna.type.core.match.Participant;
 
-public class MatchRetrieve {
+public class MatchRetrieve implements Runnable{
 	private Region region;
 	private Queue<Long> queue;
 	private Queue<Long> queue0;
@@ -115,5 +115,11 @@ public class MatchRetrieve {
 				e.printStackTrace();
 			}			
 		}
+	}
+
+	@Override
+	public void run() {
+		getMatches();
+		
 	}
 }
