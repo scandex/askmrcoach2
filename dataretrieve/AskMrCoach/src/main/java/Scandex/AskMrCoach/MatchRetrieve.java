@@ -26,11 +26,11 @@ public class MatchRetrieve implements Runnable{
 		for (Long string : seeds) {
 			queue.add(string);
 		}
-		this.db = db;
-		RiotAPI.setRegion(region);
+		this.db = db;		
 	}
 
 	public boolean isADC(long id) {
+		RiotAPI.setRegion(region);
 		return RiotAPI.getChampionByID(id).getTags().contains("Marksman");
 	}
 
@@ -40,6 +40,7 @@ public class MatchRetrieve implements Runnable{
 			try {
 				Long summoner = queue.poll();
 				if (summoner != null) {
+					RiotAPI.setRegion(region);
 					List<Game> games = RiotAPI.getRecentGames(summoner);
 					for (Game game : games) {
 						for (Player p : game.getFellowPlayers())
@@ -48,6 +49,7 @@ public class MatchRetrieve implements Runnable{
 							db.save(game.getID(), region);
 							teamcomp = new long[10];
 							boolean bwin = false;
+							RiotAPI.setRegion(region);
 							Match match = RiotAPI.getMatch(game.getID());
 							List<Participant> par = match.getParticipants();
 							for (Participant participant : par) {

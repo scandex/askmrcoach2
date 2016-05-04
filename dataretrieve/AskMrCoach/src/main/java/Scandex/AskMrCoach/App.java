@@ -28,6 +28,7 @@ public class App {
 				int n = Integer.parseInt(datos.getProperty(reg.toString()));
 				for (int j = 0; j < n; j++) {
 					try {
+						RiotAPI.setRegion(reg);
 						long id = RiotAPI.getSummonerByName(datos.getProperty(reg.toString() + "." + j)).getID();
 						a.add(id);
 					} catch (Exception e) {
