@@ -13,11 +13,11 @@ import com.robrua.orianna.type.core.game.Game;
 import com.robrua.orianna.type.core.game.Player;
 import com.robrua.orianna.type.core.match.Match;
 import com.robrua.orianna.type.core.match.Participant;
+import com.robrua.orianna.type.exception.APIException;
 
-public class MatchRetrieve implements Runnable{
+public class MatchRetrieve {
 	private Region region;
 	private Queue<Long> queue;
-	private Queue<Long> queue0;
 	private DBController db;
 
 	public MatchRetrieve(Region r, List<Long> seeds, DBController db) {
@@ -26,7 +26,7 @@ public class MatchRetrieve implements Runnable{
 		for (Long string : seeds) {
 			queue.add(string);
 		}
-		this.db = db;		
+		this.db = db;
 	}
 
 	public boolean isADC(long id) {
@@ -36,15 +36,18 @@ public class MatchRetrieve implements Runnable{
 
 	public void getMatches() {
 		long[] teamcomp;
-		while (true) {
+		for (int i = 0; i < 100; i++) {
+			//System.out.println(region.toString()+": "+queue.size()+" "+ i );
 			try {
-				Long summoner = queue.poll();
+				Long summoner = queue.poll();				
 				if (summoner != null) {
 					RiotAPI.setRegion(region);
 					List<Game> games = RiotAPI.getRecentGames(summoner);
 					for (Game game : games) {
-						for (Player p : game.getFellowPlayers())
-							queue.add(p.getSummonerID());
+						if(queue.size()<100){
+							for (Player p : game.getFellowPlayers())
+								queue.add(p.getSummonerID());
+						}						
 						if (game.getSubType().equals(SubType.RANKED_SOLO_5x5) && db.proc(game.getID(), region)) {
 							db.save(game.getID(), region);
 							teamcomp = new long[10];
@@ -113,15 +116,9 @@ public class MatchRetrieve implements Runnable{
 						}
 					}
 				}
-			} catch (Exception e) {
-				e.printStackTrace();
-			}			
+			} catch (APIException e) {
+				System.out.println(e.getMessage());
+			}
 		}
-	}
-
-	@Override
-	public void run() {
-		getMatches();
-		
-	}
+	}	
 }

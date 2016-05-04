@@ -7,6 +7,7 @@ import java.util.Properties;
 
 import com.robrua.orianna.api.core.RiotAPI;
 import com.robrua.orianna.type.core.common.Region;
+import com.robrua.orianna.type.exception.APIException;
 
 /**
  * Hello world!
@@ -21,7 +22,7 @@ public class App {
 		Properties datos = new Properties();
 		FileInputStream in = new FileInputStream("seeds.properties");
 		datos.load(in);
-		List<Thread> threads = new ArrayList<>();
+		List<MatchRetrieve> threads = new ArrayList<>();
 		for (Region reg : Region.values()) {
 			List<Long> a = new ArrayList<Long>();
 			try {
@@ -29,35 +30,29 @@ public class App {
 				for (int j = 0; j < n; j++) {
 					try {
 						RiotAPI.setRegion(reg);
-						long id = RiotAPI.getSummonerByName(datos.getProperty(reg.toString() + "." + j)).getID();
+						long id = RiotAPI.getSummonerByName(datos.getProperty(reg.toString() + "." + j)).getID();						
 						a.add(id);
-					} catch (Exception e) {
-						e.printStackTrace();
+					} catch (APIException e) {
+						System.out.println(e.getMessage());
 					}
 				}
-				if (!a.isEmpty()) {
-
-					try {
-						MatchRetrieve retriever = new MatchRetrieve(reg, a, db);
-						Thread t = new Thread(retriever);
-						threads.add(t);
-					} catch (Exception e) {
-						e.printStackTrace();
-
-					}
+				if (!a.isEmpty()) {					
+						MatchRetrieve retriever = new MatchRetrieve(reg, a, db);						
+						threads.add(retriever);
+					
 				}
 			} catch (Exception e) {
-				e.printStackTrace();
+				System.out.println(e.getMessage());
 			}
-		}
-		
+		}		
 		try{
-			for (Thread thread : threads) {
-				thread.start();
+			while (true) {
+				for (MatchRetrieve matchRetrieve : threads) {
+					matchRetrieve.getMatches();
+				}			
 			}
 		}catch(Exception e){
-			e.printStackTrace();
+			System.out.println(e.getMessage());
 		}
-
 	}
 }
