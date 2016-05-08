@@ -957,3 +957,39 @@ MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.0
 MONGODB | ds023388.mlab.com:23388 | ritochallenge.aggregate | SUCCEEDED | 2.014989116s
 MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | STARTED | {"getMore"=>8863729033120, "batchSize"=>0, "collection"=>"comps"}
 MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | SUCCEEDED | 0.02925821s
+MONGODB | Adding ds023388.mlab.com:23388 to the cluster.
+MONGODB | Adding ds023388-a.mlab.com:23388 to the cluster.
+MONGODB | Server ds023388-a.mlab.com:23388 discovered as primary in replica set: 'rs-ds023388'. Changing topology to replica set.
+MONGODB | Server ds023388.mlab.com:23388 elected as primary in rs-ds023388.
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.aggregate | STARTED | {"aggregate"=>"comps", "pipeline"=>[{"$match"=>{"$or"=>[{"$or"=>[{"tb"=>14}, {"jb"=>245}, {"mb"=>103}, {"ab"=>81}, {"sb"=>412}, {"tr"=>157}, {"jr"=>35}, {"mr"=>105}, {"ar"=>202}, {"sr"=>16}]}, {"$or"=>[{"tb"=>157}, {"jb"=>35}, {"mb"=>105}, {"ab"=>202}...
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | SUCCEEDED | 0.030246393s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.028351193s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.028456604s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.aggregate | SUCCEEDED | 8.271501867s
+MONGODB | Adding ds023388.mlab.com:23388 to the cluster.
+MONGODB | Adding ds023388-a.mlab.com:23388 to the cluster.
+MONGODB | Server ds023388-a.mlab.com:23388 discovered as primary in replica set: 'rs-ds023388'. Changing topology to replica set.
+MONGODB | Server ds023388.mlab.com:23388 elected as primary in rs-ds023388.
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.aggregate | STARTED | {"aggregate"=>"comps", "pipeline"=>[{"$match"=>{"$or"=>[{"$or"=>[{"tb"=>14}, {"jb"=>245}, {"mb"=>103}, {"ab"=>81}, {"sb"=>412}, {"tr"=>157}, {"jr"=>35}, {"mr"=>105}, {"ar"=>202}, {"sr"=>16}]}, {"$or"=>[{"tb"=>157}, {"jb"=>35}, {"mb"=>105}, {"ab"=>202}...
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | SUCCEEDED | 0.030843627999999998s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.028654622s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.028706709s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.aggregate | SUCCEEDED | 4.998058309999999s
+MONGODB | Adding ds023388.mlab.com:23388 to the cluster.
+MONGODB | Adding ds023388-a.mlab.com:23388 to the cluster.
+MONGODB | Server ds023388-a.mlab.com:23388 discovered as primary in replica set: 'rs-ds023388'. Changing topology to replica set.
+MONGODB | Server ds023388.mlab.com:23388 elected as primary in rs-ds023388.
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.aggregate | STARTED | {"aggregate"=>"comps", "pipeline"=>[{"$match"=>{"$or"=>[{"$or"=>[{"tb"=>14}, {"jb"=>245}, {"mb"=>103}, {"ab"=>81}, {"sb"=>412}, {"tr"=>157}, {"jr"=>35}, {"mr"=>105}, {"ar"=>202}, {"sr"=>16}]}, {"$or"=>[{"tb"=>157}, {"jb"=>35}, {"mb"=>105}, {"ab"=>202}...
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | SUCCEEDED | 0.029803977000000002s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.028717828s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.028883983999999998s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.aggregate | SUCCEEDED | 6.890008137s

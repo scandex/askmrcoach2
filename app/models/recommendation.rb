@@ -15,54 +15,6 @@ class Recommendation
         sr=16
         db = Mongoid::Clients.default
         collection = db["comps"]
-        pipeline = []
-        pipeline << {
-                     "$match"=> {
-      	                "$or"=> [ { "$or"=> [ { "tb"=> tb }, { "jb"=> jb },{ "mb"=> mb } ,{ "ab"=> ab },{ "sb"=> sb },{ "tr"=> tr }, { "jr"=> jr }, { "mr"=> mr }, { "ar"=> ar }, { "sr"=> sr }]}, 
-      	                { "$or"=> [ { "tb"=> tr }, { "jb"=> jr }, { "mb"=> mr }, { "ab"=> ar }, { "sb"=> sr },{ "tr"=> tb }, { "jr"=> jb }, { "mr"=> mb }, { "ar"=> ab }, { "sr"=> sb } ] } ]	
-                    }
-                }
-        pipeline << {
-                    "$project"=> {
-      	                "team"=> {"$cond"=>[ {"$gt"=>[{"$add"=> [ {"$cond"=> [ {"$eq"=> [ "$tb", tb ]},1,0]},{"$cond"=> [ {"$eq"=> [ "$jb", jb ]},1,0]},{"$cond"=> [ {"$eq"=> [ "$mb", mb ]},1,0]},{"$cond"=> [ {"$eq"=> [ "$ab", ab ]},1,0]},{"$cond"=> [ {"$eq"=> [ "$sb", sb ]},1,0]}]},0]},0,1]},
-                    	"wr" => 1,
-                    	"wb" => 1,
-                    	"tb" => 1,
-                       	"jb" => 1,
-                    	"mb" => 1,
-                       	"ab" => 1,
-                       	"sb" => 1,
-                      	"tr" => 1,
-                       	"jr" => 1,
-                    	"mr" => 1,
-                    	"ar" => 1,
-                    	"sr" => 1
-                    }
-                }
-        
-        pipeline <<  {
-                    "$project"=> {
-      	                "simi"=> {"$cond"=>[ {"$eq"=>["$team",0]},
-      	                    { "$add"=> [ {"$cond"=> [ {"$eq"=> [ "$tb", tb ]},1,0]},{"$cond"=> [ {"$eq"=> [ "$jb", jb ]},1,0]},{"$cond"=> [ {"$eq"=> [ "$mb", mb ]},1,0]},{"$cond"=> [ {"$eq"=> [ "$ab", ab ]},1,0]},{"$cond"=> [ {"$eq"=> [ "$sb", sb ]},1,0]},{"$cond"=> [ {"$eq"=> [ "$tr", tr ]},1,0]},{"$cond"=> [ {"$eq"=> [ "$jr", jr ]},1,0]},{"$cond"=> [ {"$eq"=> [ "$mr", mr ]},1,0]},{"$cond"=> [ {"$eq"=> [ "$ar", ar ]},1,0]},{"$cond"=> [ {"$eq"=> [ "$sr", sr ]},1,0]}]},
-      	                    { "$add"=> [ {"$cond"=> [ {"$eq"=> [ "$tb", tr ]},1,0]},{"$cond"=> [ {"$eq"=> [ "$jb", jr ]},1,0]},{"$cond"=> [ {"$eq"=> [ "$mb", mr ]},1,0]},{"$cond"=> [ {"$eq"=> [ "$ab", ar ]},1,0]},{"$cond"=> [ {"$eq"=> [ "$sb", sr ]},1,0]},{"$cond"=> [ {"$eq"=> [ "$tr", tb ]},1,0]},{"$cond"=> [ {"$eq"=> [ "$jr", jb ]},1,0]},{"$cond"=> [ {"$eq"=> [ "$mr", mb ]},1,0]},{"$cond"=> [ {"$eq"=> [ "$ar", ab ]},1,0]},{"$cond"=> [ {"$eq"=> [ "$sr", sb ]},1,0]}]}
-      	                    
-      	                ]},
-      	                "champ"=> {"$cond"=>[ {"$eq"=>["$team",0]},"$mb","$mr"]},
-      	                "win"=> {"$cond"=>[ {"$eq"=>["$team",0]},{"$subtract"=> ["$wb","$wr"]},{"$subtract"=> ["$wr","$wb"]}]},
-                    }
-                }
-                
-        pipeline <<  {
-                    "$group"=> {
-      	                "_id" =>"$champ",
-                        "perf"=> { "$avg"=> { "$multiply"=> [ {"$divide"=>["$simi", 2]}, "$win" ] } },               
-                    }
-                }
-                
-        pipeline <<  {
-                    "$sort"=> {"perf"=>-1}
-                }
-        puts pipeline
         col = collection.aggregate([
                 {
                      "$match"=> {
@@ -123,6 +75,6 @@ class Recommendation
         )
         results = col.map { |attrs| Recommendation.instantiate(attrs) }
         puts results.first.id
-        puts results.first.perf
+        puts results.first.performance
     end
 end
