@@ -5,3 +5,955 @@ Cannot render console from 186.154.105.133! Allowed networks: 127.0.0.1, ::1, 12
 Processing by Rails::WelcomeController#index as HTML
   Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/railties-4.2.5/lib/rails/templates/rails/welcome/index.html.erb (4.3ms)
 Completed 200 OK in 39ms (Views: 24.7ms | ActiveRecord: 0.0ms)
+MONGODB | Adding localhost:27017 to the cluster.
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Adding localhost:27017 to the cluster.
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Adding localhost:27017 to the cluster.
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Adding localhost:27017 to the cluster.
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Adding ds023388.mlab.com:23388 to the cluster.
+MONGODB | Adding ds023388-a.mlab.com:23388 to the cluster.
+MONGODB | Server ds023388-a.mlab.com:23388 discovered as primary in replica set: 'rs-ds023388'. Changing topology to replica set.
+MONGODB | Server ds023388.mlab.com:23388 elected as primary in rs-ds023388.
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.find | STARTED | {"find"=>"comps", "filter"=>{}}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | SUCCEEDED | 0.02991571s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.028751537s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.028752820999999998s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.find | SUCCEEDED | 0.20809898500000001s
+MONGODB | Adding ds023388.mlab.com:23388 to the cluster.
+MONGODB | Adding ds023388-a.mlab.com:23388 to the cluster.
+MONGODB | Server ds023388-a.mlab.com:23388 discovered as primary in replica set: 'rs-ds023388'. Changing topology to replica set.
+MONGODB | Server ds023388.mlab.com:23388 elected as primary in rs-ds023388.
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.find | STARTED | {"find"=>"comps", "filter"=>{}}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | SUCCEEDED | 0.043105084s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.029706711s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.028668957s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.find | SUCCEEDED | 0.207204729s
+MONGODB | Adding ds023388.mlab.com:23388 to the cluster.
+MONGODB | Adding ds023388-a.mlab.com:23388 to the cluster.
+MONGODB | Server ds023388-a.mlab.com:23388 discovered as primary in replica set: 'rs-ds023388'. Changing topology to replica set.
+MONGODB | Server ds023388.mlab.com:23388 elected as primary in rs-ds023388.
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.find | STARTED | {"find"=>"comps", "filter"=>{}}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | SUCCEEDED | 0.030429247s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.029094738999999998s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.028598s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.find | SUCCEEDED | 0.286864373s
+MONGODB | Adding ds023388.mlab.com:23388 to the cluster.
+MONGODB | Adding ds023388-a.mlab.com:23388 to the cluster.
+MONGODB | Server ds023388-a.mlab.com:23388 discovered as primary in replica set: 'rs-ds023388'. Changing topology to replica set.
+MONGODB | Server ds023388.mlab.com:23388 elected as primary in rs-ds023388.
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.find | STARTED | {"find"=>"comps", "filter"=>{}}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | SUCCEEDED | 0.035557506999999995s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.029390344s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.029519919s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.find | SUCCEEDED | 2.198369972s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | STARTED | {"getMore"=>8860776545707, "batchSize"=>0, "collection"=>"comps"}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | SUCCEEDED | 1.455161581s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | STARTED | {"getMore"=>8860776545707, "batchSize"=>0, "collection"=>"comps"}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | FAILED |  | 3.867256003s
+MONGODB | Adding ds023388.mlab.com:23388 to the cluster.
+MONGODB | Adding ds023388-a.mlab.com:23388 to the cluster.
+MONGODB | Server ds023388-a.mlab.com:23388 discovered as primary in replica set: 'rs-ds023388'. Changing topology to replica set.
+MONGODB | Server ds023388.mlab.com:23388 elected as primary in rs-ds023388.
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.find | STARTED | {"find"=>"comps", "filter"=>{}}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | SUCCEEDED | 0.042950938s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.029056802s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.029066606000000002s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.find | SUCCEEDED | 0.213071164s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | STARTED | {"getMore"=>8861216505298, "batchSize"=>0, "collection"=>"comps"}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | SUCCEEDED | 1.359799567s
+MONGODB | Adding ds023388.mlab.com:23388 to the cluster.
+MONGODB | Adding ds023388-a.mlab.com:23388 to the cluster.
+MONGODB | Server ds023388-a.mlab.com:23388 discovered as primary in replica set: 'rs-ds023388'. Changing topology to replica set.
+MONGODB | Server ds023388.mlab.com:23388 elected as primary in rs-ds023388.
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.find | STARTED | {"find"=>"comps", "filter"=>{}}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | SUCCEEDED | 0.030183353s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.028792029s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.029016193s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.find | SUCCEEDED | 0.194959141s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | STARTED | {"getMore"=>8862277457977, "batchSize"=>0, "collection"=>"comps"}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | FAILED |  | 0.619978031s
+MONGODB | Adding ds023388.mlab.com:23388 to the cluster.
+MONGODB | Adding ds023388-a.mlab.com:23388 to the cluster.
+MONGODB | Server ds023388-a.mlab.com:23388 discovered as primary in replica set: 'rs-ds023388'. Changing topology to replica set.
+MONGODB | Server ds023388.mlab.com:23388 elected as primary in rs-ds023388.
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.find | STARTED | {"find"=>"comps", "filter"=>{}}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | SUCCEEDED | 0.032616329s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.029667621999999998s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.029203102s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.find | SUCCEEDED | 0.20691137299999998s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | STARTED | {"getMore"=>8861660444090, "batchSize"=>0, "collection"=>"comps"}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | FAILED |  | 1.058424735s
+MONGODB | Adding ds023388.mlab.com:23388 to the cluster.
+MONGODB | Adding ds023388-a.mlab.com:23388 to the cluster.
+MONGODB | Server ds023388-a.mlab.com:23388 discovered as primary in replica set: 'rs-ds023388'. Changing topology to replica set.
+MONGODB | Server ds023388.mlab.com:23388 elected as primary in rs-ds023388.
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.find | STARTED | {"find"=>"comps", "filter"=>{}}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | SUCCEEDED | 0.030143439s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.03109687s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.028985244s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.find | SUCCEEDED | 0.21092876500000002s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | STARTED | {"getMore"=>8863907350007, "batchSize"=>0, "collection"=>"comps"}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | FAILED |  | 0.645274753s
+MONGODB | Adding ds023388.mlab.com:23388 to the cluster.
+MONGODB | Adding ds023388-a.mlab.com:23388 to the cluster.
+MONGODB | Server ds023388-a.mlab.com:23388 discovered as primary in replica set: 'rs-ds023388'. Changing topology to replica set.
+MONGODB | Server ds023388.mlab.com:23388 elected as primary in rs-ds023388.
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.find | STARTED | {"find"=>"comps", "filter"=>{}}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | SUCCEEDED | 0.029861017s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.029260176s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.028699994s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.find | SUCCEEDED | 0.19165648600000001s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | STARTED | {"getMore"=>8863338804873, "batchSize"=>0, "collection"=>"comps"}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | FAILED |  | 0.6591314699999999s
+MONGODB | Adding ds023388.mlab.com:23388 to the cluster.
+MONGODB | Adding ds023388-a.mlab.com:23388 to the cluster.
+MONGODB | Server ds023388-a.mlab.com:23388 discovered as primary in replica set: 'rs-ds023388'. Changing topology to replica set.
+MONGODB | Server ds023388.mlab.com:23388 elected as primary in rs-ds023388.
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.aggregate | STARTED | {"aggregate"=>"comps", "pipeline"=>{"$match"=>{"$or"=>[{"$or"=>[{"tb"=>39}, {"jb"=>121}, {"mb"=>121}, {"ab"=>121}, {"sb"=>121}]}, {"$or"=>[{"tr"=>39}, {"jr"=>121}, {"mr"=>121}, {"ar"=>121}, {"sr"=>121}]}]}}, "cursor"=>{}}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | SUCCEEDED | 0.033152434s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.029236687s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.028504789s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.aggregate | FAILED | exception: wrong type for field (pipeline) 3 != 4 (13111) | 0.28378174899999997s
+MONGODB | Adding ds023388.mlab.com:23388 to the cluster.
+MONGODB | Adding ds023388-a.mlab.com:23388 to the cluster.
+MONGODB | Server ds023388-a.mlab.com:23388 discovered as primary in replica set: 'rs-ds023388'. Changing topology to replica set.
+MONGODB | Server ds023388.mlab.com:23388 elected as primary in rs-ds023388.
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.aggregate | STARTED | {"aggregate"=>"comps", "pipeline"=>{"$match"=>{"$or"=>[{"$or"=>[{"tb"=>39}, {"jb"=>121}, {"mb"=>121}, {"ab"=>121}, {"sb"=>121}]}, {"$or"=>[{"tr"=>39}, {"jr"=>121}, {"mr"=>121}, {"ar"=>121}, {"sr"=>121}]}]}}, "cursor"=>{}}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | SUCCEEDED | 0.030387348999999998s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.030828355999999998s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.029129218s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.aggregate | FAILED | exception: wrong type for field (pipeline) 3 != 4 (13111) | 0.17539991s
+MONGODB | Adding ds023388.mlab.com:23388 to the cluster.
+MONGODB | Adding ds023388-a.mlab.com:23388 to the cluster.
+MONGODB | Server ds023388-a.mlab.com:23388 discovered as primary in replica set: 'rs-ds023388'. Changing topology to replica set.
+MONGODB | Server ds023388.mlab.com:23388 elected as primary in rs-ds023388.
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.aggregate | STARTED | {"aggregate"=>"comps", "pipeline"=>{"$limit"=>10}, "cursor"=>{}}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | SUCCEEDED | 0.098373047s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.032337534999999994s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.029029872999999998s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.aggregate | FAILED | invalid parameter: expected an object ($limit) (10065) | 0.31765298000000003s
+MONGODB | Adding ds023388.mlab.com:23388 to the cluster.
+MONGODB | Adding ds023388-a.mlab.com:23388 to the cluster.
+MONGODB | Server ds023388-a.mlab.com:23388 discovered as primary in replica set: 'rs-ds023388'. Changing topology to replica set.
+MONGODB | Server ds023388.mlab.com:23388 elected as primary in rs-ds023388.
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.aggregate | STARTED | {"aggregate"=>"comps", "pipeline"=>{"$sort"=>{"wr"=>-1}}, "cursor"=>{}}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | SUCCEEDED | 0.033098657s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.029058732s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.029696228s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.aggregate | FAILED | exception: wrong type for field (pipeline) 3 != 4 (13111) | 0.174890695s
+MONGODB | Adding ds023388.mlab.com:23388 to the cluster.
+MONGODB | Adding ds023388-a.mlab.com:23388 to the cluster.
+MONGODB | Server ds023388-a.mlab.com:23388 discovered as primary in replica set: 'rs-ds023388'. Changing topology to replica set.
+MONGODB | Server ds023388.mlab.com:23388 elected as primary in rs-ds023388.
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.aggregate | STARTED | {"aggregate"=>"comps", "pipeline"=>{"$sort"=>{"wr"=>-1}}, "cursor"=>{}}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | SUCCEEDED | 0.029675669s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.028296588s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.028352856s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.aggregate | FAILED | exception: wrong type for field (pipeline) 3 != 4 (13111) | 0.166407597s
+MONGODB | Adding ds023388.mlab.com:23388 to the cluster.
+MONGODB | Adding ds023388-a.mlab.com:23388 to the cluster.
+MONGODB | Server ds023388-a.mlab.com:23388 discovered as primary in replica set: 'rs-ds023388'. Changing topology to replica set.
+MONGODB | Server ds023388.mlab.com:23388 elected as primary in rs-ds023388.
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.aggregate | STARTED | {"aggregate"=>"comps", "pipeline"=>{"$sort"=>{"wr:"=>-1}}, "cursor"=>{}}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | SUCCEEDED | 0.11343127s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.028952051s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.029046713000000002s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.aggregate | FAILED | exception: wrong type for field (pipeline) 3 != 4 (13111) | 0.26077110800000003s
+MONGODB | Adding ds023388.mlab.com:23388 to the cluster.
+MONGODB | Adding ds023388-a.mlab.com:23388 to the cluster.
+MONGODB | Server ds023388-a.mlab.com:23388 discovered as primary in replica set: 'rs-ds023388'. Changing topology to replica set.
+MONGODB | Server ds023388.mlab.com:23388 elected as primary in rs-ds023388.
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.aggregate | STARTED | {"aggregate"=>"comps", "pipeline"=>{"$sort"=>{"wr"=>-1}}, "cursor"=>{}}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | SUCCEEDED | 0.031192748s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.028860099s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.031267901s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.aggregate | FAILED | exception: wrong type for field (pipeline) 3 != 4 (13111) | 0.177744719s
+MONGODB | Adding ds023388.mlab.com:23388 to the cluster.
+MONGODB | Adding ds023388-a.mlab.com:23388 to the cluster.
+MONGODB | Server ds023388-a.mlab.com:23388 discovered as primary in replica set: 'rs-ds023388'. Changing topology to replica set.
+MONGODB | Server ds023388.mlab.com:23388 elected as primary in rs-ds023388.
+MONGODB | Adding ds023388.mlab.com:23388 to the cluster.
+MONGODB | Adding ds023388-a.mlab.com:23388 to the cluster.
+MONGODB | Server ds023388-a.mlab.com:23388 discovered as primary in replica set: 'rs-ds023388'. Changing topology to replica set.
+MONGODB | Server ds023388.mlab.com:23388 elected as primary in rs-ds023388.
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.aggregate | STARTED | {"aggregate"=>"comps", "pipeline"=>{"$match"=>{"$or"=>[{"$or"=>[{"tb"=>39}, {"jb"=>121}, {"mb"=>121}, {"ab"=>121}, {"sb"=>121}]}, {"$or"=>[{"tr"=>39}, {"jr"=>121}, {"mr"=>121}, {"ar"=>121}, {"sr"=>121}]}]}}, "cursor"=>{}}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | SUCCEEDED | 0.030547517s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.028946368s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.028817817000000003s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.aggregate | FAILED | exception: wrong type for field (pipeline) 3 != 4 (13111) | 0.174306521s
+MONGODB | Adding ds023388.mlab.com:23388 to the cluster.
+MONGODB | Adding ds023388-a.mlab.com:23388 to the cluster.
+MONGODB | Server ds023388-a.mlab.com:23388 discovered as primary in replica set: 'rs-ds023388'. Changing topology to replica set.
+MONGODB | Server ds023388.mlab.com:23388 elected as primary in rs-ds023388.
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.aggregate | STARTED | {"aggregate"=>"comps", "pipeline"=>{"$match"=>{"$or"=>[{"$or"=>[{"tb"=>39}, {"jb"=>121}, {"mb"=>121}, {"ab"=>121}, {"sb"=>121}]}, {"$or"=>[{"tr"=>39}, {"jr"=>121}, {"mr"=>121}, {"ar"=>121}, {"sr"=>121}]}]}}, "cursor"=>{}}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | SUCCEEDED | 0.278060761s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.047265172s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.04712253s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.aggregate | FAILED | exception: wrong type for field (pipeline) 3 != 4 (13111) | 0.49249014s
+MONGODB | Adding ds023388.mlab.com:23388 to the cluster.
+MONGODB | Adding ds023388-a.mlab.com:23388 to the cluster.
+MONGODB | Server ds023388-a.mlab.com:23388 discovered as primary in replica set: 'rs-ds023388'. Changing topology to replica set.
+MONGODB | Server ds023388.mlab.com:23388 elected as primary in rs-ds023388.
+MONGODB | Adding ds023388.mlab.com:23388 to the cluster.
+MONGODB | Adding ds023388-a.mlab.com:23388 to the cluster.
+MONGODB | Server ds023388-a.mlab.com:23388 discovered as primary in replica set: 'rs-ds023388'. Changing topology to replica set.
+MONGODB | Server ds023388.mlab.com:23388 elected as primary in rs-ds023388.
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.aggregate | STARTED | {"aggregate"=>"comps", "pipeline"=>{"$sort"=>{"matches"=>-1}}, "cursor"=>{}}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | SUCCEEDED | 0.102543759s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.030049379s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.028255249s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.aggregate | FAILED | exception: wrong type for field (pipeline) 3 != 4 (13111) | 0.24545957599999998s
+MONGODB | Adding ds023388.mlab.com:23388 to the cluster.
+MONGODB | Adding ds023388-a.mlab.com:23388 to the cluster.
+MONGODB | Server ds023388-a.mlab.com:23388 discovered as primary in replica set: 'rs-ds023388'. Changing topology to replica set.
+MONGODB | Server ds023388.mlab.com:23388 elected as primary in rs-ds023388.
+MONGODB | Adding ds023388.mlab.com:23388 to the cluster.
+MONGODB | Adding ds023388-a.mlab.com:23388 to the cluster.
+MONGODB | Server ds023388-a.mlab.com:23388 discovered as primary in replica set: 'rs-ds023388'. Changing topology to replica set.
+MONGODB | Server ds023388.mlab.com:23388 elected as primary in rs-ds023388.
+MONGODB | Adding ds023388.mlab.com:23388 to the cluster.
+MONGODB | Adding ds023388-a.mlab.com:23388 to the cluster.
+MONGODB | Server ds023388-a.mlab.com:23388 discovered as primary in replica set: 'rs-ds023388'. Changing topology to replica set.
+MONGODB | Server ds023388.mlab.com:23388 elected as primary in rs-ds023388.
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.aggregate | STARTED | {"aggregate"=>"comps", "pipeline"=>{"$sort"=>{"matches"=>-1}}, "cursor"=>{}}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | SUCCEEDED | 0.030221355999999998s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.028966882s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.028957302s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.aggregate | FAILED | exception: wrong type for field (pipeline) 3 != 4 (13111) | 0.168854095s
+MONGODB | Adding ds023388.mlab.com:23388 to the cluster.
+MONGODB | Adding ds023388-a.mlab.com:23388 to the cluster.
+MONGODB | Server ds023388-a.mlab.com:23388 discovered as primary in replica set: 'rs-ds023388'. Changing topology to replica set.
+MONGODB | Server ds023388.mlab.com:23388 elected as primary in rs-ds023388.
+MONGODB | Adding ds023388.mlab.com:23388 to the cluster.
+MONGODB | Adding ds023388-a.mlab.com:23388 to the cluster.
+MONGODB | Server ds023388-a.mlab.com:23388 discovered as primary in replica set: 'rs-ds023388'. Changing topology to replica set.
+MONGODB | Server ds023388.mlab.com:23388 elected as primary in rs-ds023388.
+MONGODB | Adding ds023388.mlab.com:23388 to the cluster.
+MONGODB | Adding ds023388-a.mlab.com:23388 to the cluster.
+MONGODB | Server ds023388-a.mlab.com:23388 discovered as primary in replica set: 'rs-ds023388'. Changing topology to replica set.
+MONGODB | Server ds023388.mlab.com:23388 elected as primary in rs-ds023388.
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.aggregate | STARTED | {"aggregate"=>"comps", "pipeline"=>{"$sort"=>{"matches"=>-1}}, "cursor"=>{}}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | SUCCEEDED | 0.042348115s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.033425616000000005s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.028642972s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.aggregate | FAILED | exception: wrong type for field (pipeline) 3 != 4 (13111) | 0.18710084800000001s
+MONGODB | Adding ds023388.mlab.com:23388 to the cluster.
+MONGODB | Adding ds023388-a.mlab.com:23388 to the cluster.
+MONGODB | Server ds023388-a.mlab.com:23388 discovered as primary in replica set: 'rs-ds023388'. Changing topology to replica set.
+MONGODB | Server ds023388.mlab.com:23388 elected as primary in rs-ds023388.
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.aggregate | STARTED | {"aggregate"=>"comps", "pipeline"=>{"$sort"=>{"matches"=>-1}}, "cursor"=>{}}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | SUCCEEDED | 0.03196099s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.05219088s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.02886675s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.aggregate | FAILED | exception: wrong type for field (pipeline) 3 != 4 (13111) | 0.19186883600000001s
+MONGODB | Adding ds023388.mlab.com:23388 to the cluster.
+MONGODB | Adding ds023388-a.mlab.com:23388 to the cluster.
+MONGODB | Server ds023388-a.mlab.com:23388 discovered as primary in replica set: 'rs-ds023388'. Changing topology to replica set.
+MONGODB | Server ds023388.mlab.com:23388 elected as primary in rs-ds023388.
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.aggregate | STARTED | {"aggregate"=>"comps", "pipeline"=>{"$sort"=>{"matches"=>-1}}, "cursor"=>{}}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | SUCCEEDED | 0.029988590000000002s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.029035054s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.029034364s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.aggregate | FAILED | exception: wrong type for field (pipeline) 3 != 4 (13111) | 0.167687843s
+MONGODB | Adding ds023388.mlab.com:23388 to the cluster.
+MONGODB | Adding ds023388-a.mlab.com:23388 to the cluster.
+MONGODB | Server ds023388-a.mlab.com:23388 discovered as primary in replica set: 'rs-ds023388'. Changing topology to replica set.
+MONGODB | Server ds023388.mlab.com:23388 elected as primary in rs-ds023388.
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.aggregate | STARTED | {"aggregate"=>"comps", "pipeline"=>{"$sort"=>{"matches"=>-1}}, "cursor"=>{}}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | SUCCEEDED | 0.033842137999999994s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.028087875s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.028129432000000003s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.aggregate | FAILED | exception: wrong type for field (pipeline) 3 != 4 (13111) | 0.16979283499999998s
+MONGODB | Adding ds023388.mlab.com:23388 to the cluster.
+MONGODB | Adding ds023388-a.mlab.com:23388 to the cluster.
+MONGODB | Server ds023388-a.mlab.com:23388 discovered as primary in replica set: 'rs-ds023388'. Changing topology to replica set.
+MONGODB | Server ds023388.mlab.com:23388 elected as primary in rs-ds023388.
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.aggregate | STARTED | {"aggregate"=>"comps", "pipeline"=>{"$sort"=>{"matches"=>-1}}, "cursor"=>{}}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | SUCCEEDED | 0.029326193s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.028226009s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.028213158s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.aggregate | FAILED | exception: wrong type for field (pipeline) 3 != 4 (13111) | 0.165682003s
+MONGODB | Adding ds023388.mlab.com:23388 to the cluster.
+MONGODB | Adding ds023388-a.mlab.com:23388 to the cluster.
+MONGODB | Server ds023388-a.mlab.com:23388 discovered as primary in replica set: 'rs-ds023388'. Changing topology to replica set.
+MONGODB | Server ds023388.mlab.com:23388 elected as primary in rs-ds023388.
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.aggregate | STARTED | {"aggregate"=>"comps", "pipeline"=>{"$sort"=>{"matches"=>-1}}, "cursor"=>{}}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | SUCCEEDED | 0.030063473s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.029351000999999998s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.028709013s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.aggregate | FAILED | exception: wrong type for field (pipeline) 3 != 4 (13111) | 0.167198694s
+MONGODB | Adding ds023388.mlab.com:23388 to the cluster.
+MONGODB | Adding ds023388-a.mlab.com:23388 to the cluster.
+MONGODB | Server ds023388-a.mlab.com:23388 discovered as primary in replica set: 'rs-ds023388'. Changing topology to replica set.
+MONGODB | Server ds023388.mlab.com:23388 elected as primary in rs-ds023388.
+MONGODB | Adding ds023388.mlab.com:23388 to the cluster.
+MONGODB | Adding ds023388-a.mlab.com:23388 to the cluster.
+MONGODB | Server ds023388-a.mlab.com:23388 discovered as primary in replica set: 'rs-ds023388'. Changing topology to replica set.
+MONGODB | Server ds023388.mlab.com:23388 elected as primary in rs-ds023388.
+MONGODB | Adding ds023388.mlab.com:23388 to the cluster.
+MONGODB | Adding ds023388-a.mlab.com:23388 to the cluster.
+MONGODB | Server ds023388-a.mlab.com:23388 discovered as primary in replica set: 'rs-ds023388'. Changing topology to replica set.
+MONGODB | Server ds023388.mlab.com:23388 elected as primary in rs-ds023388.
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.aggregate | STARTED | {"aggregate"=>"comps", "pipeline"=>{"$sort"=>{"matches"=>-1}}, "cursor"=>{}}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | SUCCEEDED | 0.029819707s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.028670478s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.029226587000000002s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.aggregate | FAILED | exception: wrong type for field (pipeline) 3 != 4 (13111) | 0.170218552s
+MONGODB | Adding ds023388.mlab.com:23388 to the cluster.
+MONGODB | Adding ds023388-a.mlab.com:23388 to the cluster.
+MONGODB | Server ds023388-a.mlab.com:23388 discovered as primary in replica set: 'rs-ds023388'. Changing topology to replica set.
+MONGODB | Server ds023388.mlab.com:23388 elected as primary in rs-ds023388.
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.aggregate | STARTED | {"aggregate"=>"comps", "pipeline"=>{"$sort"=>{"matches"=>-1}}, "cursor"=>{}}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | SUCCEEDED | 0.13177255400000001s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.028966399s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.02902515s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.aggregate | FAILED | exception: wrong type for field (pipeline) 3 != 4 (13111) | 0.27672588499999995s
+MONGODB | Adding ds023388.mlab.com:23388 to the cluster.
+MONGODB | Adding ds023388-a.mlab.com:23388 to the cluster.
+MONGODB | Server ds023388-a.mlab.com:23388 discovered as primary in replica set: 'rs-ds023388'. Changing topology to replica set.
+MONGODB | Server ds023388.mlab.com:23388 elected as primary in rs-ds023388.
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.aggregate | STARTED | {"aggregate"=>"comps", "pipeline"=>[{"$sort"=>{"matches"=>-1}}, {"$sort"=>{"matches"=>-1}}], "cursor"=>{}}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | SUCCEEDED | 0.03028122s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.028675194s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.028879609s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.aggregate | SUCCEEDED | 4.163210715s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | STARTED | {"getMore"=>8861815250288, "batchSize"=>0, "collection"=>"comps"}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | SUCCEEDED | 0.7947493s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | STARTED | {"getMore"=>8861815250288, "batchSize"=>0, "collection"=>"comps"}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | SUCCEEDED | 0.504552482s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | STARTED | {"getMore"=>8861815250288, "batchSize"=>0, "collection"=>"comps"}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | SUCCEEDED | 0.6575148270000001s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | STARTED | {"getMore"=>8861815250288, "batchSize"=>0, "collection"=>"comps"}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | SUCCEEDED | 0.37286897399999996s
+MONGODB | Adding ds023388.mlab.com:23388 to the cluster.
+MONGODB | Adding ds023388-a.mlab.com:23388 to the cluster.
+MONGODB | Server ds023388-a.mlab.com:23388 discovered as primary in replica set: 'rs-ds023388'. Changing topology to replica set.
+MONGODB | Server ds023388.mlab.com:23388 elected as primary in rs-ds023388.
+MONGODB | Adding ds023388.mlab.com:23388 to the cluster.
+MONGODB | Adding ds023388-a.mlab.com:23388 to the cluster.
+MONGODB | Server ds023388-a.mlab.com:23388 discovered as primary in replica set: 'rs-ds023388'. Changing topology to replica set.
+MONGODB | Server ds023388.mlab.com:23388 elected as primary in rs-ds023388.
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.aggregate | STARTED | {"aggregate"=>"comps", "pipeline"=>[{"$sort"=>{"matches"=>-1}}], "cursor"=>{}}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | SUCCEEDED | 0.039337983s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.028646695s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.028723725000000002s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.aggregate | SUCCEEDED | 1.766267708s
+MONGODB | Adding ds023388.mlab.com:23388 to the cluster.
+MONGODB | Adding ds023388-a.mlab.com:23388 to the cluster.
+MONGODB | Server ds023388-a.mlab.com:23388 discovered as primary in replica set: 'rs-ds023388'. Changing topology to replica set.
+MONGODB | Server ds023388.mlab.com:23388 elected as primary in rs-ds023388.
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.aggregate | STARTED | {"aggregate"=>"comps", "pipeline"=>[{"$sort"=>{"matches"=>-1}}], "cursor"=>{}}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | SUCCEEDED | 0.029998414s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.028875491s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.028819827s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.aggregate | SUCCEEDED | 1.792120993s
+MONGODB | Adding ds023388.mlab.com:23388 to the cluster.
+MONGODB | Adding ds023388-a.mlab.com:23388 to the cluster.
+MONGODB | Server ds023388-a.mlab.com:23388 discovered as primary in replica set: 'rs-ds023388'. Changing topology to replica set.
+MONGODB | Server ds023388.mlab.com:23388 elected as primary in rs-ds023388.
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.aggregate | STARTED | {"aggregate"=>"comps", "pipeline"=>[{"$sort"=>{"matches"=>-1}}], "cursor"=>{}}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | SUCCEEDED | 0.029369522999999998s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.028380389000000002s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.028462792s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.aggregate | SUCCEEDED | 2.991020761s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | STARTED | {"getMore"=>8861927554128, "batchSize"=>0, "collection"=>"comps"}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | SUCCEEDED | 0.770103772s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | STARTED | {"getMore"=>8861927554128, "batchSize"=>0, "collection"=>"comps"}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | SUCCEEDED | 0.502490399s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | STARTED | {"getMore"=>8861927554128, "batchSize"=>0, "collection"=>"comps"}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | SUCCEEDED | 0.6935619949999999s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | STARTED | {"getMore"=>8861927554128, "batchSize"=>0, "collection"=>"comps"}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | SUCCEEDED | 0.377274848s
+MONGODB | Adding ds023388.mlab.com:23388 to the cluster.
+MONGODB | Adding ds023388-a.mlab.com:23388 to the cluster.
+MONGODB | Server ds023388-a.mlab.com:23388 discovered as primary in replica set: 'rs-ds023388'. Changing topology to replica set.
+MONGODB | Server ds023388.mlab.com:23388 elected as primary in rs-ds023388.
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.aggregate | STARTED | {"aggregate"=>"comps", "pipeline"=>[{"$sort"=>{"matches"=>-1}}], "cursor"=>{}}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | SUCCEEDED | 0.048498029s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.028132049s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.028154796s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.aggregate | SUCCEEDED | 1.356361195s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | STARTED | {"getMore"=>8864094788028, "batchSize"=>0, "collection"=>"comps"}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | SUCCEEDED | 0.752492426s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | STARTED | {"getMore"=>8864094788028, "batchSize"=>0, "collection"=>"comps"}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | SUCCEEDED | 0.50180223s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | STARTED | {"getMore"=>8864094788028, "batchSize"=>0, "collection"=>"comps"}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | SUCCEEDED | 0.633371786s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | STARTED | {"getMore"=>8864094788028, "batchSize"=>0, "collection"=>"comps"}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | SUCCEEDED | 0.381721168s
+MONGODB | Adding ds023388.mlab.com:23388 to the cluster.
+MONGODB | Adding ds023388-a.mlab.com:23388 to the cluster.
+MONGODB | Server ds023388-a.mlab.com:23388 discovered as primary in replica set: 'rs-ds023388'. Changing topology to replica set.
+MONGODB | Server ds023388.mlab.com:23388 elected as primary in rs-ds023388.
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.aggregate | STARTED | {"aggregate"=>"comps", "pipeline"=>[{"$sort"=>{"matches"=>-1}}], "cursor"=>{}}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | SUCCEEDED | 0.031756573s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.028071676s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.027973102s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.aggregate | SUCCEEDED | 1.277630408s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | STARTED | {"getMore"=>8862983456008, "batchSize"=>0, "collection"=>"comps"}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | SUCCEEDED | 0.7462660170000001s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | STARTED | {"getMore"=>8862983456008, "batchSize"=>0, "collection"=>"comps"}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | SUCCEEDED | 0.498974167s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | STARTED | {"getMore"=>8862983456008, "batchSize"=>0, "collection"=>"comps"}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | SUCCEEDED | 0.6544203129999999s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | STARTED | {"getMore"=>8862983456008, "batchSize"=>0, "collection"=>"comps"}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | SUCCEEDED | 0.398137696s
+MONGODB | Adding ds023388.mlab.com:23388 to the cluster.
+MONGODB | Adding ds023388-a.mlab.com:23388 to the cluster.
+MONGODB | Server ds023388-a.mlab.com:23388 discovered as primary in replica set: 'rs-ds023388'. Changing topology to replica set.
+MONGODB | Server ds023388.mlab.com:23388 elected as primary in rs-ds023388.
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.aggregate | STARTED | {"aggregate"=>"comps", "pipeline"=>[{"$sort"=>{"matches"=>-1}}], "cursor"=>{}}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | SUCCEEDED | 0.035097154s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.028825769s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.029014366s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.aggregate | SUCCEEDED | 3.0755398709999997s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | STARTED | {"getMore"=>8864070010462, "batchSize"=>0, "collection"=>"comps"}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | SUCCEEDED | 0.769743243s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | STARTED | {"getMore"=>8864070010462, "batchSize"=>0, "collection"=>"comps"}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | SUCCEEDED | 0.5156541250000001s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | STARTED | {"getMore"=>8864070010462, "batchSize"=>0, "collection"=>"comps"}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | SUCCEEDED | 0.628561894s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | STARTED | {"getMore"=>8864070010462, "batchSize"=>0, "collection"=>"comps"}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | SUCCEEDED | 0.37996422s
+MONGODB | Adding ds023388.mlab.com:23388 to the cluster.
+MONGODB | Adding ds023388-a.mlab.com:23388 to the cluster.
+MONGODB | Server ds023388-a.mlab.com:23388 discovered as primary in replica set: 'rs-ds023388'. Changing topology to replica set.
+MONGODB | Server ds023388.mlab.com:23388 elected as primary in rs-ds023388.
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.aggregate | STARTED | {"aggregate"=>"comps", "pipeline"=>[{nil=>{nil=>[{nil=>[{"tb"=>39}, {"jb"=>121}, {"mb"=>121}, {"ab"=>121}, {"sb"=>121}]}, {nil=>[{"tr"=>39}, {"jr"=>121}, {"mr"=>121}, {"ar"=>121}, {"sr"=>121}]}]}}], "cursor"=>{}}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.aggregate | FAILED | NilClass instances are not allowed as keys in a BSON document. | 0.0014720859999999998s
+MONGODB | Adding ds023388.mlab.com:23388 to the cluster.
+MONGODB | Adding ds023388-a.mlab.com:23388 to the cluster.
+MONGODB | Server ds023388-a.mlab.com:23388 discovered as primary in replica set: 'rs-ds023388'. Changing topology to replica set.
+MONGODB | Server ds023388.mlab.com:23388 elected as primary in rs-ds023388.
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.aggregate | STARTED | {"aggregate"=>"comps", "pipeline"=>[{"$match"=>{"$or"=>[{"$or"=>[{"tb"=>39}, {"jb"=>121}, {"mb"=>121}, {"ab"=>121}, {"sb"=>121}]}, {"$or"=>[{"tr"=>39}, {"jr"=>121}, {"mr"=>121}, {"ar"=>121}, {"sr"=>121}]}]}}], "cursor"=>{}}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | SUCCEEDED | 0.031266832s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.028739795999999998s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.028714309s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.aggregate | SUCCEEDED | 1.081521491s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | STARTED | {"getMore"=>8864248023493, "batchSize"=>0, "collection"=>"comps"}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | SUCCEEDED | 2.865238763s
+MONGODB | Adding ds023388.mlab.com:23388 to the cluster.
+MONGODB | Adding ds023388-a.mlab.com:23388 to the cluster.
+MONGODB | Server ds023388-a.mlab.com:23388 discovered as primary in replica set: 'rs-ds023388'. Changing topology to replica set.
+MONGODB | Server ds023388.mlab.com:23388 elected as primary in rs-ds023388.
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.aggregate | STARTED | {"aggregate"=>"comps", "pipeline"=>[{"$match"=>{"$or"=>[{"$or"=>[{"tb"=>14}, {"jb"=>245}, {"mb"=>103}, {"ab"=>81}, {"sb"=>412}, {"tr"=>157}, {"jr"=>35}, {"mr"=>105}, {"ar"=>202}, {"sr"=>16}]}, {"$or"=>[{"tb"=>157}, {"jb"=>35}, {"mb"=>105}, {"ab"=>202}...
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | SUCCEEDED | 0.030053785s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.028854371s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.028868726s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.aggregate | SUCCEEDED | 0.267989516s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | STARTED | {"getMore"=>8864002891467, "batchSize"=>0, "collection"=>"comps"}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | SUCCEEDED | 1.82439442s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | STARTED | {"getMore"=>8864002891467, "batchSize"=>0, "collection"=>"comps"}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | SUCCEEDED | 3.317639693s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | STARTED | {"getMore"=>8864002891467, "batchSize"=>0, "collection"=>"comps"}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | SUCCEEDED | 2.0455196879999997s
+MONGODB | Adding ds023388.mlab.com:23388 to the cluster.
+MONGODB | Adding ds023388-a.mlab.com:23388 to the cluster.
+MONGODB | Server ds023388-a.mlab.com:23388 discovered as primary in replica set: 'rs-ds023388'. Changing topology to replica set.
+MONGODB | Server ds023388.mlab.com:23388 elected as primary in rs-ds023388.
+MONGODB | Adding ds023388.mlab.com:23388 to the cluster.
+MONGODB | Adding ds023388-a.mlab.com:23388 to the cluster.
+MONGODB | Server ds023388-a.mlab.com:23388 discovered as primary in replica set: 'rs-ds023388'. Changing topology to replica set.
+MONGODB | Server ds023388.mlab.com:23388 elected as primary in rs-ds023388.
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.aggregate | STARTED | {"aggregate"=>"comps", "pipeline"=>[{"$match"=>{"$or"=>[{"$or"=>[{"tb"=>14}, {"jb"=>245}, {"mb"=>103}, {"ab"=>81}, {"sb"=>412}, {"tr"=>157}, {"jr"=>35}, {"mr"=>105}, {"ar"=>202}, {"sr"=>16}]}, {"$or"=>[{"tb"=>157}, {"jb"=>35}, {"mb"=>105}, {"ab"=>202}...
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | SUCCEEDED | 0.09726367999999999s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.028633422000000002s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.028625023s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.aggregate | SUCCEEDED | 0.343112447s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | STARTED | {"getMore"=>8862751510897, "batchSize"=>0, "collection"=>"comps"}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | SUCCEEDED | 1.464035414s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | STARTED | {"getMore"=>8862751510897, "batchSize"=>0, "collection"=>"comps"}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | SUCCEEDED | 2.857731759s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | STARTED | {"getMore"=>8862751510897, "batchSize"=>0, "collection"=>"comps"}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | SUCCEEDED | 1.4721788s
+MONGODB | Adding ds023388.mlab.com:23388 to the cluster.
+MONGODB | Adding ds023388-a.mlab.com:23388 to the cluster.
+MONGODB | Server ds023388-a.mlab.com:23388 discovered as primary in replica set: 'rs-ds023388'. Changing topology to replica set.
+MONGODB | Server ds023388.mlab.com:23388 elected as primary in rs-ds023388.
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.aggregate | STARTED | {"aggregate"=>"comps", "pipeline"=>[{"$match"=>{"$or"=>[{"$or"=>[{"tb"=>14}, {"jb"=>245}, {"mb"=>103}, {"ab"=>81}, {"sb"=>412}, {"tr"=>157}, {"jr"=>35}, {"mr"=>105}, {"ar"=>202}, {"sr"=>16}]}, {"$or"=>[{"tb"=>157}, {"jb"=>35}, {"mb"=>105}, {"ab"=>202}...
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | SUCCEEDED | 0.030147872s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.028845258999999998s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.028820232s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.aggregate | SUCCEEDED | 0.268747213s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | STARTED | {"getMore"=>8863244631037, "batchSize"=>0, "collection"=>"comps"}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | SUCCEEDED | 2.4100517370000003s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | STARTED | {"getMore"=>8863244631037, "batchSize"=>0, "collection"=>"comps"}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | SUCCEEDED | 2.458225371s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | STARTED | {"getMore"=>8863244631037, "batchSize"=>0, "collection"=>"comps"}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | SUCCEEDED | 0.9659559299999999s
+MONGODB | Adding ds023388.mlab.com:23388 to the cluster.
+MONGODB | Adding ds023388-a.mlab.com:23388 to the cluster.
+MONGODB | Server ds023388-a.mlab.com:23388 discovered as primary in replica set: 'rs-ds023388'. Changing topology to replica set.
+MONGODB | Server ds023388.mlab.com:23388 elected as primary in rs-ds023388.
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.aggregate | STARTED | {"aggregate"=>"comps", "pipeline"=>[{"$match"=>{"$or"=>[{"$or"=>[{"tb"=>14}, {"jb"=>245}, {"mb"=>103}, {"ab"=>81}, {"sb"=>412}, {"tr"=>157}, {"jr"=>35}, {"mr"=>105}, {"ar"=>202}, {"sr"=>16}]}, {"$or"=>[{"tb"=>157}, {"jb"=>35}, {"mb"=>105}, {"ab"=>202}...
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | SUCCEEDED | 0.0750091s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.02863839s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.028753020999999997s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.aggregate | SUCCEEDED | 0.31643072299999997s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | STARTED | {"getMore"=>8861271615171, "batchSize"=>0, "collection"=>"comps"}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | SUCCEEDED | 2.661641565s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | STARTED | {"getMore"=>8861271615171, "batchSize"=>0, "collection"=>"comps"}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | SUCCEEDED | 2.6611468869999997s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | STARTED | {"getMore"=>8861271615171, "batchSize"=>0, "collection"=>"comps"}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | SUCCEEDED | 4.922377646999999s
+MONGODB | ds023388.mlab.com:23388 being removed from the cluster.
+MONGODB | Adding ds023388.mlab.com:23388 to the cluster.
+MONGODB | Adding ds023388-a.mlab.com:23388 to the cluster.
+MONGODB | Server ds023388-a.mlab.com:23388 discovered as primary in replica set: 'rs-ds023388'. Changing topology to replica set.
+MONGODB | Server ds023388.mlab.com:23388 elected as primary in rs-ds023388.
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.aggregate | STARTED | {"aggregate"=>"comps", "pipeline"=>[{"$match"=>{"$or"=>[{"$or"=>[{"tb"=>14}, {"jb"=>245}, {"mb"=>103}, {"ab"=>81}, {"sb"=>412}, {"tr"=>157}, {"jr"=>35}, {"mr"=>105}, {"ar"=>202}, {"sr"=>16}]}, {"$or"=>[{"tb"=>157}, {"jb"=>35}, {"mb"=>105}, {"ab"=>202}...
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | SUCCEEDED | 0.062856762s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.028844851s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.028724629s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.aggregate | SUCCEEDED | 0.402867221s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | STARTED | {"getMore"=>8864533767027, "batchSize"=>0, "collection"=>"comps"}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | SUCCEEDED | 1.3283036339999998s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | STARTED | {"getMore"=>8864533767027, "batchSize"=>0, "collection"=>"comps"}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | SUCCEEDED | 1.115829364s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | STARTED | {"getMore"=>8864533767027, "batchSize"=>0, "collection"=>"comps"}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | SUCCEEDED | 1.098175747s
+MONGODB | Adding ds023388.mlab.com:23388 to the cluster.
+MONGODB | Adding ds023388-a.mlab.com:23388 to the cluster.
+MONGODB | Server ds023388-a.mlab.com:23388 discovered as primary in replica set: 'rs-ds023388'. Changing topology to replica set.
+MONGODB | Server ds023388.mlab.com:23388 elected as primary in rs-ds023388.
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.aggregate | STARTED | {"aggregate"=>"comps", "pipeline"=>[{"$match"=>{"$or"=>[{"$or"=>[{"tb"=>14}, {"jb"=>245}, {"mb"=>103}, {"ab"=>81}, {"sb"=>412}, {"tr"=>157}, {"jr"=>35}, {"mr"=>105}, {"ar"=>202}, {"sr"=>16}]}, {"$or"=>[{"tb"=>157}, {"jb"=>35}, {"mb"=>105}, {"ab"=>202}...
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | SUCCEEDED | 0.442134381s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.029209143s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.029496156000000003s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.aggregate | SUCCEEDED | 3.550259241s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | STARTED | {"getMore"=>8863789752461, "batchSize"=>0, "collection"=>"comps"}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | SUCCEEDED | 0.028908619s
+MONGODB | Adding ds023388.mlab.com:23388 to the cluster.
+MONGODB | Adding ds023388-a.mlab.com:23388 to the cluster.
+MONGODB | Server ds023388-a.mlab.com:23388 discovered as primary in replica set: 'rs-ds023388'. Changing topology to replica set.
+MONGODB | Server ds023388.mlab.com:23388 elected as primary in rs-ds023388.
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.aggregate | STARTED | {"aggregate"=>"comps", "pipeline"=>[{"$match"=>{"$or"=>[{"$or"=>[{"tb"=>14}, {"jb"=>245}, {"mb"=>103}, {"ab"=>81}, {"sb"=>412}, {"tr"=>157}, {"jr"=>35}, {"mr"=>105}, {"ar"=>202}, {"sr"=>16}]}, {"$or"=>[{"tb"=>157}, {"jb"=>35}, {"mb"=>105}, {"ab"=>202}...
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | SUCCEEDED | 0.032292984999999996s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.028202181s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.028155332s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.aggregate | SUCCEEDED | 2.941341912s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | STARTED | {"getMore"=>8861585392536, "batchSize"=>0, "collection"=>"comps"}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | SUCCEEDED | 0.028728026s
+MONGODB | Adding ds023388.mlab.com:23388 to the cluster.
+MONGODB | Adding ds023388-a.mlab.com:23388 to the cluster.
+MONGODB | Server ds023388-a.mlab.com:23388 discovered as primary in replica set: 'rs-ds023388'. Changing topology to replica set.
+MONGODB | Server ds023388.mlab.com:23388 elected as primary in rs-ds023388.
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.aggregate | STARTED | {"aggregate"=>"comps", "pipeline"=>[{"$match"=>{"$or"=>[{"$or"=>[{"tb"=>14}, {"jb"=>245}, {"mb"=>103}, {"ab"=>81}, {"sb"=>412}, {"tr"=>157}, {"jr"=>35}, {"mr"=>105}, {"ar"=>202}, {"sr"=>16}]}, {"$or"=>[{"tb"=>157}, {"jb"=>35}, {"mb"=>105}, {"ab"=>202}...
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | SUCCEEDED | 0.032629026s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.030526421s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.029625857999999998s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.aggregate | SUCCEEDED | 3.041462862s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | STARTED | {"getMore"=>8861366866224, "batchSize"=>0, "collection"=>"comps"}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | SUCCEEDED | 0.04259946s
+MONGODB | Adding ds023388.mlab.com:23388 to the cluster.
+MONGODB | Adding ds023388-a.mlab.com:23388 to the cluster.
+MONGODB | Server ds023388-a.mlab.com:23388 discovered as primary in replica set: 'rs-ds023388'. Changing topology to replica set.
+MONGODB | Server ds023388.mlab.com:23388 elected as primary in rs-ds023388.
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.aggregate | STARTED | {"aggregate"=>"comps", "pipeline"=>[{"$match"=>{"$or"=>[{"$or"=>[{"tb"=>14}, {"jb"=>245}, {"mb"=>103}, {"ab"=>81}, {"sb"=>412}, {"tr"=>157}, {"jr"=>35}, {"mr"=>105}, {"ar"=>202}, {"sr"=>16}]}, {"$or"=>[{"tb"=>157}, {"jb"=>35}, {"mb"=>105}, {"ab"=>202}...
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | SUCCEEDED | 0.033441537s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.035494673000000004s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.029147226s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.aggregate | SUCCEEDED | 2.6872115389999998s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | STARTED | {"getMore"=>8863999771374, "batchSize"=>0, "collection"=>"comps"}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | SUCCEEDED | 0.029138451s
+MONGODB | Adding ds023388.mlab.com:23388 to the cluster.
+MONGODB | Adding ds023388-a.mlab.com:23388 to the cluster.
+MONGODB | Server ds023388-a.mlab.com:23388 discovered as primary in replica set: 'rs-ds023388'. Changing topology to replica set.
+MONGODB | Server ds023388.mlab.com:23388 elected as primary in rs-ds023388.
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.aggregate | STARTED | {"aggregate"=>"comps", "pipeline"=>[{"$match"=>{"$or"=>[{"$or"=>[{"tb"=>14}, {"jb"=>245}, {"mb"=>103}, {"ab"=>81}, {"sb"=>412}, {"tr"=>157}, {"jr"=>35}, {"mr"=>105}, {"ar"=>202}, {"sr"=>16}]}, {"$or"=>[{"tb"=>157}, {"jb"=>35}, {"mb"=>105}, {"ab"=>202}...
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | SUCCEEDED | 0.035115968000000004s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.030367797999999998s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.028896861s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.aggregate | SUCCEEDED | 2.014989116s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | STARTED | {"getMore"=>8863729033120, "batchSize"=>0, "collection"=>"comps"}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | SUCCEEDED | 0.02925821s
