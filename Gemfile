@@ -29,6 +29,7 @@ gem 'bson_ext'
 
 gem 'taric'
 gem 'typhoeus'
+gem 'rails_12factor'
 
 
 # Use ActiveModel has_secure_password
