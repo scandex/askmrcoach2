@@ -36738,3 +36738,105 @@ ArgumentError (api_key cannot be nil):
   Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
   Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
   Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (128.9ms)
+
+
+Started GET "/" for 186.154.105.133 at 2016-05-10 07:39:55 +0000
+Cannot render console from 186.154.105.133! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IndexController#home as HTML
+MONGODB | ds023388-a.mlab.com:23388 | ritochallenge.find | STARTED | {"find"=>"champs", "filter"=>{}, "sort"=>{"name"=>1}}
+MONGODB | ds023388-a.mlab.com:23388 | ritochallenge.find | SUCCEEDED | 0.16532639799999999s
+MONGODB | ds023388-a.mlab.com:23388 | ritochallenge.getMore | STARTED | {"getMore"=>8882594910201, "batchSize"=>0, "collection"=>"champs"}
+MONGODB | ds023388-a.mlab.com:23388 | ritochallenge.getMore | SUCCEEDED | 0.029193252s
+MONGODB | ds023388-a.mlab.com:23388 | ritochallenge.find | STARTED | {"find"=>"champs", "filter"=>{}, "sort"=>{"name"=>1}}
+MONGODB | ds023388-a.mlab.com:23388 | ritochallenge.find | SUCCEEDED | 0.030465764s
+MONGODB | ds023388-a.mlab.com:23388 | ritochallenge.getMore | STARTED | {"getMore"=>8885593770289, "batchSize"=>0, "collection"=>"champs"}
+MONGODB | ds023388-a.mlab.com:23388 | ritochallenge.getMore | SUCCEEDED | 0.030046768s
+MONGODB | ds023388-a.mlab.com:23388 | ritochallenge.find | STARTED | {"find"=>"champs", "filter"=>{}, "sort"=>{"name"=>1}}
+MONGODB | ds023388-a.mlab.com:23388 | ritochallenge.find | SUCCEEDED | 0.056617634s
+MONGODB | ds023388-a.mlab.com:23388 | ritochallenge.getMore | STARTED | {"getMore"=>8882234858414, "batchSize"=>0, "collection"=>"champs"}
+MONGODB | ds023388-a.mlab.com:23388 | ritochallenge.getMore | SUCCEEDED | 0.029221335s
+MONGODB | ds023388-a.mlab.com:23388 | ritochallenge.find | STARTED | {"find"=>"champs", "filter"=>{}, "sort"=>{"name"=>1}}
+MONGODB | ds023388-a.mlab.com:23388 | ritochallenge.find | SUCCEEDED | 0.030543622s
+MONGODB | ds023388-a.mlab.com:23388 | ritochallenge.getMore | STARTED | {"getMore"=>8882843860213, "batchSize"=>0, "collection"=>"champs"}
+MONGODB | ds023388-a.mlab.com:23388 | ritochallenge.getMore | SUCCEEDED | 0.029016141s
+MONGODB | ds023388-a.mlab.com:23388 | ritochallenge.find | STARTED | {"find"=>"champs", "filter"=>{}, "sort"=>{"name"=>1}}
+MONGODB | ds023388-a.mlab.com:23388 | ritochallenge.find | SUCCEEDED | 0.031573292s
+MONGODB | ds023388-a.mlab.com:23388 | ritochallenge.getMore | STARTED | {"getMore"=>8883085437075, "batchSize"=>0, "collection"=>"champs"}
+MONGODB | ds023388-a.mlab.com:23388 | ritochallenge.getMore | SUCCEEDED | 0.029429382s
+MONGODB | ds023388-a.mlab.com:23388 | ritochallenge.find | STARTED | {"find"=>"champs", "filter"=>{}, "sort"=>{"name"=>1}}
+MONGODB | ds023388-a.mlab.com:23388 | ritochallenge.find | SUCCEEDED | 0.032113637s
+MONGODB | ds023388-a.mlab.com:23388 | ritochallenge.getMore | STARTED | {"getMore"=>8885739487495, "batchSize"=>0, "collection"=>"champs"}
+MONGODB | ds023388-a.mlab.com:23388 | ritochallenge.getMore | SUCCEEDED | 0.029122745000000002s
+MONGODB | ds023388-a.mlab.com:23388 | ritochallenge.find | STARTED | {"find"=>"champs", "filter"=>{}, "sort"=>{"name"=>1}}
+MONGODB | ds023388-a.mlab.com:23388 | ritochallenge.find | SUCCEEDED | 0.030889073s
+MONGODB | ds023388-a.mlab.com:23388 | ritochallenge.getMore | STARTED | {"getMore"=>8883894442025, "batchSize"=>0, "collection"=>"champs"}
+MONGODB | ds023388-a.mlab.com:23388 | ritochallenge.getMore | SUCCEEDED | 0.02913216s
+MONGODB | ds023388-a.mlab.com:23388 | ritochallenge.find | STARTED | {"find"=>"champs", "filter"=>{}, "sort"=>{"name"=>1}}
+MONGODB | ds023388-a.mlab.com:23388 | ritochallenge.find | SUCCEEDED | 0.030007088s
+MONGODB | ds023388-a.mlab.com:23388 | ritochallenge.getMore | STARTED | {"getMore"=>8883171976675, "batchSize"=>0, "collection"=>"champs"}
+MONGODB | ds023388-a.mlab.com:23388 | ritochallenge.getMore | SUCCEEDED | 0.029017815s
+MONGODB | ds023388-a.mlab.com:23388 | ritochallenge.find | STARTED | {"find"=>"champs", "filter"=>{}, "sort"=>{"name"=>1}}
+MONGODB | ds023388-a.mlab.com:23388 | ritochallenge.find | SUCCEEDED | 0.029936285s
+MONGODB | ds023388-a.mlab.com:23388 | ritochallenge.getMore | STARTED | {"getMore"=>8882803670985, "batchSize"=>0, "collection"=>"champs"}
+MONGODB | ds023388-a.mlab.com:23388 | ritochallenge.getMore | SUCCEEDED | 0.029072747s
+MONGODB | ds023388-a.mlab.com:23388 | ritochallenge.find | STARTED | {"find"=>"champs", "filter"=>{}, "sort"=>{"name"=>1}}
+MONGODB | ds023388-a.mlab.com:23388 | ritochallenge.find | SUCCEEDED | 0.030572147s
+MONGODB | ds023388-a.mlab.com:23388 | ritochallenge.getMore | STARTED | {"getMore"=>8882714873980, "batchSize"=>0, "collection"=>"champs"}
+MONGODB | ds023388-a.mlab.com:23388 | ritochallenge.getMore | SUCCEEDED | 0.029318181999999998s
+  Rendered index/home.html.erb within layouts/application (869.1ms)
+Completed 200 OK in 906ms (Views: 903.8ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 186.154.105.133 at 2016-05-10 07:39:56 +0000
+Cannot render console from 186.154.105.133! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/askmrcoach.self-5fcd1004b247a93bb72b49c213d6cfca0961cf90b14468415e627709f456fa9e.css?body=1" for 186.154.105.133 at 2016-05-10 07:39:56 +0000
+Cannot render console from 186.154.105.133! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-c4991312985bccd133f1f21ab2f6a5d0129a8416a91037313b14f05d7d2e7dde.css?body=1" for 186.154.105.133 at 2016-05-10 07:39:56 +0000
+Cannot render console from 186.154.105.133! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 186.154.105.133 at 2016-05-10 07:39:56 +0000
+Cannot render console from 186.154.105.133! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/image-picker.self-cd69590e09d618882f9966534fc4f8d010f03a2d8a15b7db2be4a06c5a977ba6.css?body=1" for 186.154.105.133 at 2016-05-10 07:39:56 +0000
+Cannot render console from 186.154.105.133! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 186.154.105.133 at 2016-05-10 07:39:56 +0000
+Cannot render console from 186.154.105.133! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/image-picker.self-5d72234ad2bb7baa0371664634ec810de8ccf244bb6b8b55d34ebf664f146b72.js?body=1" for 186.154.105.133 at 2016-05-10 07:39:56 +0000
+Cannot render console from 186.154.105.133! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/image-picker.min.self-8bf025bf04042751fecda09a37d0750179c39e41183c0f1160eca4b4f4f5f734.js?body=1" for 186.154.105.133 at 2016-05-10 07:39:57 +0000
+Cannot render console from 186.154.105.133! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 186.154.105.133 at 2016-05-10 07:39:57 +0000
+Cannot render console from 186.154.105.133! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started POST "/recommend" for 186.154.105.133 at 2016-05-10 07:40:07 +0000
+Cannot render console from 186.154.105.133! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IndexController#recommend as HTML
+  Parameters: {"p1"=>"0", "p2"=>"0", "p3"=>"103", "p4"=>"-1", "p5"=>"0", "p6"=>"0", "p7"=>"0", "p8"=>"0", "p9"=>"0", "p10"=>"0", "p11"=>"lan</lan>"}
+Can't verify CSRF token authenticity
+MONGODB | ds023388-a.mlab.com:23388 | ritochallenge.aggregate | STARTED | {"aggregate"=>"comps", "pipeline"=>[{"$match"=>{"$or"=>[{"$or"=>[{"tb"=>0.0}, {"jb"=>0.0}, {"mb"=>103.0}, {"ab"=>-1.0}, {"sb"=>0.0}, {"tr"=>0.0}, {"jr"=>0.0}, {"mr"=>0.0}, {"ar"=>0.0}, {"sr"=>0.0}]}, {"$or"=>[{"tb"=>0.0}, {"jb"=>0.0}, {"mb"=>0.0}, {"a...
+MONGODB | ds023388-a.mlab.com:23388 | ritochallenge.aggregate | SUCCEEDED | 1.5070610370000002s
+Completed 500 Internal Server Error in 1511ms
+
+ArgumentError (api_key cannot be nil):
+  app/controllers/index_controller.rb:118:in `recommend'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (122.0ms)
