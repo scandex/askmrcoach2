@@ -10,7 +10,7 @@ development:
       # of host:port pairs. (required)
       #hosts:
       #  - localhost:27017
-      uri: <% ENV['MONGO_URI'] %>
+      uri: mongodb://askmrcoach:askmrcoach1@ds023388.mlab.com:23388/ritochallenge
       options:
         # Change the default write concern. (default = { w: 1 })
         # write:
@@ -141,3 +141,8 @@ test:
         read:
           mode: :primary
         max_pool_size: 1
+production:
+  clients:
+    default:
+      uri: <%= ENV["MONGODB_URI"] %>
+      options:

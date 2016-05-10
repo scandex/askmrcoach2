@@ -35979,3 +35979,261 @@ ActionView::Template::Error (Mongoid::Contextual#each delegated to context.each,
   Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (15.6ms)
   Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.4ms)
   Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (152.0ms)
+
+
+Started GET "/" for 186.154.105.133 at 2016-05-10 07:09:55 +0000
+Cannot render console from 186.154.105.133! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IndexController#home as HTML
+  Rendered index/home.html.erb within layouts/application (22.9ms)
+Completed 500 Internal Server Error in 97ms
+
+ActionView::Template::Error (Mongoid::Contextual#each delegated to context.each, but context is nil: #<Mongoid::Criteria
+  selector: {}
+  options:  {:sort=>{"name"=>1}}
+  class:    Champion
+  embedded: false>
+):
+    54:                                                                                         <select class="image-picker" id="btop_select">
+    55:                                                                                                 <option value='0' data-img-src="tmp.png"></option>
+    56:                                                                                                 <option value='-1' data-img-src="http://ddragon.leagueoflegends.com/cdn/6.9.1/img/profileicon/937.png">hola</option>
+    57:                                                                                                 <% @champions.each do |d|%>
+    58:                                                                                                         <option data-img-src='http://ddragon.leagueoflegends.com/cdn/6.9.1/img/champion/<%=d.key%>.png ' value=<%=d.id%>><%=d.key%></option>
+    59:                                                                                                 <%end%>
+    60:                                                                                         </select>
+  app/views/index/home.html.erb:57:in `_app_views_index_home_html_erb___768388714786071660_38319080'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (27.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (12.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (139.6ms)
+
+
+Started GET "/" for 186.154.105.133 at 2016-05-10 07:09:58 +0000
+Cannot render console from 186.154.105.133! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IndexController#home as HTML
+  Rendered index/home.html.erb within layouts/application (4.9ms)
+Completed 500 Internal Server Error in 10ms
+
+ActionView::Template::Error (Mongoid::Contextual#each delegated to context.each, but context is nil: #<Mongoid::Criteria
+  selector: {}
+  options:  {:sort=>{"name"=>1}}
+  class:    Champion
+  embedded: false>
+):
+    54:                                                                                         <select class="image-picker" id="btop_select">
+    55:                                                                                                 <option value='0' data-img-src="tmp.png"></option>
+    56:                                                                                                 <option value='-1' data-img-src="http://ddragon.leagueoflegends.com/cdn/6.9.1/img/profileicon/937.png">hola</option>
+    57:                                                                                                 <% @champions.each do |d|%>
+    58:                                                                                                         <option data-img-src='http://ddragon.leagueoflegends.com/cdn/6.9.1/img/champion/<%=d.key%>.png ' value=<%=d.id%>><%=d.key%></option>
+    59:                                                                                                 <%end%>
+    60:                                                                                         </select>
+  app/views/index/home.html.erb:57:in `_app_views_index_home_html_erb___768388714786071660_38319080'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (82.1ms)
+
+
+Started GET "/" for 186.154.105.133 at 2016-05-10 07:10:10 +0000
+Cannot render console from 186.154.105.133! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IndexController#home as HTML
+  Rendered index/home.html.erb within layouts/application (3.4ms)
+Completed 500 Internal Server Error in 9ms
+
+ActionView::Template::Error (Mongoid::Contextual#each delegated to context.each, but context is nil: #<Mongoid::Criteria
+  selector: {}
+  options:  {:sort=>{"name"=>1}}
+  class:    Champion
+  embedded: false>
+):
+    54:                                                                                         <select class="image-picker" id="btop_select">
+    55:                                                                                                 <option value='0' data-img-src="tmp.png"></option>
+    56:                                                                                                 <option value='-1' data-img-src="http://ddragon.leagueoflegends.com/cdn/6.9.1/img/profileicon/937.png">hola</option>
+    57:                                                                                                 <% @champions.each do |d|%>
+    58:                                                                                                         <option data-img-src='http://ddragon.leagueoflegends.com/cdn/6.9.1/img/champion/<%=d.key%>.png ' value=<%=d.id%>><%=d.key%></option>
+    59:                                                                                                 <%end%>
+    60:                                                                                         </select>
+  app/views/index/home.html.erb:57:in `_app_views_index_home_html_erb___768388714786071660_38319080'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (18.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (9.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (132.9ms)
+
+
+Started GET "/" for 186.154.105.133 at 2016-05-10 07:10:17 +0000
+Cannot render console from 186.154.105.133! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IndexController#home as HTML
+  Rendered index/home.html.erb within layouts/application (3.1ms)
+Completed 500 Internal Server Error in 8ms
+
+ActionView::Template::Error (Mongoid::Contextual#each delegated to context.each, but context is nil: #<Mongoid::Criteria
+  selector: {}
+  options:  {:sort=>{"name"=>1}}
+  class:    Champion
+  embedded: false>
+):
+    54:                                                                                         <select class="image-picker" id="btop_select">
+    55:                                                                                                 <option value='0' data-img-src="tmp.png"></option>
+    56:                                                                                                 <option value='-1' data-img-src="http://ddragon.leagueoflegends.com/cdn/6.9.1/img/profileicon/937.png">hola</option>
+    57:                                                                                                 <% @champions.each do |d|%>
+    58:                                                                                                         <option data-img-src='http://ddragon.leagueoflegends.com/cdn/6.9.1/img/champion/<%=d.key%>.png ' value=<%=d.id%>><%=d.key%></option>
+    59:                                                                                                 <%end%>
+    60:                                                                                         </select>
+  app/views/index/home.html.erb:57:in `_app_views_index_home_html_erb___768388714786071660_38319080'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (24.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (115.6ms)
+
+
+Started GET "/" for 186.154.105.133 at 2016-05-10 07:12:09 +0000
+Cannot render console from 186.154.105.133! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IndexController#home as HTML
+  Rendered index/home.html.erb within layouts/application (18.7ms)
+Completed 500 Internal Server Error in 91ms
+
+ActionView::Template::Error (Mongoid::Contextual#each delegated to context.each, but context is nil: #<Mongoid::Criteria
+  selector: {}
+  options:  {:sort=>{"name"=>1}}
+  class:    Champion
+  embedded: false>
+):
+    54:                                                                                         <select class="image-picker" id="btop_select">
+    55:                                                                                                 <option value='0' data-img-src="tmp.png"></option>
+    56:                                                                                                 <option value='-1' data-img-src="http://ddragon.leagueoflegends.com/cdn/6.9.1/img/profileicon/937.png">hola</option>
+    57:                                                                                                 <% @champions.each do |d|%>
+    58:                                                                                                         <option data-img-src='http://ddragon.leagueoflegends.com/cdn/6.9.1/img/champion/<%=d.key%>.png ' value=<%=d.id%>><%=d.key%></option>
+    59:                                                                                                 <%end%>
+    60:                                                                                         </select>
+  app/views/index/home.html.erb:57:in `_app_views_index_home_html_erb___3128364727012291987_39609980'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (42.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (121.3ms)
+
+
+Started GET "/" for 186.154.105.133 at 2016-05-10 07:13:15 +0000
+Cannot render console from 186.154.105.133! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IndexController#home as HTML
+MONGODB | Adding ds023388.mlab.com:23388 to the cluster.
+MONGODB | Adding ds023388-a.mlab.com:23388 to the cluster.
+MONGODB | Server ds023388-a.mlab.com:23388 discovered as primary in replica set: 'rs-ds023388'. Changing topology to replica set.
+MONGODB | Server ds023388.mlab.com:23388 elected as primary in rs-ds023388.
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.find | STARTED | {"find"=>"champs", "filter"=>{}, "sort"=>{"name"=>1}}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | SUCCEEDED | 0.031091624999999998s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.029236496s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.02893476s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.find | SUCCEEDED | 0.170374377s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | STARTED | {"getMore"=>8883461904301, "batchSize"=>0, "collection"=>"champs"}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | SUCCEEDED | 0.029170097s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.find | STARTED | {"find"=>"champs", "filter"=>{}, "sort"=>{"name"=>1}}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.find | SUCCEEDED | 0.030927497999999998s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | STARTED | {"getMore"=>8883815345926, "batchSize"=>0, "collection"=>"champs"}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | SUCCEEDED | 0.029545580999999998s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.find | STARTED | {"find"=>"champs", "filter"=>{}, "sort"=>{"name"=>1}}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.find | SUCCEEDED | 0.031367855s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | STARTED | {"getMore"=>8883864406583, "batchSize"=>0, "collection"=>"champs"}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | SUCCEEDED | 0.029096722s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.find | STARTED | {"find"=>"champs", "filter"=>{}, "sort"=>{"name"=>1}}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.find | SUCCEEDED | 0.030313173s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | STARTED | {"getMore"=>8886145176814, "batchSize"=>0, "collection"=>"champs"}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | SUCCEEDED | 0.030424279999999998s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.find | STARTED | {"find"=>"champs", "filter"=>{}, "sort"=>{"name"=>1}}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.find | SUCCEEDED | 0.032369723s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | STARTED | {"getMore"=>8882432892812, "batchSize"=>0, "collection"=>"champs"}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | SUCCEEDED | 0.029072126s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.find | STARTED | {"find"=>"champs", "filter"=>{}, "sort"=>{"name"=>1}}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.find | SUCCEEDED | 0.030471627s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | STARTED | {"getMore"=>8882894033821, "batchSize"=>0, "collection"=>"champs"}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | SUCCEEDED | 0.037268561s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.find | STARTED | {"find"=>"champs", "filter"=>{}, "sort"=>{"name"=>1}}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.find | SUCCEEDED | 0.03576799s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | STARTED | {"getMore"=>8886064849839, "batchSize"=>0, "collection"=>"champs"}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | SUCCEEDED | 0.029351698s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.find | STARTED | {"find"=>"champs", "filter"=>{}, "sort"=>{"name"=>1}}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.find | SUCCEEDED | 0.030789759s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | STARTED | {"getMore"=>8882854148274, "batchSize"=>0, "collection"=>"champs"}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | SUCCEEDED | 0.029579764s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.find | STARTED | {"find"=>"champs", "filter"=>{}, "sort"=>{"name"=>1}}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.find | SUCCEEDED | 0.033925292999999995s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | STARTED | {"getMore"=>8882662718698, "batchSize"=>0, "collection"=>"champs"}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | SUCCEEDED | 0.030389984000000002s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.find | STARTED | {"find"=>"champs", "filter"=>{}, "sort"=>{"name"=>1}}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.find | SUCCEEDED | 0.031540123s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | STARTED | {"getMore"=>8885751587122, "batchSize"=>0, "collection"=>"champs"}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | SUCCEEDED | 0.029220585s
+  Rendered index/home.html.erb within layouts/application (1234.0ms)
+Completed 200 OK in 2072ms (Views: 2012.1ms)
+MONGODB | ds023388.mlab.com:23388 being removed from the cluster.
+MONGODB | Server ds023388-a.mlab.com:23388 elected as primary in rs-ds023388.
+
+
+Started GET "/" for 186.154.105.133 at 2016-05-10 07:15:07 +0000
+Cannot render console from 186.154.105.133! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IndexController#home as HTML
+MONGODB | Adding ds023388.mlab.com:23388 to the cluster.
+MONGODB | Adding ds023388-a.mlab.com:23388 to the cluster.
+MONGODB | Server ds023388-a.mlab.com:23388 discovered as primary in replica set: 'rs-ds023388'. Changing topology to replica set.
+MONGODB | Server ds023388.mlab.com:23388 elected as primary in rs-ds023388.
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.find | STARTED | {"find"=>"champs", "filter"=>{}, "sort"=>{"name"=>1}}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslStart | SUCCEEDED | 5.807969879s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.028949805s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | STARTED | {}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.saslContinue | SUCCEEDED | 0.029433226s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.find | SUCCEEDED | 5.940675311000001s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | STARTED | {"getMore"=>8886214641348, "batchSize"=>0, "collection"=>"champs"}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | SUCCEEDED | 0.029608234s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.find | STARTED | {"find"=>"champs", "filter"=>{}, "sort"=>{"name"=>1}}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.find | SUCCEEDED | 0.031158580999999998s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | STARTED | {"getMore"=>8882628618539, "batchSize"=>0, "collection"=>"champs"}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | SUCCEEDED | 0.029267395s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.find | STARTED | {"find"=>"champs", "filter"=>{}, "sort"=>{"name"=>1}}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.find | SUCCEEDED | 0.031497775s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | STARTED | {"getMore"=>8884802392720, "batchSize"=>0, "collection"=>"champs"}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | SUCCEEDED | 0.029454509s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.find | STARTED | {"find"=>"champs", "filter"=>{}, "sort"=>{"name"=>1}}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.find | SUCCEEDED | 0.030446393999999998s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | STARTED | {"getMore"=>8885449273340, "batchSize"=>0, "collection"=>"champs"}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | SUCCEEDED | 0.029231782s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.find | STARTED | {"find"=>"champs", "filter"=>{}, "sort"=>{"name"=>1}}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.find | SUCCEEDED | 0.030329441s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | STARTED | {"getMore"=>8883657329695, "batchSize"=>0, "collection"=>"champs"}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | SUCCEEDED | 0.029610374s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.find | STARTED | {"find"=>"champs", "filter"=>{}, "sort"=>{"name"=>1}}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.find | SUCCEEDED | 0.030657536000000003s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | STARTED | {"getMore"=>8882627728482, "batchSize"=>0, "collection"=>"champs"}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | SUCCEEDED | 0.029325179s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.find | STARTED | {"find"=>"champs", "filter"=>{}, "sort"=>{"name"=>1}}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.find | SUCCEEDED | 0.037320565s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | STARTED | {"getMore"=>8883845999451, "batchSize"=>0, "collection"=>"champs"}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | SUCCEEDED | 0.029523423s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.find | STARTED | {"find"=>"champs", "filter"=>{}, "sort"=>{"name"=>1}}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.find | SUCCEEDED | 0.030820359000000002s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | STARTED | {"getMore"=>8885240896167, "batchSize"=>0, "collection"=>"champs"}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | SUCCEEDED | 0.030678905s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.find | STARTED | {"find"=>"champs", "filter"=>{}, "sort"=>{"name"=>1}}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.find | SUCCEEDED | 0.031166615s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | STARTED | {"getMore"=>8883207957304, "batchSize"=>0, "collection"=>"champs"}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | SUCCEEDED | 0.029662855000000002s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.find | STARTED | {"find"=>"champs", "filter"=>{}, "sort"=>{"name"=>1}}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.find | SUCCEEDED | 0.042371697s
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | STARTED | {"getMore"=>8884607179664, "batchSize"=>0, "collection"=>"champs"}
+MONGODB | ds023388.mlab.com:23388 | ritochallenge.getMore | SUCCEEDED | 0.029149768s
+  Rendered index/home.html.erb within layouts/application (6894.1ms)
+Completed 200 OK in 7413ms (Views: 7363.5ms)
+MONGODB | ds023388.mlab.com:23388 being removed from the cluster.
+MONGODB | Server ds023388-a.mlab.com:23388 elected as primary in rs-ds023388.
