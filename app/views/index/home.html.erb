@@ -1,0 +1,427 @@
+<html>
+
+<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.2/css/select2.min.css" rel="stylesheet" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.2/js/select2.min.js"></script>
+
+</head>
+
+<body>
+        
+        <style type="text/css">
+                .thumbnails li img {
+                        width: 70px;
+                        height: 70px;
+                }
+        </style>
+        
+       
+        <div class="navbar navbar-default navbar-static-top">
+                <div class="container">
+                        <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-ex-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="navbar-brand" href="#"><span>AskMrCoach</span></a></div>
+                        <div class="collapse navbar-collapse" id="navbar-ex-collapse">
+                                <ul class="nav navbar-nav navbar-right">
+                                        <li class="active"><a href="#">Home</a></li>
+                                        <li><a href="#">About</a></li>
+                                </ul>
+                        </div>
+                </div>
+        </div>
+      
+        
+        <div class="section">
+                <div class="container">
+                        <div class="row">
+                                <div class="col-md-6">
+                                        <div class="panel panel-primary">
+                                                <div class="panel-heading">
+                                                        <h3 class="panel-title">Ally Team</h3></div>
+                                                <div class="panel-body">
+                                                        <div class="btn-group">
+                                                                <div class="btn-group-vertical">
+                                                                        
+                                                                        <img src='tmp.png' id="btopimg" class="img-thumbnail" width="100" height="100">
+                                                                        <button data-toggle="collapse" class="btn btn-info" data-target="#btop">Top</button>
+                                                                        <div id="btop" class="collapse">
+                                                                                <div class="picker">
+                                                                                        <select class="image-picker" id="btop_select">
+                                                                                                <option value='0' data-img-src="tmp.png"></option>
+                                                                                                <option value='-1' data-img-src="http://ddragon.leagueoflegends.com/cdn/6.9.1/img/profileicon/937.png">hola</option>
+                                                                                                <% @champions.each do |d|%>
+                                                                                                        <option data-img-src='http://ddragon.leagueoflegends.com/cdn/6.9.1/img/champion/<%=d.key%>.png ' value=<%=d.id%>><%=d.key%></option>
+                                                                                                <%end%>
+                                                                                        </select>
+                                                                                </div>
+                                                                        </div>
+                                                                       
+                                                                </div>
+                                                                <div class="btn-group-vertical">
+                                                                        <img src='tmp.png' id="bjgimg" class="img-thumbnail" width="100" height="100">
+                                                                        <button data-toggle="collapse" class="btn btn-info" data-target="#bjg">Jungle</button>
+                                                                        <div id="bjg" class="collapse">
+                                                                                <div class="picker">
+                                                                                        <select class="image-picker" id="bjg_select">
+                                                                                                <option value='0' data-img-src="tmp.png"></option>
+                                                                                                <option value='-1' data-img-src="http://ddragon.leagueoflegends.com/cdn/6.9.1/img/profileicon/937.png">hola</option>
+                                                                                                <% @champions.each do |d|%>
+                                                                                                        <option data-img-src='http://ddragon.leagueoflegends.com/cdn/6.9.1/img/champion/<%=d.key%>.png ' value=<%=d.id%>><%=d.key%></option>
+                                                                                                <%end%>
+                                                                                        </select>
+                                                                                </div>
+                                                                        </div>
+                                                                </div>
+                                                                <div class="btn-group-vertical">
+                                                                        <img src='tmp.png' id="bmidimg" class="img-thumbnail" width="100" height="100">
+                                                                        <button data-toggle="collapse" class="btn btn-info" data-target="#bmid">Mid</button>
+                                                                        <div id="bmid" class="collapse">
+                                                                                <div class="picker">
+                                                                                        <select class="image-picker" id="bmid_select">
+                                                                                                <option value='0' data-img-src="tmp.png"></option>
+                                                                                                <option value='-1' data-img-src="http://ddragon.leagueoflegends.com/cdn/6.9.1/img/profileicon/937.png">hola</option>
+                                                                                                <% @champions.each do |d|%>
+                                                                                                        <option data-img-src='http://ddragon.leagueoflegends.com/cdn/6.9.1/img/champion/<%=d.key%>.png ' value=<%=d.id%>><%=d.key%></option>
+                                                                                                <%end%>
+                                                                                        </select>
+                                                                                </div>
+                                                                        </div>
+                                                                </div>
+                                                                <div class="btn-group-vertical">
+                                                                        <img src='tmp.png' id="badcimg" class="img-thumbnail" width="100" height="100">
+                                                                        <button data-toggle="collapse" class="btn btn-info" data-target="#badc">Marksman</button>
+                                                                        <div id="badc" class="collapse">
+                                                                                <div class="picker">
+                                                                                        <select class="image-picker" id="badc_select">
+                                                                                                <option value='0' data-img-src="tmp.png"></option>
+                                                                                                <option value='-1' data-img-src="http://ddragon.leagueoflegends.com/cdn/6.9.1/img/profileicon/937.png">hola</option>
+                                                                                                <% @champions.each do |d|%>
+                                                                                                        <option data-img-src='http://ddragon.leagueoflegends.com/cdn/6.9.1/img/champion/<%=d.key%>.png ' value=<%=d.id%>><%=d.key%></option>
+                                                                                                <%end%>
+                                                                                        </select>
+                                                                                </div>
+                                                                        </div>
+                                                                </div>
+                                                                <div class="btn-group-vertical">
+                                                                        <img src='tmp.png' id="bsuppimg" class="img-thumbnail" width="100" height="100">
+                                                                        <button data-toggle="collapse" class="btn btn-info" data-target="#bsupp">Support</button>
+                                                                        <div id="bsupp" class="collapse">
+                                                                                <div class="picker">
+                                                                                        <select class="image-picker" id="bsupp_select">
+                                                                                                <option value='0' data-img-src="tmp.png"></option>
+                                                                                                <option value='-1' data-img-src="http://ddragon.leagueoflegends.com/cdn/6.9.1/img/profileicon/937.png">hola</option>
+                                                                                               <% @champions.each do |d|%>
+                                                                                                        <option data-img-src='http://ddragon.leagueoflegends.com/cdn/6.9.1/img/champion/<%=d.key%>.png ' value=<%=d.id%>><%=d.key%></option>
+                                                                                                <%end%>
+                                                                                        </select>
+                                                                                </div>
+                                                                        </div>
+                                                                </div>
+                                                                
+                                                                        <div class="form-group">
+  <label for="usr">Summoner:</label>
+  <input type="text" class="form-control" id="usr">
+</div>
+<div class="form-group">
+  <label for="sel1">Region</label>
+  <select class="form-control" id="reg">
+    <option>BR</option>
+    <option>LAN</option>
+    <option>LAS</option>
+    <option>NA</option>
+  </select>
+</div>
+                                                                     
+                                                        </div>
+                                                </div>
+                                        </div>
+                                </div>
+                                <div class="col-md-6">
+                                        <div class="panel panel-danger">
+                                                <div class="panel-heading">
+                                                        <h3 class="panel-title">Enemy Team</h3></div>
+                                                <div class="panel-body">
+                                                        <div class="btn-group">
+                                                                <div class="btn-group-vertical">
+                                                                        <img src='tmp.png' id="rtopimg" class="img-thumbnail" width="100" height="100">
+                                                                        <button data-toggle="collapse" class="btn btn-info" data-target="#rtop">Top</button>
+                                                                        <div id="rtop" class="collapse">
+                                                                                <div class="picker">
+                                                                                        <select class="image-picker" id="rtop_select">
+                                                                                                <option value='0' data-img-src="tmp.png"></option>
+                                                                                                <% @champions.each do |d|%>
+                                                                                                        <option data-img-src='http://ddragon.leagueoflegends.com/cdn/6.9.1/img/champion/<%=d.key%>.png ' value=<%=d.id%>><%=d.key%></option>
+                                                                                                <%end%>
+                                                                                        </select>
+                                                                                </div>
+                                                                        </div>
+                                                                </div>
+                                                                <div class="btn-group-vertical">
+                                                                        <img src='tmp.png' id="rjgimg" class="img-thumbnail" width="100" height="100">
+                                                                        <button data-toggle="collapse" class="btn btn-info" data-target="#rjg">Jungle</button>
+                                                                        <div id="rjg" class="collapse">
+                                                                                <div class="picker">
+                                                                                        <select class="image-picker" id="rjg_select">
+                                                                                                <option value='0' data-img-src="tmp.png"></option>
+                                                                                                <% @champions.each do |d|%>
+                                                                                                        <option data-img-src='http://ddragon.leagueoflegends.com/cdn/6.9.1/img/champion/<%=d.key%>.png ' value=<%=d.id%>><%=d.key%></option>
+                                                                                                <%end%>
+                                                                                        </select>
+                                                                                </div>
+                                                                        </div>
+                                                                </div>
+                                                                <div class="btn-group-vertical">
+                                                                        <img src='tmp.png' id="rmidimg" class="img-thumbnail" width="100" height="100">
+                                                                        <button data-toggle="collapse" class="btn btn-info" data-target="#rmid">Mid</button>
+                                                                        <div id="rmid" class="collapse">
+                                                                                <div class="picker">
+                                                                                        <select class="image-picker" id="rmid_select">
+                                                                                                <option value='0' data-img-src="tmp.png"></option>
+
+                                                                                                <% @champions.each do |d|%>
+                                                                                                        <option data-img-src='http://ddragon.leagueoflegends.com/cdn/6.9.1/img/champion/<%=d.key%>.png ' value=<%=d.id%>><%=d.key%></option>
+                                                                                                <%end%>
+                                                                                        </select>
+                                                                                </div>
+                                                                        </div>
+                                                                </div>
+                                                                <div class="btn-group-vertical">
+                                                                        <img src='tmp.png' id="radcimg" class="img-thumbnail" width="100" height="100">
+                                                                        <button data-toggle="collapse" class="btn btn-info" data-target="#radc">Marksman</button>
+                                                                        <div id="radc" class="collapse">
+                                                                                <div class="picker">
+                                                                                        <select class="image-picker" id="radc_select">
+                                                                                                <option value='0' data-img-src="tmp.png"></option>
+
+                                                                                                <% @champions.each do |d|%>
+                                                                                                        <option data-img-src='http://ddragon.leagueoflegends.com/cdn/6.9.1/img/champion/<%=d.key%>.png ' value=<%=d.id%>><%=d.key%></option>
+                                                                                                <%end%>
+                                                                                        </select>
+                                                                                </div>
+                                                                        </div>
+                                                                </div>
+                                                                <div class="btn-group-vertical">
+                                                                        <img src='tmp.png' id="rsuppimg" class="img-thumbnail" width="100" height="100">
+                                                                        <button data-toggle="collapse" class="btn btn-info" data-target="#rsupp">Support</button>
+                                                                        <div id="rsupp" class="collapse">
+                                                                                <div class="picker">
+                                                                                        <select class="image-picker" id="rsupp_select">
+                                                                                                <option value='0' data-img-src="tmp.png"></option>
+                                                                                                <% @champions.each do |d|%>
+                                                                                                        <option data-img-src='http://ddragon.leagueoflegends.com/cdn/6.9.1/img/champion/<%=d.key%>.png ' value=<%=d.id%>><%=d.key%></option>
+                                                                                                <%end%>
+                                                                                        </select>
+                                                                                </div>
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        </div>
+        <div class="section">
+                <div class="container">
+                        <div class="row">
+                                <div class="col-md-12">
+                                         <form class="button_to" method="post" action="/recommend"><input class="btn btn-block btn-lg btn-primary" id="sub" type="submit" value="Recommend" />
+                                         <input type="hidden" id="p1" name="p1" value="lol" />
+                                         <input type="hidden" id="p2" name="p2" value="lol" />
+                                         <input type="hidden" id="p3" name="p3" value="lol" />
+                                         <input type="hidden" id="p4" name="p4" value="lol" />
+                                         <input type="hidden" id="p5" name="p5" value="lol" />
+                                         <input type="hidden" id="p6" name="p6" value="lol" />
+                                         <input type="hidden" id="p7" name="p7" value="lol" />
+                                         <input type="hidden" id="p8" name="p8" value="lol" />
+                                         <input type="hidden" id="p9" name="p9" value="lol" />
+                                         <input type="hidden" id="p10" name="p10" value="lol" />
+                                         <input type="hidden" id="p11" name="p11" value="lol" />
+                                         </form>
+                                </div>
+                        </div>
+                </div>
+        </div>
+        
+        
+        <%if @resultados !=nil%>
+        <div class="section">
+                
+                <div class="container">
+                        <div class="col-sm-6 col-md-4">
+                                Mastery Recommend
+                               <%=@resultados[0,5].each do |r|%>
+                                <div class="thumbnail">
+                                        
+                                        <img src='http://ddragon.leagueoflegends.com/cdn/6.9.1/img/champion/<%=@champions.find(r.id).key%>.png '>
+                                        <div class="caption">
+                                                <h3><%=@champions.find(r.id).name%></h3>
+                                                <p><%=r.points%></p>
+                                                <p><%=r.performance%></p>
+                                        </div>
+                                </div>
+                                <%end%>
+                        </div>
+                </div>
+                 </div>
+                  
+                   </div>
+        <%end%>
+       <%if @resultados2 !=nil%>
+        <div class="section">
+                
+                <div class="container">
+                        
+                        <div class="col-sm-6 col-md-4">
+                                General Recommend
+                               <%=@resultados2[0,5].each do |r|%>
+                                <div class="thumbnail">
+                                        
+                                        <img src='http://ddragon.leagueoflegends.com/cdn/6.9.1/img/champion/<%=@champions.find(r.id).key%>.png '>
+                                        <div class="caption">
+                                                <h3><%=@champions.find(r.id).name%></h3>
+                                                <p><%=r.points%></p>
+                                                <p><%=r.performance%></p>
+                                        </div>
+                                </div>
+                                <%end%>
+                        </div>
+                </div>
+                 </div>
+                  
+                   </div>
+        <%end%>
+                        <script type="text/javascript">
+                                $('#p1').attr('value', $('#btop_select :selected').val());
+                                $('#p2').attr('value', $('#bjg_select :selected').val());
+                                $('#p3').attr('value', $('#bmid_select :selected').val());
+                                $('#p4').attr('value', $('#badc_select :selected').val());
+                                $('#p5').attr('value', $('#bsupp_select :selected').val());
+                                $('#p6').attr('value', $('#rtop_select :selected').val());
+                                $('#p7').attr('value', $('#rjg_select :selected').val());
+                                $('#p8').attr('value', $('#rmid_select :selected').val());
+                                $('#p9').attr('value', $('#radc_select :selected').val());
+                                $('#p10').attr('value', $('#rsupp_select :selected').val());
+                                jQuery("select.image-picker").imagepicker({
+
+                                });
+                                 $('#usr').change(function() {
+                                        $('#p11').attr('value', $('#usr').val());
+                                    });
+                                $('#btop_select').change(function() {
+                                        $('#btopimg').attr('src', 'http://ddragon.leagueoflegends.com/cdn/6.9.1/img/champion/' + $('#btop_select :selected').text() + '.png');
+
+                                        if ($('#btop_select :selected').text() == '') {
+                                                $('#btopimg').attr('src', 'tmp.png');
+                                        }
+                                        if ($('#btop_select :selected').text() == 'hola') {
+                                                $('#btopimg').attr('src', "http://ddragon.leagueoflegends.com/cdn/6.9.1/img/profileicon/937.png");
+                                        }
+                                        $('#btop').collapse("hide");
+                                        $('#p1').attr('value', $('#btop_select :selected').val());
+                                    });
+                                $('#bjg_select').change(function() {
+                                        $('#bjgimg').attr('src', 'http://ddragon.leagueoflegends.com/cdn/6.9.1/img/champion/' + $('#bjg_select :selected').text() + '.png');
+
+                                        if ($('#bjg_select :selected').text() == '') {
+                                                $('#bjgimg').attr('src', 'tmp.png');
+                                        }
+                                        if ($('#bjg_select :selected').text() == 'hola') {
+                                                $('#bjgimg').attr('src', "http://ddragon.leagueoflegends.com/cdn/6.9.1/img/profileicon/937.png");
+                                        }
+                                        $('#bjg').collapse("hide");
+                                        $('#p2').attr('value', $('#bjg_select :selected').val());
+                                });
+                                $('#bmid_select').change(function() {
+                                        $('#bmidimg').attr('src', 'http://ddragon.leagueoflegends.com/cdn/6.9.1/img/champion/' + $('#bmid_select :selected').text() + '.png');
+
+                                        if ($('#bmid_select :selected').text() == '') {
+                                                $('#bmidimg').attr('src', 'tmp.png');
+                                        }
+                                        if ($('#bmid_select :selected').text() == 'hola') {
+                                                $('#bmidimg').attr('src', "http://ddragon.leagueoflegends.com/cdn/6.9.1/img/profileicon/937.png");
+                                        }
+                                        $('#bmid').collapse("hide");
+                                        $('#p3').attr('value', $('#bmid_select :selected').val());
+                                });
+                                $('#badc_select').change(function() {
+                                        $('#badcimg').attr('src', 'http://ddragon.leagueoflegends.com/cdn/6.9.1/img/champion/' + $('#badc_select :selected').text() + '.png');
+
+                                        if ($('#badc_select :selected').text() == '') {
+                                                $('#badcimg').attr('src', 'tmp.png');
+                                        }
+                                        if ($('#badc_select :selected').text() == 'hola') {
+                                                $('#badcimg').attr('src', "http://ddragon.leagueoflegends.com/cdn/6.9.1/img/profileicon/937.png");
+                                        }
+                                        $('#badc').collapse("hide");
+                                         $('#p4').attr('value', $('#badc_select :selected').val());
+                                });
+                                $('#bsupp_select').change(function() {
+                                        $('#bsuppimg').attr('src', 'http://ddragon.leagueoflegends.com/cdn/6.9.1/img/champion/' + $('#bsupp_select :selected').text() + '.png');
+
+                                        if ($('#bsupp_select :selected').text() == '') {
+                                                $('#bsuppimg').attr('src', 'tmp.png');
+                                        }
+                                        if ($('#bsupp_select :selected').text() == 'hola') {
+                                                $('#bsuppimg').attr('src', "http://ddragon.leagueoflegends.com/cdn/6.9.1/img/profileicon/937.png");
+                                        }
+                                        $('#bsupp').collapse("hide");
+                                        $('#p5').attr('value', $('#bsupp_select :selected').val());
+                                });
+                                $('#rtop_select').change(function() {
+                                        $('#rtopimg').attr('src', 'http://ddragon.leagueoflegends.com/cdn/6.9.1/img/champion/' + $('#rtop_select :selected').text() + '.png');
+
+                                        if ($('#rtop_select :selected').text() == '') {
+                                                $('#rtopimg').attr('src', 'tmp.png');
+                                        }
+                                        $('#rtop').collapse("hide");
+                                        $('#p6').attr('value', $('#rtop_select :selected').val());
+                                });
+                                $('#rjg_select').change(function() {
+                                        $('#rjgimg').attr('src', 'http://ddragon.leagueoflegends.com/cdn/6.9.1/img/champion/' + $('#rjg_select :selected').text() + '.png');
+
+                                        if ($('#rjg_select :selected').text() == '') {
+                                                $('#rjgimg').attr('src', 'tmp.png');
+                                        }
+                                        $('#rjg').collapse("hide");
+                                        $('#p7').attr('value', $('#rjg_select :selected').val());
+                                });
+                                $('#rmid_select').change(function() {
+                                        $('#rmidimg').attr('src', 'http://ddragon.leagueoflegends.com/cdn/6.9.1/img/champion/' + $('#rmid_select :selected').text() + '.png');
+
+                                        if ($('#rmid_select :selected').text() == '') {
+                                                $('#rmidimg').attr('src', 'tmp.png');
+                                        }
+                                        $('#rmid').collapse("hide");
+                                        $('#p8').attr('value', $('#rmid_select :selected').val());
+                                });
+                                $('#radc_select').change(function() {
+                                        $('#radcimg').attr('src', 'http://ddragon.leagueoflegends.com/cdn/6.9.1/img/champion/' + $('#radc_select :selected').text() + '.png');
+
+                                        if ($('#radc_select :selected').text() == '') {
+                                                $('#radcimg').attr('src', 'tmp.png');
+                                        }
+                                        $('#radc').collapse("hide");
+                                        $('#p9').attr('value', $('#radc_select :selected').val());
+                                });
+                                $('#rsupp_select').change(function() {
+                                        $('#rsuppimg').attr('src', 'http://ddragon.leagueoflegends.com/cdn/6.9.1/img/champion/' + $('#rsupp_select :selected').text() + '.png');
+
+                                        if ($('#rsupp_select :selected').text() == '') {
+                                                $('#rsuppimg').attr('src', 'tmp.png');
+                                        }
+                                        $('#rsupp').collapse("hide");
+                                        $('#p10').attr('value', $('#rsupp_select :selected').val());
+                                });
+                                
+    
+                        </script>
+</body>
+
+</html>

@@ -10,7 +10,7 @@ development:
       # of host:port pairs. (required)
       #hosts:
       #  - localhost:27017
-      uri: mongodb://rito:M4kub3Xt3r@ds023388.mlab.com:23388/ritochallenge
+      uri: <% ENV['FOOVAR'] %>
       options:
         # Change the default write concern. (default = { w: 1 })
         # write:
