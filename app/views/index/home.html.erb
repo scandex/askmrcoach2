@@ -130,10 +130,10 @@
 <div class="form-group">
   <label for="sel1">Region</label>
   <select class="form-control" id="reg">
-    <option>BR</option>
-    <option>LAN</option>
-    <option>LAS</option>
-    <option>NA</option>
+    <option value ="br">BR</option>
+    <option value ="lan</lan>">LAN</option>
+    <option value ="las">LAS</option>
+    <option value ="na">NA</option>
   </select>
 </div>
                                                                      
@@ -308,11 +308,12 @@
                                 $('#p8').attr('value', $('#rmid_select :selected').val());
                                 $('#p9').attr('value', $('#radc_select :selected').val());
                                 $('#p10').attr('value', $('#rsupp_select :selected').val());
+                                $('#p11').attr('value', $('#reg :selected').val());
                                 jQuery("select.image-picker").imagepicker({
 
                                 });
-                                 $('#usr').change(function() {
-                                        $('#p11').attr('value', $('#usr').val());
+                                 $('#reg').change(function() {
+                                        $('#p11').attr('value', $('#reg').val());
                                     });
                                 $('#btop_select').change(function() {
                                         $('#btopimg').attr('src', 'http://ddragon.leagueoflegends.com/cdn/6.9.1/img/champion/' + $('#btop_select :selected').text() + '.png');
