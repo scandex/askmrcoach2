@@ -31,6 +31,7 @@ class IndexController < ApplicationController
         ar>0 ? cont+= 1 : cont+= 0 
         sr>0 ? cont+= 1 : cont+= 0
         cont = (cont/2).ceil
+        cont <0 ? cont+= 1 : cont+= 0
         
         if tb<0
              pos1 = '$tb'
@@ -52,8 +53,7 @@ class IndexController < ApplicationController
              pos1 = '$sb'
              pos2 = '$sr'
         end
-        
-        
+       
         db = Mongoid::Clients.default
         collection = db["comps"]
         col = collection.aggregate([
@@ -138,5 +138,6 @@ class IndexController < ApplicationController
         @resultados = resultados
         @resultados2 = results
         render 'home'
+       
     end
 end
