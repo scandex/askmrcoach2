@@ -6,6 +6,7 @@ class IndexController < ApplicationController
         @champions = Champion.all.order_by(:name => 'asc')
         pos1=''
         pos2=''
+        user=params[:p12]
         region = params[:p11]
         cont = 0
         tb=params[:p1].to_f
@@ -19,17 +20,17 @@ class IndexController < ApplicationController
         ar=params[:p9].to_f
         sr=params[:p10].to_f
         
-        tb>0 ? cont=+ 1 : cont=+ 0
-        jb>0 ? cont=+ 1 : cont=+ 0 
-        mb>0 ? cont=+ 1 : cont=+ 0 
-        ab>0 ? cont=+ 1 : cont=+ 0 
-        sb>0 ? cont=+ 1 : cont=+ 0 
-        tr>0 ? cont=+ 1 : cont=+ 0
-        jr>0 ? cont=+ 1 : cont=+ 0 
-        mr>0 ? cont=+ 1 : cont=+ 0 
-        ar>0 ? cont=+ 1 : cont=+ 0 
-        sr>0 ? cont=+ 1 : cont=+ 0
-        cont = cont/2
+        tb>0 ? cont+= 1 : cont+= 0
+        jb>0 ? cont+= 1 : cont+= 0 
+        mb>0 ? cont+= 1 : cont+= 0 
+        ab>0 ? cont+= 1 : cont+= 0 
+        sb>0 ? cont+= 1 : cont+= 0 
+        tr>0 ? cont+= 1 : cont+= 0
+        jr>0 ? cont+= 1 : cont+= 0 
+        mr>0 ? cont+= 1 : cont+= 0 
+        ar>0 ? cont+= 1 : cont+= 0 
+        sr>0 ? cont+= 1 : cont+= 0
+        cont = (cont/2).ceil
         
         if tb<0
              pos1 = '$tb'
@@ -114,9 +115,9 @@ class IndexController < ApplicationController
             ]
         )
         results = col.map { |attrs| Recommendation.instantiate(attrs) }
-        puts results.first.id
         client = Taric.client(region: region)
-        blabla= client.champion_mastery_all(summoner_id: 164906)
+        user_id =client.summoners_by_names(summoner_names: user).body.first[1]["id"]
+        blabla= client.champion_mastery_all(summoner_id: user_id)
         resultados = []
         master =[]
         blabla.body.each do |d|

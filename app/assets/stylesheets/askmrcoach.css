@@ -6937,6 +6937,11 @@ textarea:focus {
   -webkit-box-shadow: none;
   box-shadow: none;
 }
+.center {
+     float: none;
+     margin-left: auto;
+     margin-right: auto;
+}
 .has-error .input-group-addon {
   border-color: #e74c3c;
 }
