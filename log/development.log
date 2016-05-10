@@ -35951,3 +35951,31 @@ Cannot render console from 186.154.105.133! Allowed networks: 127.0.0.1, ::1, 12
 
 Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 186.154.105.133 at 2016-05-10 06:43:47 +0000
 Cannot render console from 186.154.105.133! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 186.154.105.133 at 2016-05-10 07:05:21 +0000
+Cannot render console from 186.154.105.133! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IndexController#home as HTML
+  Rendered index/home.html.erb within layouts/application (28.3ms)
+Completed 500 Internal Server Error in 145ms
+
+ActionView::Template::Error (Mongoid::Contextual#each delegated to context.each, but context is nil: #<Mongoid::Criteria
+  selector: {}
+  options:  {:sort=>{"name"=>1}}
+  class:    Champion
+  embedded: false>
+):
+    54:                                                                                         <select class="image-picker" id="btop_select">
+    55:                                                                                                 <option value='0' data-img-src="tmp.png"></option>
+    56:                                                                                                 <option value='-1' data-img-src="http://ddragon.leagueoflegends.com/cdn/6.9.1/img/profileicon/937.png">hola</option>
+    57:                                                                                                 <% @champions.each do |d|%>
+    58:                                                                                                         <option data-img-src='http://ddragon.leagueoflegends.com/cdn/6.9.1/img/champion/<%=d.key%>.png ' value=<%=d.id%>><%=d.key%></option>
+    59:                                                                                                 <%end%>
+    60:                                                                                         </select>
+  app/views/index/home.html.erb:57:in `_app_views_index_home_html_erb__1953684879649181512_43367960'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (21.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (15.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (152.0ms)
