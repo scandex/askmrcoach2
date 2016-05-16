@@ -31,7 +31,7 @@ class IndexController < ApplicationController
         ar>0 ? cont+= 1 : cont+= 0 
         sr>0 ? cont+= 1 : cont+= 0
         cont = (cont/2).ceil
-        cont <0 ? cont+= 1 : cont+= 0
+        cont <1 ? cont+= 1 : cont+= 0
         
         if tb<0
              pos1 = '$tb'
