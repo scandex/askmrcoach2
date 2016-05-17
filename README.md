@@ -46,5 +46,5 @@ Data processing: Mongo Aggregate framework
 FrontEnd: Ruby on Rails with taric gem to access Riot API
 
 ##Future work
--Include recommended start items, core items masteries runes and summoners
--improve UI
+- Include recommended start items, core items masteries runes and summoners
+- improve UI
