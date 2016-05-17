@@ -100,13 +100,21 @@ class IndexController < ApplicationController
                     "$group"=> {
                         "_id"=>"$champ",  
                         "numerator"=> {"$sum"=> {"$multiply"=>["$simi" , "$win"]}},
-                        "denominator"=> {"$sum"=> "$simi"} 
+                        "denominator"=> {"$sum"=> "$simi"},
+                        "count"=>{"$sum"=>1}
                     }
                 },
                 {
                     "$project"=> {
       	                "_id"=> 1,		
-      	                "performance"=>{"$divide"=>[ "$numerator", "$denominator" ]}	
+      	                "performance"=>{"$divide"=>[ "$numerator", "$denominator" ]},
+      	                "count"=>1
+                    }
+                },
+                {
+                    "$project"=> {
+      	                "_id"=> 1,		
+      	                "performance"=>{"$multiply"=>[ "$performance", "$count" ]},
                     }
                 },
                 {
