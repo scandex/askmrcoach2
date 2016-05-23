@@ -7,6 +7,7 @@
 
         <!-- Latest compiled and minified JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
         <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.2/css/select2.min.css" rel="stylesheet" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.2/js/select2.min.js"></script>
 
@@ -46,16 +47,15 @@
                                                 <div class="panel-body">
                                                         <div class="btn-group">
                                                                 <div class="btn-group-vertical">
-
                                                                         <img src='tmp.png' id="btopimg" class="img-thumbnail" width="100" height="100">
                                                                         <button data-toggle="collapse" class="btn btn-info" data-target="#btop">Top</button>
                                                                         <div id="btop" class="collapse">
-                                                                                <div class="picker">
-                                                                                        <select class="image-picker" id="btop_select">
-                                                                                                <option value='0' data-img-src="tmp.png"></option>
-                                                                                                <option value='-1' data-img-src="http://ddragon.leagueoflegends.com/cdn/6.9.1/img/profileicon/937.png">hola</option>
+                                                                                <div class="picker" >
+                                                                                        <select class="image-picker" id="btop_select" style="width: 50%">
+                                                                                                <option value='0' data-img-src="tmp.png">No Champion</option>
+                                                                                                <option value='-1' data-img-src="http://ddragon.leagueoflegends.com/cdn/6.9.1/img/profileicon/937.png">This is My Rol</option>
                                                                                                 <% @champions.each do |d|%>
-                                                                                                        <option data-img-src='http://ddragon.leagueoflegends.com/cdn/6.9.1/img/champion/<%=d.key%>.png ' value=<%=d.id%>><%=d.key%></option>
+                                                                                                        <option data-img-src='http://ddragon.leagueoflegends.com/cdn/6.9.1/img/champion/<%=d.key%>.png 'value=<%=d.id%>><%=d.name%></option>
                                                                                                         <%end%>
                                                                                         </select>
                                                                                 </div>
@@ -68,10 +68,10 @@
                                                                         <div id="bjg" class="collapse">
                                                                                 <div class="picker">
                                                                                         <select class="image-picker" id="bjg_select">
-                                                                                                <option value='0' data-img-src="tmp.png"></option>
-                                                                                                <option value='-1' data-img-src="http://ddragon.leagueoflegends.com/cdn/6.9.1/img/profileicon/937.png">hola</option>
+                                                                                                <option value='0' data-img-src="tmp.png">No Champion</option>
+                                                                                                <option value='-1' data-img-src="http://ddragon.leagueoflegends.com/cdn/6.9.1/img/profileicon/937.png">This is My Rol</option>
                                                                                                 <% @champions.each do |d|%>
-                                                                                                         <option data-img-src='http://ddragon.leagueoflegends.com/cdn/6.9.1/img/champion/<%=d.key%>.png ' value=<%=d.id%>><%=d.key%></option>
+                                                                                                         <option data-img-src='http://ddragon.leagueoflegends.com/cdn/6.9.1/img/champion/<%=d.key%>.png ' value=<%=d.id%>><%=d.name%></option>
                                                                                                         <%end%>
                                                                                         </select>
                                                                                 </div>
@@ -83,10 +83,10 @@
                                                                         <div id="bmid" class="collapse">
                                                                                 <div class="picker">
                                                                                         <select class="image-picker" id="bmid_select">
-                                                                                                <option value='0' data-img-src="tmp.png"></option>
-                                                                                                <option value='-1' data-img-src="http://ddragon.leagueoflegends.com/cdn/6.9.1/img/profileicon/937.png">hola</option>
+                                                                                                <option value='0' data-img-src="tmp.png">No Champion</option>
+                                                                                                <option value='-1' data-img-src="http://ddragon.leagueoflegends.com/cdn/6.9.1/img/profileicon/937.png">This is My Rol</option>
                                                                                                 <% @champions.each do |d|%>
-                                                                                                         <option data-img-src='http://ddragon.leagueoflegends.com/cdn/6.9.1/img/champion/<%=d.key%>.png ' value=<%=d.id%>><%=d.key%></option>
+                                                                                                         <option data-img-src='http://ddragon.leagueoflegends.com/cdn/6.9.1/img/champion/<%=d.key%>.png ' value=<%=d.id%>><%=d.name%></option>
                                                                                                         <%end%>
                                                                                         </select>
                                                                                 </div>
@@ -98,10 +98,10 @@
                                                                         <div id="badc" class="collapse">
                                                                                 <div class="picker">
                                                                                         <select class="image-picker" id="badc_select">
-                                                                                                <option value='0' data-img-src="tmp.png"></option>
-                                                                                                <option value='-1' data-img-src="http://ddragon.leagueoflegends.com/cdn/6.9.1/img/profileicon/937.png">hola</option>
+                                                                                                <option value='0' data-img-src="tmp.png">No Champion</option>
+                                                                                                <option value='-1' data-img-src="http://ddragon.leagueoflegends.com/cdn/6.9.1/img/profileicon/937.png">This is My Rol</option>
                                                                                                 <% @champions.each do |d|%>
-                                                                                                         <option data-img-src='http://ddragon.leagueoflegends.com/cdn/6.9.1/img/champion/<%=d.key%>.png ' value=<%=d.id%>><%=d.key%></option>
+                                                                                                         <option data-img-src='http://ddragon.leagueoflegends.com/cdn/6.9.1/img/champion/<%=d.key%>.png ' value=<%=d.id%>><%=d.name%></option>
                                                                                                         <%end%>
                                                                                         </select>
                                                                                 </div>
@@ -113,17 +113,24 @@
                                                                         <div id="bsupp" class="collapse">
                                                                                 <div class="picker">
                                                                                         <select class="image-picker" id="bsupp_select">
-                                                                                                <option value='0' data-img-src="tmp.png"></option>
-                                                                                                <option value='-1' data-img-src="http://ddragon.leagueoflegends.com/cdn/6.9.1/img/profileicon/937.png">hola</option>
+                                                                                                <option value='0' data-img-src="tmp.png">No Champion</option>
+                                                                                                <option value='-1' data-img-src="http://ddragon.leagueoflegends.com/cdn/6.9.1/img/profileicon/937.png">This is My Rol</option>
                                                                                                 <% @champions.each do |d|%>
-                                                                                                         <option data-img-src='http://ddragon.leagueoflegends.com/cdn/6.9.1/img/champion/<%=d.key%>.png ' value=<%=d.id%>><%=d.key%></option>
+                                                                                                         <option data-img-src='http://ddragon.leagueoflegends.com/cdn/6.9.1/img/champion/<%=d.key%>.png ' value=<%=d.id%>><%=d.name%></option>
                                                                                                         <%end%>
                                                                                         </select>
                                                                                 </div>
                                                                         </div>
                                                                 </div>
 
-                                                                <div class="form-group">
+                                                                
+
+                                                        </div>
+                                                        
+                                                </div>
+                                                
+                                        </div>
+                                        <div class="form-group">
                                                                         <label for="usr">Summoner:</label>
                                                                         <input type="text" class="form-control" id="usr">
                                                                 </div>
@@ -142,10 +149,6 @@
                                                                                 <option value="tr">TR</option>
                                                                         </select>
                                                                 </div>
-
-                                                        </div>
-                                                </div>
-                                        </div>
                                 </div>
                                 <div class="col-md-6">
                                         <div class="panel panel-danger">
@@ -159,9 +162,9 @@
                                                                         <div id="rtop" class="collapse">
                                                                                 <div class="picker">
                                                                                         <select class="image-picker" id="rtop_select">
-                                                                                                <option value='0' data-img-src="tmp.png"></option>
+                                                                                                <option value='0' data-img-src="tmp.png">No Champion</option>
                                                                                                 <% @champions.each do |d|%>
-                                                                                                        <option data-img-src='http://ddragon.leagueoflegends.com/cdn/6.9.1/img/champion/<%=d.key%>.png ' value=<%=d.id%>><%=d.key%></option>
+                                                                                                        <option data-img-src='http://ddragon.leagueoflegends.com/cdn/6.9.1/img/champion/<%=d.key%>.png ' value=<%=d.id%>><%=d.name%></option>
                                                                                                         <%end%>
                                                                                         </select>
                                                                                 </div>
@@ -173,9 +176,9 @@
                                                                         <div id="rjg" class="collapse">
                                                                                 <div class="picker">
                                                                                         <select class="image-picker" id="rjg_select">
-                                                                                                <option value='0' data-img-src="tmp.png"></option>
+                                                                                                <option value='0' data-img-src="tmp.png">No Champion</option>
                                                                                                 <% @champions.each do |d|%>
-                                                                                                        <option data-img-src='http://ddragon.leagueoflegends.com/cdn/6.9.1/img/champion/<%=d.key%>.png ' value=<%=d.id%>><%=d.key%></option>
+                                                                                                        <option data-img-src='http://ddragon.leagueoflegends.com/cdn/6.9.1/img/champion/<%=d.key%>.png ' value=<%=d.id%>><%=d.name%></option>
                                                                                                         <%end%>
                                                                                         </select>
                                                                                 </div>
@@ -187,10 +190,10 @@
                                                                         <div id="rmid" class="collapse">
                                                                                 <div class="picker">
                                                                                         <select class="image-picker" id="rmid_select">
-                                                                                                <option value='0' data-img-src="tmp.png"></option>
+                                                                                                <option value='0' data-img-src="tmp.png">No Champion</option>
 
                                                                                                 <% @champions.each do |d|%>
-                                                                                                        <option data-img-src='http://ddragon.leagueoflegends.com/cdn/6.9.1/img/champion/<%=d.key%>.png ' value=<%=d.id%>><%=d.key%></option>
+                                                                                                        <option data-img-src='http://ddragon.leagueoflegends.com/cdn/6.9.1/img/champion/<%=d.key%>.png ' value=<%=d.id%>><%=d.name%></option>
                                                                                                         <%end%>
                                                                                         </select>
                                                                                 </div>
@@ -202,10 +205,10 @@
                                                                         <div id="radc" class="collapse">
                                                                                 <div class="picker">
                                                                                         <select class="image-picker" id="radc_select">
-                                                                                                <option value='0' data-img-src="tmp.png"></option>
+                                                                                                <option value='0' data-img-src="tmp.png">No Champion</option>
 
                                                                                                 <% @champions.each do |d|%>
-                                                                                                        <option data-img-src='http://ddragon.leagueoflegends.com/cdn/6.9.1/img/champion/<%=d.key%>.png ' value=<%=d.id%>><%=d.key%></option>
+                                                                                                        <option data-img-src='http://ddragon.leagueoflegends.com/cdn/6.9.1/img/champion/<%=d.key%>.png ' value=<%=d.id%>><%=d.name%></option>
                                                                                                         <%end%>
                                                                                         </select>
                                                                                 </div>
@@ -217,9 +220,9 @@
                                                                         <div id="rsupp" class="collapse">
                                                                                 <div class="picker">
                                                                                         <select class="image-picker" id="rsupp_select">
-                                                                                                <option value='0' data-img-src="tmp.png"></option>
+                                                                                                <option value='0' data-img-src="tmp.png">No Champion</option>
                                                                                                 <% @champions.each do |d|%>
-                                                                                                        <option data-img-src='http://ddragon.leagueoflegends.com/cdn/6.9.1/img/champion/<%=d.key%>.png ' value=<%=d.id%>><%=d.key%></option>
+                                                                                                        <option data-img-src='http://ddragon.leagueoflegends.com/cdn/6.9.1/img/champion/<%=d.key%>.png ' value=<%=d.id%>><%=d.name%></option>
                                                                                                         <%end%>
                                                                                         </select>
                                                                                 </div>
@@ -315,6 +318,122 @@
                 </div>
                 <%end%>
                                         <script type="text/javascript">
+                                               
+                                                $('#reg').change(function() {
+                                                        $('#p11').attr('value', $('#reg').val());
+                                                });
+                                                $('#usr').change(function() {
+                                                        $('#p12').attr('value', $('#usr').val());
+                                                });
+                                                $('#btop_select').change(function() {
+                                                        $('#btopimg').attr('src', 'http://ddragon.leagueoflegends.com/cdn/6.9.1/img/champion/' + $('#btop_select :selected').text() + '.png');
+
+                                                        if ($('#btop_select :selected').text() == 'No Champion') {
+                                                                $('#btopimg').attr('src', 'tmp.png');
+                                                        }
+                                                        if ($('#btop_select :selected').text() == 'This is My Rol') {
+                                                                $('#btopimg').attr('src', "http://ddragon.leagueoflegends.com/cdn/6.9.1/img/profileicon/937.png");
+                                                        }
+                                                        $('#btop').collapse("hide");
+                                                        $('#p1').attr('value', $('#btop_select :selected').val());
+                                                });
+                                                $('#bjg_select').change(function() {
+                                                        $('#bjgimg').attr('src', 'http://ddragon.leagueoflegends.com/cdn/6.9.1/img/champion/' + $('#bjg_select :selected').text() + '.png');
+
+                                                        if ($('#bjg_select :selected').text() == 'No Champion') {
+                                                                $('#bjgimg').attr('src', 'tmp.png');
+                                                        }
+                                                        if ($('#bjg_select :selected').text() == 'This is My Rol') {
+                                                                $('#bjgimg').attr('src', "http://ddragon.leagueoflegends.com/cdn/6.9.1/img/profileicon/937.png");
+                                                        }
+                                                        $('#bjg').collapse("hide");
+                                                        $('#p2').attr('value', $('#bjg_select :selected').val());
+                                                });
+                                                $('#bmid_select').change(function() {
+                                                        $('#bmidimg').attr('src', 'http://ddragon.leagueoflegends.com/cdn/6.9.1/img/champion/' + $('#bmid_select :selected').text() + '.png');
+
+                                                        if ($('#bmid_select :selected').text() == 'No Champion') {
+                                                                $('#bmidimg').attr('src', 'tmp.png');
+                                                        }
+                                                        if ($('#bmid_select :selected').text() == 'This is My Rol') {
+                                                                $('#bmidimg').attr('src', "http://ddragon.leagueoflegends.com/cdn/6.9.1/img/profileicon/937.png");
+                                                        }
+                                                        $('#bmid').collapse("hide");
+                                                        $('#p3').attr('value', $('#bmid_select :selected').val());
+                                                });
+                                                $('#badc_select').change(function() {
+                                                        $('#badcimg').attr('src', 'http://ddragon.leagueoflegends.com/cdn/6.9.1/img/champion/' + $('#badc_select :selected').text() + '.png');
+
+                                                        if ($('#badc_select :selected').text() == 'No Champion') {
+                                                                $('#badcimg').attr('src', 'tmp.png');
+                                                        }
+                                                        if ($('#badc_select :selected').text() == 'This is My Rol') {
+                                                                $('#badcimg').attr('src', "http://ddragon.leagueoflegends.com/cdn/6.9.1/img/profileicon/937.png");
+                                                        }
+                                                        $('#badc').collapse("hide");
+                                                        $('#p4').attr('value', $('#badc_select :selected').val());
+                                                });
+                                                $('#bsupp_select').change(function() {
+                                                        $('#bsuppimg').attr('src', 'http://ddragon.leagueoflegends.com/cdn/6.9.1/img/champion/' + $('#bsupp_select :selected').text() + '.png');
+
+                                                        if ($('#bsupp_select :selected').text() == 'No Champion') {
+                                                                $('#bsuppimg').attr('src', 'tmp.png');
+                                                        }
+                                                        if ($('#bsupp_select :selected').text() == 'This is My Rol') {
+                                                                $('#bsuppimg').attr('src', "http://ddragon.leagueoflegends.com/cdn/6.9.1/img/profileicon/937.png");
+                                                        }
+                                                        $('#bsupp').collapse("hide");
+                                                        $('#p5').attr('value', $('#bsupp_select :selected').val());
+                                                });
+                                                $('#rtop_select').change(function() {
+                                                        $('#rtopimg').attr('src', 'http://ddragon.leagueoflegends.com/cdn/6.9.1/img/champion/' + $('#rtop_select :selected').text() + '.png');
+
+                                                        if ($('#rtop_select :selected').text() == 'No Champion') {
+                                                                $('#rtopimg').attr('src', 'tmp.png');
+                                                        }
+                                                        $('#rtop').collapse("hide");
+                                                        $('#p6').attr('value', $('#rtop_select :selected').val());
+                                                });
+                                                $('#rjg_select').change(function() {
+                                                        $('#rjgimg').attr('src', 'http://ddragon.leagueoflegends.com/cdn/6.9.1/img/champion/' + $('#rjg_select :selected').text() + '.png');
+
+                                                        if ($('#rjg_select :selected').text() == 'No Champion') {
+                                                                $('#rjgimg').attr('src', 'tmp.png');
+                                                        }
+                                                        $('#rjg').collapse("hide");
+                                                        $('#p7').attr('value', $('#rjg_select :selected').val());
+                                                });
+                                                $('#rmid_select').change(function() {
+                                                        $('#rmidimg').attr('src', 'http://ddragon.leagueoflegends.com/cdn/6.9.1/img/champion/' + $('#rmid_select :selected').text() + '.png');
+
+                                                        if ($('#rmid_select :selected').text() == 'No Champion') {
+                                                                $('#rmidimg').attr('src', 'tmp.png');
+                                                        }
+                                                        $('#rmid').collapse("hide");
+                                                        $('#p8').attr('value', $('#rmid_select :selected').val());
+                                                });
+                                                $('#radc_select').change(function() {
+                                                        $('#radcimg').attr('src', 'http://ddragon.leagueoflegends.com/cdn/6.9.1/img/champion/' + $('#radc_select :selected').text() + '.png');
+
+                                                        if ($('#radc_select :selected').text() == 'No Champion') {
+                                                                $('#radcimg').attr('src', 'tmp.png');
+                                                        }
+                                                        $('#radc').collapse("hide");
+                                                        $('#p9').attr('value', $('#radc_select :selected').val());
+                                                });
+                                                $('#rsupp_select').change(function() {
+                                                        $('#rsuppimg').attr('src', 'http://ddragon.leagueoflegends.com/cdn/6.9.1/img/champion/' + $('#rsupp_select :selected').text() + '.png');
+
+                                                        if ($('#rsupp_select :selected').text() == 'No Champion') {
+                                                                $('#rsuppimg').attr('src', 'tmp.png');
+                                                        }
+                                                        $('#rsupp').collapse("hide");
+                                                        $('#p10').attr('value', $('#rsupp_select :selected').val());
+                                                });
+                                                $(document).ready(function() {
+                                                 
+                                                   jQuery("select.image-picker").imagepicker();
+                                                    $("select.image-picker").select2({theme: "bootstrap" });
                                                 $('#p1').attr('value', $('#btop_select :selected').val());
                                                 $('#p2').attr('value', $('#bjg_select :selected').val());
                                                 $('#p3').attr('value', $('#bmid_select :selected').val());
@@ -326,119 +445,6 @@
                                                 $('#p9').attr('value', $('#radc_select :selected').val());
                                                 $('#p10').attr('value', $('#rsupp_select :selected').val());
                                                 $('#p11').attr('value', $('#reg :selected').val());
-                                                jQuery("select.image-picker").imagepicker({
-
-                                                });
-                                                $('#reg').change(function() {
-                                                        $('#p11').attr('value', $('#reg').val());
-                                                });
-                                                $('#usr').change(function() {
-                                                        $('#p12').attr('value', $('#usr').val());
-                                                });
-                                                $('#btop_select').change(function() {
-                                                        $('#btopimg').attr('src', 'http://ddragon.leagueoflegends.com/cdn/6.9.1/img/champion/' + $('#btop_select :selected').text() + '.png');
-
-                                                        if ($('#btop_select :selected').text() == '') {
-                                                                $('#btopimg').attr('src', 'tmp.png');
-                                                        }
-                                                        if ($('#btop_select :selected').text() == 'hola') {
-                                                                $('#btopimg').attr('src', "http://ddragon.leagueoflegends.com/cdn/6.9.1/img/profileicon/937.png");
-                                                        }
-                                                        $('#btop').collapse("hide");
-                                                        $('#p1').attr('value', $('#btop_select :selected').val());
-                                                });
-                                                $('#bjg_select').change(function() {
-                                                        $('#bjgimg').attr('src', 'http://ddragon.leagueoflegends.com/cdn/6.9.1/img/champion/' + $('#bjg_select :selected').text() + '.png');
-
-                                                        if ($('#bjg_select :selected').text() == '') {
-                                                                $('#bjgimg').attr('src', 'tmp.png');
-                                                        }
-                                                        if ($('#bjg_select :selected').text() == 'hola') {
-                                                                $('#bjgimg').attr('src', "http://ddragon.leagueoflegends.com/cdn/6.9.1/img/profileicon/937.png");
-                                                        }
-                                                        $('#bjg').collapse("hide");
-                                                        $('#p2').attr('value', $('#bjg_select :selected').val());
-                                                });
-                                                $('#bmid_select').change(function() {
-                                                        $('#bmidimg').attr('src', 'http://ddragon.leagueoflegends.com/cdn/6.9.1/img/champion/' + $('#bmid_select :selected').text() + '.png');
-
-                                                        if ($('#bmid_select :selected').text() == '') {
-                                                                $('#bmidimg').attr('src', 'tmp.png');
-                                                        }
-                                                        if ($('#bmid_select :selected').text() == 'hola') {
-                                                                $('#bmidimg').attr('src', "http://ddragon.leagueoflegends.com/cdn/6.9.1/img/profileicon/937.png");
-                                                        }
-                                                        $('#bmid').collapse("hide");
-                                                        $('#p3').attr('value', $('#bmid_select :selected').val());
-                                                });
-                                                $('#badc_select').change(function() {
-                                                        $('#badcimg').attr('src', 'http://ddragon.leagueoflegends.com/cdn/6.9.1/img/champion/' + $('#badc_select :selected').text() + '.png');
-
-                                                        if ($('#badc_select :selected').text() == '') {
-                                                                $('#badcimg').attr('src', 'tmp.png');
-                                                        }
-                                                        if ($('#badc_select :selected').text() == 'hola') {
-                                                                $('#badcimg').attr('src', "http://ddragon.leagueoflegends.com/cdn/6.9.1/img/profileicon/937.png");
-                                                        }
-                                                        $('#badc').collapse("hide");
-                                                        $('#p4').attr('value', $('#badc_select :selected').val());
-                                                });
-                                                $('#bsupp_select').change(function() {
-                                                        $('#bsuppimg').attr('src', 'http://ddragon.leagueoflegends.com/cdn/6.9.1/img/champion/' + $('#bsupp_select :selected').text() + '.png');
-
-                                                        if ($('#bsupp_select :selected').text() == '') {
-                                                                $('#bsuppimg').attr('src', 'tmp.png');
-                                                        }
-                                                        if ($('#bsupp_select :selected').text() == 'hola') {
-                                                                $('#bsuppimg').attr('src', "http://ddragon.leagueoflegends.com/cdn/6.9.1/img/profileicon/937.png");
-                                                        }
-                                                        $('#bsupp').collapse("hide");
-                                                        $('#p5').attr('value', $('#bsupp_select :selected').val());
-                                                });
-                                                $('#rtop_select').change(function() {
-                                                        $('#rtopimg').attr('src', 'http://ddragon.leagueoflegends.com/cdn/6.9.1/img/champion/' + $('#rtop_select :selected').text() + '.png');
-
-                                                        if ($('#rtop_select :selected').text() == '') {
-                                                                $('#rtopimg').attr('src', 'tmp.png');
-                                                        }
-                                                        $('#rtop').collapse("hide");
-                                                        $('#p6').attr('value', $('#rtop_select :selected').val());
-                                                });
-                                                $('#rjg_select').change(function() {
-                                                        $('#rjgimg').attr('src', 'http://ddragon.leagueoflegends.com/cdn/6.9.1/img/champion/' + $('#rjg_select :selected').text() + '.png');
-
-                                                        if ($('#rjg_select :selected').text() == '') {
-                                                                $('#rjgimg').attr('src', 'tmp.png');
-                                                        }
-                                                        $('#rjg').collapse("hide");
-                                                        $('#p7').attr('value', $('#rjg_select :selected').val());
-                                                });
-                                                $('#rmid_select').change(function() {
-                                                        $('#rmidimg').attr('src', 'http://ddragon.leagueoflegends.com/cdn/6.9.1/img/champion/' + $('#rmid_select :selected').text() + '.png');
-
-                                                        if ($('#rmid_select :selected').text() == '') {
-                                                                $('#rmidimg').attr('src', 'tmp.png');
-                                                        }
-                                                        $('#rmid').collapse("hide");
-                                                        $('#p8').attr('value', $('#rmid_select :selected').val());
-                                                });
-                                                $('#radc_select').change(function() {
-                                                        $('#radcimg').attr('src', 'http://ddragon.leagueoflegends.com/cdn/6.9.1/img/champion/' + $('#radc_select :selected').text() + '.png');
-
-                                                        if ($('#radc_select :selected').text() == '') {
-                                                                $('#radcimg').attr('src', 'tmp.png');
-                                                        }
-                                                        $('#radc').collapse("hide");
-                                                        $('#p9').attr('value', $('#radc_select :selected').val());
-                                                });
-                                                $('#rsupp_select').change(function() {
-                                                        $('#rsuppimg').attr('src', 'http://ddragon.leagueoflegends.com/cdn/6.9.1/img/champion/' + $('#rsupp_select :selected').text() + '.png');
-
-                                                        if ($('#rsupp_select :selected').text() == '') {
-                                                                $('#rsuppimg').attr('src', 'tmp.png');
-                                                        }
-                                                        $('#rsupp').collapse("hide");
-                                                        $('#p10').attr('value', $('#rsupp_select :selected').val());
                                                 });
                                         </script>
 </body>
