@@ -1,6 +1,7 @@
 class IndexController < ApplicationController
     def home
         @champions = Champion.all.order_by(:name => 'asc')
+        @valid = true
     end
     def recommend
         @champions = Champion.all.order_by(:name => 'asc')
@@ -33,118 +34,135 @@ class IndexController < ApplicationController
         cont = (cont/2).ceil
         cont <1 ? cont+= 1 : cont+= 0
         
+        @valid = true
+        valid = 0
+        
         if tb<0
              pos1 = '$tb'
              pos2 = '$tr'
+             valid+=1
         end
         if jb<0
              pos1 = '$jb'
              pos2 = '$jr'
+             valid+=1
         end
         if mb<0
              pos1 = '$mb'
              pos2 = '$mr'
+             valid+=1
         end
         if ab<0
              pos1 = '$ab'
              pos2 = '$ar'
+             valid+=1
         end
         if sb<0
              pos1 = '$sb'
              pos2 = '$sr'
+             valid+=1
         end
-       
-        db = Mongoid::Clients.default
-        collection = db["comps"]
-        col = collection.aggregate([
-                {
-                     "$match"=> {
-      	                "$or"=> [ { "$or"=> [ { "tb"=> tb }, { "jb"=> jb },{ "mb"=> mb } ,{ "ab"=> ab },{ "sb"=> sb },{ "tr"=> tr }, { "jr"=> jr }, { "mr"=> mr }, { "ar"=> ar }, { "sr"=> sr }]}, 
-      	                { "$or"=> [ { "tb"=> tr }, { "jb"=> jr }, { "mb"=> mr }, { "ab"=> ar }, { "sb"=> sr },{ "tr"=> tb }, { "jr"=> jb }, { "mr"=> mb }, { "ar"=> ab }, { "sr"=> sb } ] } ]	
+        if valid==1
+            db = Mongoid::Clients.default
+            collection = db["comps"]
+            col = collection.aggregate([
+                    {
+                         "$match"=> {
+      	                    "$or"=> [ { "$or"=> [ { "tb"=> tb }, { "jb"=> jb },{ "mb"=> mb } ,{ "ab"=> ab },{ "sb"=> sb },{ "tr"=> tr }, { "jr"=> jr }, { "mr"=> mr }, { "ar"=> ar }, { "sr"=> sr }]}, 
+      	                    { "$or"=> [ { "tb"=> tr }, { "jb"=> jr }, { "mb"=> mr }, { "ab"=> ar }, { "sb"=> sr },{ "tr"=> tb }, { "jr"=> jb }, { "mr"=> mb }, { "ar"=> ab }, { "sr"=> sb } ] } ]	
+                        }
+                    },
+                    {
+                        "$project"=> {
+      	                    "team"=> {"$cond"=>[ {"$gt"=>[{"$add"=> [ {"$cond"=> [ {"$eq"=> [ "$tb", tb ]},1,0]},{"$cond"=> [ {"$eq"=> [ "$jb", jb ]},1,0]},{"$cond"=> [ {"$eq"=> [ "$mb", mb ]},1,0]},{"$cond"=> [ {"$eq"=> [ "$ab", ab ]},1,0]},{"$cond"=> [ {"$eq"=> [ "$sb", sb ]},1,0]}]},0]},0,1]},
+                    	    "wr" => 1,
+                        	"wb" => 1,
+                        	"tb" => 1,
+                           	"jb" => 1,
+                        	"mb" => 1,
+                           	"ab" => 1,
+                           	"sb" => 1,
+                          	"tr" => 1,
+                           	"jr" => 1,
+                        	"mr" => 1,
+                        	"ar" => 1,
+                        	"sr" => 1
+                        }
+                    },
+                    {
+                        "$project"=> {
+          	                "simi"=> {"$cond"=>[ {"$eq"=>["$team",0]},
+          	                    { "$add"=> [ {"$cond"=> [ {"$eq"=> [ "$tb", tb ]},1,0]},{"$cond"=> [ {"$eq"=> [ "$jb", jb ]},1,0]},{"$cond"=> [ {"$eq"=> [ "$mb", mb ]},1,0]},{"$cond"=> [ {"$eq"=> [ "$ab", ab ]},1,0]},{"$cond"=> [ {"$eq"=> [ "$sb", sb ]},1,0]},{"$cond"=> [ {"$eq"=> [ "$tr", tr ]},1,0]},{"$cond"=> [ {"$eq"=> [ "$jr", jr ]},1,0]},{"$cond"=> [ {"$eq"=> [ "$mr", mr ]},1,0]},{"$cond"=> [ {"$eq"=> [ "$ar", ar ]},1,0]},{"$cond"=> [ {"$eq"=> [ "$sr", sr ]},1,0]}]},
+          	                    { "$add"=> [ {"$cond"=> [ {"$eq"=> [ "$tb", tr ]},1,0]},{"$cond"=> [ {"$eq"=> [ "$jb", jr ]},1,0]},{"$cond"=> [ {"$eq"=> [ "$mb", mr ]},1,0]},{"$cond"=> [ {"$eq"=> [ "$ab", ar ]},1,0]},{"$cond"=> [ {"$eq"=> [ "$sb", sr ]},1,0]},{"$cond"=> [ {"$eq"=> [ "$tr", tb ]},1,0]},{"$cond"=> [ {"$eq"=> [ "$jr", jb ]},1,0]},{"$cond"=> [ {"$eq"=> [ "$mr", mb ]},1,0]},{"$cond"=> [ {"$eq"=> [ "$ar", ab ]},1,0]},{"$cond"=> [ {"$eq"=> [ "$sr", sb ]},1,0]}]}
+          	                    
+          	                ]},
+      	                    "champ"=> {"$cond"=>[ {"$eq"=>["$team",0]},pos1,pos2]},
+      	                    "win"=> {"$cond"=>[ {"$eq"=>["$team",0]},{"$subtract"=> ["$wb","$wr"]},{"$subtract"=> ["$wr","$wb"]}]},
+                        }
+                    },
+                    {
+                        "$match"=> {
+	                        "simi"=> {"$gte"=>cont}
+                        }
+                    },
+                    {
+                        "$group"=> {
+                            "_id"=>"$champ",  
+                            "numerator"=> {"$sum"=> {"$multiply"=>["$simi" , "$win"]}},
+                            "denominator"=> {"$sum"=> "$simi"},
+                            "count"=>{"$sum"=>1}
+                        }
+                    },
+                    {
+                        "$project"=> {
+      	                    "_id"=> 1,		
+      	                    "performance"=>{"$divide"=>[ "$numerator", "$denominator" ]},
+      	                    "count"=>1
+                        }
+                    },
+                    {
+                        "$project"=> {
+      	                    "_id"=> 1,		
+      	                    "performance"=>{"$multiply"=>[ "$performance", "$count" ]},
+                        }
+                    },
+                    {
+                        "$sort"=> {"performance"=>-1}
                     }
-                },
-                {
-                    "$project"=> {
-      	                "team"=> {"$cond"=>[ {"$gt"=>[{"$add"=> [ {"$cond"=> [ {"$eq"=> [ "$tb", tb ]},1,0]},{"$cond"=> [ {"$eq"=> [ "$jb", jb ]},1,0]},{"$cond"=> [ {"$eq"=> [ "$mb", mb ]},1,0]},{"$cond"=> [ {"$eq"=> [ "$ab", ab ]},1,0]},{"$cond"=> [ {"$eq"=> [ "$sb", sb ]},1,0]}]},0]},0,1]},
-                    	"wr" => 1,
-                    	"wb" => 1,
-                    	"tb" => 1,
-                       	"jb" => 1,
-                    	"mb" => 1,
-                       	"ab" => 1,
-                       	"sb" => 1,
-                      	"tr" => 1,
-                       	"jr" => 1,
-                    	"mr" => 1,
-                    	"ar" => 1,
-                    	"sr" => 1
-                    }
-                },
-                {
-                    "$project"=> {
-      	                "simi"=> {"$cond"=>[ {"$eq"=>["$team",0]},
-      	                    { "$add"=> [ {"$cond"=> [ {"$eq"=> [ "$tb", tb ]},1,0]},{"$cond"=> [ {"$eq"=> [ "$jb", jb ]},1,0]},{"$cond"=> [ {"$eq"=> [ "$mb", mb ]},1,0]},{"$cond"=> [ {"$eq"=> [ "$ab", ab ]},1,0]},{"$cond"=> [ {"$eq"=> [ "$sb", sb ]},1,0]},{"$cond"=> [ {"$eq"=> [ "$tr", tr ]},1,0]},{"$cond"=> [ {"$eq"=> [ "$jr", jr ]},1,0]},{"$cond"=> [ {"$eq"=> [ "$mr", mr ]},1,0]},{"$cond"=> [ {"$eq"=> [ "$ar", ar ]},1,0]},{"$cond"=> [ {"$eq"=> [ "$sr", sr ]},1,0]}]},
-      	                    { "$add"=> [ {"$cond"=> [ {"$eq"=> [ "$tb", tr ]},1,0]},{"$cond"=> [ {"$eq"=> [ "$jb", jr ]},1,0]},{"$cond"=> [ {"$eq"=> [ "$mb", mr ]},1,0]},{"$cond"=> [ {"$eq"=> [ "$ab", ar ]},1,0]},{"$cond"=> [ {"$eq"=> [ "$sb", sr ]},1,0]},{"$cond"=> [ {"$eq"=> [ "$tr", tb ]},1,0]},{"$cond"=> [ {"$eq"=> [ "$jr", jb ]},1,0]},{"$cond"=> [ {"$eq"=> [ "$mr", mb ]},1,0]},{"$cond"=> [ {"$eq"=> [ "$ar", ab ]},1,0]},{"$cond"=> [ {"$eq"=> [ "$sr", sb ]},1,0]}]}
-      	                    
-      	                ]},
-      	                "champ"=> {"$cond"=>[ {"$eq"=>["$team",0]},pos1,pos2]},
-      	                "win"=> {"$cond"=>[ {"$eq"=>["$team",0]},{"$subtract"=> ["$wb","$wr"]},{"$subtract"=> ["$wr","$wb"]}]},
-                    }
-                },
-                {
-                    "$match"=> {
-	                    "simi"=> {"$gte"=>cont}
-                    }
-                },
-                {
-                    "$group"=> {
-                        "_id"=>"$champ",  
-                        "numerator"=> {"$sum"=> {"$multiply"=>["$simi" , "$win"]}},
-                        "denominator"=> {"$sum"=> "$simi"},
-                        "count"=>{"$sum"=>1}
-                    }
-                },
-                {
-                    "$project"=> {
-      	                "_id"=> 1,		
-      	                "performance"=>{"$divide"=>[ "$numerator", "$denominator" ]},
-      	                "count"=>1
-                    }
-                },
-                {
-                    "$project"=> {
-      	                "_id"=> 1,		
-      	                "performance"=>{"$multiply"=>[ "$performance", "$count" ]},
-                    }
-                },
-                {
-                    "$sort"=> {"performance"=>-1}
-                }
-            ]
-        )
-        results = col.map { |attrs| Recommendation.instantiate(attrs) }
-        client = Taric.client(region: region)
-        user_id =client.summoners_by_names(summoner_names: user).body.first[1]["id"]
-        blabla= client.champion_mastery_all(summoner_id: user_id)
-        resultados = []
-        master =[]
-        blabla.body.each do |d|
-            recom = Recommendation.new(:id=> d["championId"], :performance=> d["championLevel"],:points=>d["championPoints"])
-            master<< recom
-        end
-        master.each do |d|
-            results.each do |i|
-                if d.id == i.id
-                    tempor = Recommendation.new(:id=> d.id, :performance=> d.performance*i.performance, :points =>d.points)
-                    resultados<< tempor
-                    break
+                ]
+            )
+            results = col.map { |attrs| Recommendation.instantiate(attrs) }
+            @resultados = results
+            @resultados2 = results
+            
+            begin
+                client = Taric.client(region: region)
+                user_id =client.summoners_by_names(summoner_names: user).body.first[1]["id"]
+                blabla= client.champion_mastery_all(summoner_id: user_id)
+                resultados = []
+                master =[]
+                blabla.body.each do |d|
+                    recom = Recommendation.new(:id=> d["championId"], :performance=> d["championLevel"],:points=>d["championPoints"])
+                    master<< recom
                 end
+                master.each do |d|
+                    results.each do |i|
+                        if d.id == i.id
+                            tempor = Recommendation.new(:id=> d.id, :performance=> d.performance*i.performance, :points =>d.points)
+                            resultados<< tempor
+                            break
+                        end
+                    end
+                end
+                resultados.sort_by! {|a| [a.performance, a.points]}
+                resultados.reverse!
+                @resultados = resultados
+            rescue        
             end
+        else
+            @valid = false
         end
-        resultados.sort_by! {|a| [a.performance, a.points]}
-        resultados.reverse!
-        @resultados = resultados
-        @resultados2 = results
+        
         render 'home'
        
     end
