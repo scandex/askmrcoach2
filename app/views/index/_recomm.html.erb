@@ -1,0 +1,56 @@
+<%if !@valid%>
+                                        <div class="panel panel-danger">
+                                                <div class="panel-heading">Error</div>
+                                                <div class="panel-body" style="color: #ffffff">You have not selected your role or you have selected multiple roles. Please put the poro once</div>
+                                        </div>
+                                        <%end%>
+<%if @resultados !=nil%>
+<div class="container">
+                                        <div class="panel panel-primary">
+                                                <div class="panel-heading">
+                                                        <h3 class="panel-title">Mastery Recommendation</h3>
+                                                </div>
+                                                <div class="panel-body">
+                                                        <div class="row">
+                                                                <%@resultados[0,5].each do |r|%>
+                                                                        <div class="col-xs-2">
+                                                                                <div class="panel panel-body">
+                                                                                        <div class="thumbnail">
+                                                                                                <img src='http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/<%=@champions.find(r.id).key%>.png '>
+                                                                                                <div class="caption">
+                                                                                                        <h3><%=@champions.find(r.id).name%></h3>
+                                                                                                        <h5>Performance:</h5>
+                                                                                                        <h6><%=r.performance.ceil%></h6>
+                                                                                                </div>
+                                                                                        </div>
+                                                                                </div>
+                                                                        </div>
+                                                                        <%end%>
+                                                        </div>
+                                                </div>
+                                        </div>
+                                        <div class="panel panel-primary">
+                                                <div class="panel-heading">
+                                                        <h3 class="panel-title">General Recommendation</h3>
+                                                </div>
+                                                <div class="panel-body">
+                                                        <div class="row">
+                                                                <%@resultados2[0,5].each do |r|%>
+                                                                        <div class="col-xs-2 ">
+                                                                                <div class="panel panel-body">
+                                                                                        <div class="thumbnail">
+                                                                                                <img src='http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/<%=@champions.find(r.id).key%>.png '>
+                                                                                                <div class="caption">
+                                                                                                        <h3><%=@champions.find(r.id).name%></h3>
+                                                                                                        <h5>Performance:</h5>
+                                                                                                        <h6><%=r.performance.ceil%></h6>
+                                                                                                </div>
+                                                                                        </div>
+                                                                                </div>
+                                                                        </div>
+                                                                        <%end%>
+                                                        </div>
+                                                </div>
+                                        </div>
+                                </div>
+                                        <%end%>

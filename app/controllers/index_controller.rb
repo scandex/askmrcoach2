@@ -163,7 +163,14 @@ class IndexController < ApplicationController
             @valid = false
         end
         
-        render 'home'
+       
+        #render 'home'
+        #respond_to do |format|
+        #    flash[:notice] = "saved successful"
+        #format.html # new.js.erb 
+        #end
+        render :partial => "recomm", :layout => false
+        
        
     end
 end
