@@ -30,298 +30,317 @@
                 </div>
                 <div class="section">
                         <div class="container">
-                                
-                                                <div class="panel panel-info">
-                                                        <div class="panel-heading text-center">How to use AskMrCoach?</div>
-                                                        <div class="panel-body text-center" style="color: #ffffff">To use AskMrCoach you just need to put the
-                                                                <a data-toggle="tooltip" title="<img src='http://ddragon.leagueoflegends.com/cdn/6.10.1/img/profileicon/937.png' />">poro</a> in your desire role and then select
-                                                                <a data-toggle="tooltip" title="at least one">some</a> allies and/or enemies.
-                                                                <br> Using your selections, the system will start to recommend you automatically some champions that are good in that specific composition 
-                                                                <br> If you enter your summoner and region the system will recommend you champions based on your masteries
-                                                                <br>
+
+                                <div class="panel panel-info">
+                                        <div class="panel-heading text-center">How to use AskMrCoach?</div>
+                                        <div class="panel-body text-center" style="color: #ffffff">To use AskMrCoach you just need to put the
+                                                <a data-toggle="tooltip" title="<img src='http://ddragon.leagueoflegends.com/cdn/6.10.1/img/profileicon/937.png' />">poro</a> in your desire role and then select
+                                                <a data-toggle="tooltip" title="at least one">some</a> allies and/or enemies.
+                                                <br> Using your selections, the system will start to recommend you automatically some champions that are good in that specific composition
+                                                <br> If you enter your summoner and region the system will recommend you champions based on your masteries
+                                                <br>
+                                        </div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-md-6">
+                                                <div class="panel panel-primary">
+                                                        <div class="panel-heading">
+                                                                <h3 class="panel-title">Ally Team</h3>
                                                         </div>
-                                                </div>
-                                                <div class="row">
-                                                        <div class="col-md-6">
-                                                                <div class="panel panel-primary">
-                                                                        <div class="panel-heading">
-                                                                                <h3 class="panel-title">Ally Team</h3>
-                                                                        </div>
-                                                                        <div class="panel-body">
-                                                                                <div class="btn-group">
-                                                                                        <div class="btn-group-vertical">
-                                                                                                <h4 style="margin-bottom: 0px"><span class="label label-info center-block">Top</span></h4>
-                                                                                                <img src='tmp.png' id="btopimg" class="img-thumbnail center-block" width="100" height="100">
-                                                                                                <div class="picker">
-                                                                                                        <select class="form-control a" id="btop_select" name="p1" style="width: 100px" img='#btopimg'>
-                                                                                                                <option value='0' key="tmp.png">No Champion</option>
-                                                                                                                <option value='-1' key="poro">This is My Rol</option>
-                                                                                                                <% @champions.each do |d|%>
-                                                                                                                        <option value=<%=d.id%> key=
-                                                                                                                                <%=d.key%>>
-                                                                                                                                        <%=d.name%>
-                                                                                                                        </option>
-                                                                                                                        <%end%>
-                                                                                                        </select>
-                                                                                                </div>
-                                                                                        </div>
-                                                                                        <div class="btn-group-vertical">
-                                                                                                <h4 style="margin-bottom: 0px"><span class="label label-info center-block">Jungle</span></h4>
-                                                                                                <img src='tmp.png' id="bjgimg" class="img-thumbnail center-block" width="100" height="100">
-                                                                                                <div class="picker">
-                                                                                                        <select class="form-control a" id="bjg_select" name="p2" style="width: 100px" img='#bjgimg'>
-                                                                                                                <option value='0' key="tmp.png">No Champion</option>
-                                                                                                                <option value='-1' key="poro">This is My Rol</option>
-                                                                                                                <% @champions.each do |d|%>
-                                                                                                                        <option value=<%=d.id%> key=
-                                                                                                                                <%=d.key%>>
-                                                                                                                                        <%=d.name%>
-                                                                                                                        </option>
-                                                                                                                        <%end%>
-                                                                                                        </select>
-                                                                                                </div>
-                                                                                        </div>
-                                                                                        <div class="btn-group-vertical">
-                                                                                                <h4 style="margin-bottom: 0px"><span class="label label-info center-block">Mid</span></h4>
-                                                                                                <img src='tmp.png' id="bmidimg" class="img-thumbnail center-block" width="100" height="100">
-                                                                                                <div class="picker">
-                                                                                                        <select class="form-control a" id="bmid_select" name="p3" style="width: 100px" img='#bmidimg'>
-                                                                                                                <option value='0' key="tmp.png">No Champion</option>
-                                                                                                                <option value='-1' key="poro">This is My Rol</option>
-                                                                                                                <% @champions.each do |d|%>
-                                                                                                                        <option value=<%=d.id%> key=
-                                                                                                                                <%=d.key%>>
-                                                                                                                                        <%=d.name%>
-                                                                                                                        </option>
-                                                                                                                        <%end%>
-                                                                                                        </select>
-                                                                                                </div>
-                                                                                        </div>
-                                                                                        <div class="btn-group-vertical">
-                                                                                                <h4 style="margin-bottom: 0px"><span class="label label-info center-block">ADC</span></h4>
-                                                                                                <img src='tmp.png' id="badcimg" class="img-thumbnail center-block" width="100" height="100">
-                                                                                                <div class="picker">
-                                                                                                        <select class="form-control a" id="badc_select" name="p4" style="width: 100px" img='#badcimg'>
-                                                                                                                <option value='0' key="tmp.png">No Champion</option>
-                                                                                                                <option value='-1' key="poro">This is My Rol</option>
-                                                                                                                <% @champions.each do |d|%>
-                                                                                                                        <option value=<%=d.id%> key=
-                                                                                                                                <%=d.key%>>
-                                                                                                                                        <%=d.name%>
-                                                                                                                        </option>
-                                                                                                                        <%end%>
-                                                                                                        </select>
-                                                                                                </div>
-                                                                                        </div>
-                                                                                        <div class="btn-group-vertical">
-                                                                                                <h4 style="margin-bottom: 0px"><span class="label label-info center-block">Support</span></h4>
-                                                                                                <img src='tmp.png' id="bsuppimg" class="img-thumbnail center-block" width="100" height="100">
-                                                                                                <div class="picker">
-                                                                                                        <select class="form-control a" id="bsupp_select" name="p5" style="width: 100px" img='#bsuppimg'>
-                                                                                                                <option value='0' key="tmp.png">No Champion</option>
-                                                                                                                <option value='-1' key="poro">This is My Rol</option>
-                                                                                                                <% @champions.each do |d|%>
-                                                                                                                        <option value=<%=d.id%> key=
-                                                                                                                                <%=d.key%>>
-                                                                                                                                        <%=d.name%>
-                                                                                                                        </option>
-                                                                                                                        <%end%>
-                                                                                                        </select>
-                                                                                                </div>
-                                                                                        </div>
+                                                        <div class="panel-body">
+                                                                <div class="btn-group">
+                                                                        <div class="btn-group-vertical">
+                                                                                <h4 style="margin-bottom: 0px"><span class="label label-info center-block">Top</span></h4>
+                                                                                <img src='tmp.png' id="btopimg" class="img-thumbnail center-block" width="100" height="100">
+                                                                                <div class="picker">
+                                                                                        <select class="form-control a" id="btop_select" name="p1" style="width: 100px" img='#btopimg'>
+                                                                                                <option value='0' key="tmp.png">No Champion</option>
+                                                                                                <option value='-1' key="poro">This is My Rol</option>
+                                                                                                <% @champions.each do |d|%>
+                                                                                                        <option value=<%=d.id%> key=
+                                                                                                                <%=d.key%>>
+                                                                                                                        <%=d.name%>
+                                                                                                        </option>
+                                                                                                        <%end%>
+                                                                                        </select>
                                                                                 </div>
                                                                         </div>
-                                                                </div>
-                                                                <div class="form-group">
-                                                                        <label for="usr">Summoner:</label>
-                                                                        <input type="text" class="form-control" id="usr" name="p12">
-                                                                </div>
-                                                                <div class="form-group">
-                                                                        <label for="sel1">Region</label>
-                                                                        <select class="form-control" id="reg" name="p11">
-                                                                                <option value="br">BR</option>
-                                                                                <option value="eune">EUNE</option>
-                                                                                <option value="euw">EUW</option>
-                                                                                <option value="kr">KR</option>
-                                                                                <option value="lan">LAN</option>
-                                                                                <option value="las">LAS</option>
-                                                                                <option value="na">NA</option>
-                                                                                <option value="oce">OCE</option>
-                                                                                <option value="ru">RU</option>
-                                                                                <option value="tr">TR</option>
-                                                                        </select>
-                                                                </div>
-                                                        </div>
-                                                        <div class="col-md-6">
-                                                                <div class="panel panel-danger">
-                                                                        <div class="panel-heading">
-                                                                                <h3 class="panel-title">Enemy Team</h3>
+                                                                        <div class="btn-group-vertical">
+                                                                                <h4 style="margin-bottom: 0px"><span class="label label-info center-block">Jungle</span></h4>
+                                                                                <img src='tmp.png' id="bjgimg" class="img-thumbnail center-block" width="100" height="100">
+                                                                                <div class="picker">
+                                                                                        <select class="form-control a" id="bjg_select" name="p2" style="width: 100px" img='#bjgimg'>
+                                                                                                <option value='0' key="tmp.png">No Champion</option>
+                                                                                                <option value='-1' key="poro">This is My Rol</option>
+                                                                                                <% @champions.each do |d|%>
+                                                                                                        <option value=<%=d.id%> key=
+                                                                                                                <%=d.key%>>
+                                                                                                                        <%=d.name%>
+                                                                                                        </option>
+                                                                                                        <%end%>
+                                                                                        </select>
+                                                                                </div>
                                                                         </div>
-                                                                        <div class="panel-body">
-                                                                                <div class="btn-group">
-                                                                                        <div class="btn-group-vertical">
-                                                                                                <h4 style="margin-bottom: 0px"><span class="label label-info center-block">Top</span></h4>
-                                                                                                <img src='tmp.png' id="rtopimg" class="img-thumbnail center-block" width="100" height="100">
-                                                                                                <div class="picker">
-                                                                                                        <select class="form-control a" id="rtop_select" name="p6" style="width: 100px" img='#rtopimg'>
-                                                                                                                <option value='0' key="tmp.png">No Champion</option>
-                                                                                                                <% @champions.each do |d|%>
-                                                                                                                        <option value=<%=d.id%> key=
-                                                                                                                                <%=d.key%>>
-                                                                                                                                        <%=d.name%>
-                                                                                                                        </option>
-                                                                                                                        <%end%>
-                                                                                                        </select>
-                                                                                                </div>
-                                                                                        </div>
-                                                                                        <div class="btn-group-vertical">
-                                                                                                <h4 style="margin-bottom: 0px"><span class="label label-info center-block">Jungle</span></h4>
-                                                                                                <img src='tmp.png' id="rjgimg" class="img-thumbnail center-block" width="100" height="100">
-                                                                                                <div class="picker">
-                                                                                                        <select class="form-control a" id="rjg_select" name="p7" style="width: 100px" img='#rjgimg'>
-                                                                                                                <option value='0' key="tmp.png">No Champion</option>
-                                                                                                                <% @champions.each do |d|%>
-                                                                                                                        <option value=<%=d.id%> key=
-                                                                                                                                <%=d.key%>>
-                                                                                                                                        <%=d.name%>
-                                                                                                                        </option>
-                                                                                                                        <%end%>
-                                                                                                        </select>
-                                                                                                </div>
-                                                                                        </div>
-                                                                                        <div class="btn-group-vertical">
-                                                                                                <h4 style="margin-bottom: 0px"><span class="label label-info center-block">Mid</span></h4>
-                                                                                                <img src='tmp.png' id="rmidimg" class="img-thumbnail center-block" width="100" height="100">
-                                                                                                <div class="picker">
-                                                                                                        <select class="form-control a" id="rmid_select" name="p8" style="width: 100px" img='#rmidimg'>
-                                                                                                                <option value='0' key="tmp.png">No Champion</option>
-                                                                                                                <% @champions.each do |d|%>
-                                                                                                                        <option value=<%=d.id%> key=
-                                                                                                                                <%=d.key%>>
-                                                                                                                                        <%=d.name%>
-                                                                                                                        </option>
-                                                                                                                        <%end%>
-                                                                                                        </select>
-                                                                                                </div>
-                                                                                        </div>
-                                                                                        <div class="btn-group-vertical">
-                                                                                                <h4 style="margin-bottom: 0px"><span class="label label-info center-block">ADC</span></h4>
-                                                                                                <img src='tmp.png' id="radcimg" class="img-thumbnail center-block" width="100" height="100">
-                                                                                                <div class="picker">
-                                                                                                        <select class="form-control a" id="radc_select" name="p9" style="width: 100px" img='#radcimg'>
-                                                                                                                <option value='0' key="tmp.png">No Champion</option>
-                                                                                                                <% @champions.each do |d|%>
-                                                                                                                        <option value=<%=d.id%> key=
-                                                                                                                                <%=d.key%>>
-                                                                                                                                        <%=d.name%>
-                                                                                                                        </option>
-                                                                                                                        <%end%>
-                                                                                                        </select>
-                                                                                                </div>
-                                                                                        </div>
-                                                                                        <div class="btn-group-vertical">
-                                                                                                <h4 style="margin-bottom: 0px"><span class="label label-info center-block">Support</span></h4>
-                                                                                                <img src='tmp.png' id="rsuppimg" class="img-thumbnail center-block" width="100" height="100">
-                                                                                                <div class="picker">
-                                                                                                        <select class="form-control a" id="rsupp_select" name="p10" style="width: 100px" img='#rsuppimg'>
-                                                                                                                <option value='0' key="tmp.png">No Champion</option>
-                                                                                                                <% @champions.each do |d|%>
-                                                                                                                        <option value=<%=d.id%> key=
-                                                                                                                                <%=d.key%>>
-                                                                                                                                        <%=d.name%>
-                                                                                                                        </option>
-                                                                                                                        <%end%>
-                                                                                                        </select>
-                                                                                                </div>
-                                                                                        </div>
+                                                                        <div class="btn-group-vertical">
+                                                                                <h4 style="margin-bottom: 0px"><span class="label label-info center-block">Mid</span></h4>
+                                                                                <img src='tmp.png' id="bmidimg" class="img-thumbnail center-block" width="100" height="100">
+                                                                                <div class="picker">
+                                                                                        <select class="form-control a" id="bmid_select" name="p3" style="width: 100px" img='#bmidimg'>
+                                                                                                <option value='0' key="tmp.png">No Champion</option>
+                                                                                                <option value='-1' key="poro">This is My Rol</option>
+                                                                                                <% @champions.each do |d|%>
+                                                                                                        <option value=<%=d.id%> key=
+                                                                                                                <%=d.key%>>
+                                                                                                                        <%=d.name%>
+                                                                                                        </option>
+                                                                                                        <%end%>
+                                                                                        </select>
+                                                                                </div>
+                                                                        </div>
+                                                                        <div class="btn-group-vertical">
+                                                                                <h4 style="margin-bottom: 0px"><span class="label label-info center-block">ADC</span></h4>
+                                                                                <img src='tmp.png' id="badcimg" class="img-thumbnail center-block" width="100" height="100">
+                                                                                <div class="picker">
+                                                                                        <select class="form-control a" id="badc_select" name="p4" style="width: 100px" img='#badcimg'>
+                                                                                                <option value='0' key="tmp.png">No Champion</option>
+                                                                                                <option value='-1' key="poro">This is My Rol</option>
+                                                                                                <% @champions.each do |d|%>
+                                                                                                        <option value=<%=d.id%> key=
+                                                                                                                <%=d.key%>>
+                                                                                                                        <%=d.name%>
+                                                                                                        </option>
+                                                                                                        <%end%>
+                                                                                        </select>
+                                                                                </div>
+                                                                        </div>
+                                                                        <div class="btn-group-vertical">
+                                                                                <h4 style="margin-bottom: 0px"><span class="label label-info center-block">Support</span></h4>
+                                                                                <img src='tmp.png' id="bsuppimg" class="img-thumbnail center-block" width="100" height="100">
+                                                                                <div class="picker">
+                                                                                        <select class="form-control a" id="bsupp_select" name="p5" style="width: 100px" img='#bsuppimg'>
+                                                                                                <option value='0' key="tmp.png">No Champion</option>
+                                                                                                <option value='-1' key="poro">This is My Rol</option>
+                                                                                                <% @champions.each do |d|%>
+                                                                                                        <option value=<%=d.id%> key=
+                                                                                                                <%=d.key%>>
+                                                                                                                        <%=d.name%>
+                                                                                                        </option>
+                                                                                                        <%end%>
+                                                                                        </select>
                                                                                 </div>
                                                                         </div>
                                                                 </div>
                                                         </div>
                                                 </div>
+                                                <div class="form-group">
+                                                        <label for="usr">Summoner:</label>
+                                                        <input type="text" class="form-control" id="usr" name="p12">
+                                                </div>
+                                                <div class="btn-group" data-toggle="buttons">
+                                                        <label class="btn btn-primary active btn-sm">
+                                                                <input type="radio" name="p11" id="op1"  checked value="br"> BR
+                                                        </label>
+                                                        <label class="btn btn-primary btn-sm">
+                                                                <input type="radio" name="p11" id="op2" value="eune"> EUNE
+                                                        </label>
+                                                        <label class="btn btn-primary btn-sm">
+                                                                <input type="radio" name="p11" id="op3"  value="euw"> EUW
+                                                        </label>
+                                                        <label class="btn btn-primary btn-sm">
+                                                                <input type="radio" name="p11" id="op4"  value="kr"> KR
+                                                        </label>
+                                                        <label class="btn btn-primary btn-sm">
+                                                                <input type="radio" name="p11" id="op5"  value="lan"> LAN
+                                                        </label>
+                                                        <label class="btn btn-primary btn-sm">
+                                                                <input type="radio" name="p11" id="op6"  value="las"> LAS
+                                                        </label>
+                                                        <label class="btn btn-primary  btn-sm">
+                                                                <input type="radio" name="p11" id="op7"  value="na"> NA
+                                                        </label>
+                                                        <label class="btn btn-primary btn-sm">
+                                                                <input type="radio" name="p11" id="op8"  value="oce"> OCE
+                                                        </label>
+                                                        <label class="btn btn-primary btn-sm">
+                                                                <input type="radio" name="p11" id="op9" value="ru"> RU
+                                                        </label>
+                                                        <label class="btn btn-primary btn-sm">
+                                                                <input type="radio" name="p11" id="op10"  value="tr"> TR
+                                                        </label>
+                                                </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                                <div class="panel panel-danger">
+                                                        <div class="panel-heading">
+                                                                <h3 class="panel-title">Enemy Team</h3>
+                                                        </div>
+                                                        <div class="panel-body">
+                                                                <div class="btn-group">
+                                                                        <div class="btn-group-vertical">
+                                                                                <h4 style="margin-bottom: 0px"><span class="label label-info center-block">Top</span></h4>
+                                                                                <img src='tmp.png' id="rtopimg" class="img-thumbnail center-block" width="100" height="100">
+                                                                                <div class="picker">
+                                                                                        <select class="form-control a" id="rtop_select" name="p6" style="width: 100px" img='#rtopimg'>
+                                                                                                <option value='0' key="tmp.png">No Champion</option>
+                                                                                                <% @champions.each do |d|%>
+                                                                                                        <option value=<%=d.id%> key=
+                                                                                                                <%=d.key%>>
+                                                                                                                        <%=d.name%>
+                                                                                                        </option>
+                                                                                                        <%end%>
+                                                                                        </select>
+                                                                                </div>
+                                                                        </div>
+                                                                        <div class="btn-group-vertical">
+                                                                                <h4 style="margin-bottom: 0px"><span class="label label-info center-block">Jungle</span></h4>
+                                                                                <img src='tmp.png' id="rjgimg" class="img-thumbnail center-block" width="100" height="100">
+                                                                                <div class="picker">
+                                                                                        <select class="form-control a" id="rjg_select" name="p7" style="width: 100px" img='#rjgimg'>
+                                                                                                <option value='0' key="tmp.png">No Champion</option>
+                                                                                                <% @champions.each do |d|%>
+                                                                                                        <option value=<%=d.id%> key=
+                                                                                                                <%=d.key%>>
+                                                                                                                        <%=d.name%>
+                                                                                                        </option>
+                                                                                                        <%end%>
+                                                                                        </select>
+                                                                                </div>
+                                                                        </div>
+                                                                        <div class="btn-group-vertical">
+                                                                                <h4 style="margin-bottom: 0px"><span class="label label-info center-block">Mid</span></h4>
+                                                                                <img src='tmp.png' id="rmidimg" class="img-thumbnail center-block" width="100" height="100">
+                                                                                <div class="picker">
+                                                                                        <select class="form-control a" id="rmid_select" name="p8" style="width: 100px" img='#rmidimg'>
+                                                                                                <option value='0' key="tmp.png">No Champion</option>
+                                                                                                <% @champions.each do |d|%>
+                                                                                                        <option value=<%=d.id%> key=
+                                                                                                                <%=d.key%>>
+                                                                                                                        <%=d.name%>
+                                                                                                        </option>
+                                                                                                        <%end%>
+                                                                                        </select>
+                                                                                </div>
+                                                                        </div>
+                                                                        <div class="btn-group-vertical">
+                                                                                <h4 style="margin-bottom: 0px"><span class="label label-info center-block">ADC</span></h4>
+                                                                                <img src='tmp.png' id="radcimg" class="img-thumbnail center-block" width="100" height="100">
+                                                                                <div class="picker">
+                                                                                        <select class="form-control a" id="radc_select" name="p9" style="width: 100px" img='#radcimg'>
+                                                                                                <option value='0' key="tmp.png">No Champion</option>
+                                                                                                <% @champions.each do |d|%>
+                                                                                                        <option value=<%=d.id%> key=
+                                                                                                                <%=d.key%>>
+                                                                                                                        <%=d.name%>
+                                                                                                        </option>
+                                                                                                        <%end%>
+                                                                                        </select>
+                                                                                </div>
+                                                                        </div>
+                                                                        <div class="btn-group-vertical">
+                                                                                <h4 style="margin-bottom: 0px"><span class="label label-info center-block">Support</span></h4>
+                                                                                <img src='tmp.png' id="rsuppimg" class="img-thumbnail center-block" width="100" height="100">
+                                                                                <div class="picker">
+                                                                                        <select class="form-control a" id="rsupp_select" name="p10" style="width: 100px" img='#rsuppimg'>
+                                                                                                <option value='0' key="tmp.png">No Champion</option>
+                                                                                                <% @champions.each do |d|%>
+                                                                                                        <option value=<%=d.id%> key=
+                                                                                                                <%=d.key%>>
+                                                                                                                        <%=d.name%>
+                                                                                                        </option>
+                                                                                                        <%end%>
+                                                                                        </select>
+                                                                                </div>
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+                                                </div>
+                                        </div>
+                                </div>
                         </div>
                 </div>
-                        <br>
-                        <div class="dynamic"><%= render partial: 'recomm' %></div>
-                </form>
+                <br>
+                <div class="dynamic">
+                        <%=render partial: 'recomm' %>
+                </div>
+        </form>
 
-                <script type="text/javascript">
-                       
-                        $(document).ready(function() {
-                                $("select.form-control.a").select2({
-                                        dropdownAutoWidth: true,
-                                        templateResult: addUserPic
-
-                                });
-                                $('a[data-toggle="tooltip"]').tooltip({
-                                        animated: 'fade',
-                                        placement: 'bottom',
-                                        html: true
-                                });
-                                $('select.form-control').change(function() {
-                                        var key = $('option:selected', this).attr('key');
-                                        var img = $(this).attr('img');
-                                        var imgn = 'http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/' + key + '.png';
-                                        if (key == "tmp.png") {
-                                                imgn = key;
-                                        }
-                                        if (key == "poro") {
-                                                imgn = 'http://ddragon.leagueoflegends.com/cdn/6.10.1/img/profileicon/937.png';
-                                        }
-                                        $(img).attr('src', imgn);
-                                        var form = $('#lola');
-                var post_url = form.attr('action');
-                var post_data = form.serialize();
-               
-                $.ajax({
-                    type: 'POST',
-                    url: post_url, 
-                    data: post_data,
-                    success: function(msg) {
-                        $(".dynamic").fadeOut(800, function(){
-                            $(".dynamic").html(msg).fadeIn().delay(2000);
+        <script type="text/javascript">
+                $(document).ready(function() {
+                        $("select.form-control.a").select2({
+                                dropdownAutoWidth: true,
+                                templateResult: addUserPic
 
                         });
-                    }
-                });
-                                });
-                                 $('#lola').submit(function(e){
-                e.preventDefault();
-                var form = $(this);
-                var post_url = form.attr('action');
-                var post_data = form.serialize();
-               
-                $.ajax({
-                    type: 'POST',
-                    url: post_url, 
-                    data: post_data,
-                    success: function(msg) {
-                        $(".dynamic").fadeOut(800, function(){
-                            $(".dynamic").html(msg).fadeIn().delay(1000);
-
+                        $('a[data-toggle="tooltip"]').tooltip({
+                                animated: 'fade',
+                                placement: 'bottom',
+                                html: true
                         });
-                    }
-                });
-            });
-                        });
-
-                        function addUserPic(opt) {
-
-                                var key = $(opt.element).attr('key');
-                                var img = '"http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/' + key + '.png"';
+                        $('select.form-control, #op1,#op2,#op3,#op4,#op5,#op6,#op7,#op8,#op9,#op10').change(function() {
+                                var key = $('option:selected', this).attr('key');
+                                var img = $(this).attr('img');
+                                var imgn = 'http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/' + key + '.png';
                                 if (key == "tmp.png") {
-                                        img = key;
+                                        imgn = key;
                                 }
                                 if (key == "poro") {
-                                        img = 'http://ddragon.leagueoflegends.com/cdn/6.10.1/img/profileicon/937.png';
+                                        imgn = 'http://ddragon.leagueoflegends.com/cdn/6.10.1/img/profileicon/937.png';
                                 }
-                                var $opt = $(
-                                        '<span><img src=' + img + ' class="img-thumbnail" width="36" height="36" /> ' + $(opt.element).text() + '</span>'
-                                );
-                                return $opt;
+                                $(img).attr('src', imgn);
+                                var form = $('#lola');
+                                var post_url = form.attr('action');
+                                var post_data = form.serialize();
 
-                        };
-                </script>
+                                $.ajax({
+                                        type: 'POST',
+                                        url: post_url,
+                                        data: post_data,
+                                        success: function(msg) {
+                                                $(".dynamic").fadeOut(800, function() {
+                                                        $(".dynamic").html(msg).fadeIn().delay(2000);
+
+                                                });
+                                        }
+                                });
+                        });
+                        
+                        $('#lola').submit(function(e) {
+                                e.preventDefault();
+                                var form = $(this);
+                                var post_url = form.attr('action');
+                                var post_data = form.serialize();
+
+                                $.ajax({
+                                        type: 'POST',
+                                        url: post_url,
+                                        data: post_data,
+                                        success: function(msg) {
+                                                $(".dynamic").fadeOut(800, function() {
+                                                        $(".dynamic").html(msg).fadeIn().delay(1000);
+
+                                                });
+                                        }
+                                });
+                        });
+                });
+
+                function addUserPic(opt) {
+
+                        var key = $(opt.element).attr('key');
+                        var img = '"http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/' + key + '.png"';
+                        if (key == "tmp.png") {
+                                img = key;
+                        }
+                        if (key == "poro") {
+                                img = 'http://ddragon.leagueoflegends.com/cdn/6.10.1/img/profileicon/937.png';
+                        }
+                        var $opt = $(
+                                '<span><img src=' + img + ' class="img-thumbnail" width="36" height="36" /> ' + $(opt.element).text() + '</span>'
+                        );
+                        return $opt;
+
+                };
+        </script>
 </body>
 
 </html>
