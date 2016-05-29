@@ -138,34 +138,34 @@
                                                 </div>
                                                 <div class="btn-group" data-toggle="buttons">
                                                         <label class="btn btn-primary active btn-sm">
-                                                                <input type="radio" name="p11" id="op1"  checked value="br"> BR
+                                                                <input type="radio" name="p11" id="op1" checked value="br"> BR
                                                         </label>
                                                         <label class="btn btn-primary btn-sm">
                                                                 <input type="radio" name="p11" id="op2" value="eune"> EUNE
                                                         </label>
                                                         <label class="btn btn-primary btn-sm">
-                                                                <input type="radio" name="p11" id="op3"  value="euw"> EUW
+                                                                <input type="radio" name="p11" id="op3" value="euw"> EUW
                                                         </label>
                                                         <label class="btn btn-primary btn-sm">
-                                                                <input type="radio" name="p11" id="op4"  value="kr"> KR
+                                                                <input type="radio" name="p11" id="op4" value="kr"> KR
                                                         </label>
                                                         <label class="btn btn-primary btn-sm">
-                                                                <input type="radio" name="p11" id="op5"  value="lan"> LAN
+                                                                <input type="radio" name="p11" id="op5" value="lan"> LAN
                                                         </label>
                                                         <label class="btn btn-primary btn-sm">
-                                                                <input type="radio" name="p11" id="op6"  value="las"> LAS
+                                                                <input type="radio" name="p11" id="op6" value="las"> LAS
                                                         </label>
                                                         <label class="btn btn-primary  btn-sm">
-                                                                <input type="radio" name="p11" id="op7"  value="na"> NA
+                                                                <input type="radio" name="p11" id="op7" value="na"> NA
                                                         </label>
                                                         <label class="btn btn-primary btn-sm">
-                                                                <input type="radio" name="p11" id="op8"  value="oce"> OCE
+                                                                <input type="radio" name="p11" id="op8" value="oce"> OCE
                                                         </label>
                                                         <label class="btn btn-primary btn-sm">
                                                                 <input type="radio" name="p11" id="op9" value="ru"> RU
                                                         </label>
                                                         <label class="btn btn-primary btn-sm">
-                                                                <input type="radio" name="p11" id="op10"  value="tr"> TR
+                                                                <input type="radio" name="p11" id="op10" value="tr"> TR
                                                         </label>
                                                 </div>
                                         </div>
@@ -262,85 +262,91 @@
                 <div class="dynamic">
                         <%=render partial: 'recomm' %>
                 </div>
-        </form>
 
-        <script type="text/javascript">
-                $(document).ready(function() {
-                        $("select.form-control.a").select2({
-                                dropdownAutoWidth: true,
-                                templateResult: addUserPic
+                <footer class="footer">
+                        <div class="container">
+                                <p class="text-muted">AskMrCoach isn't endorsed by Riot Games and doesn't reflect the views or opinions of Riot Games or anyone officially involved in producing or managing League of Legends. League of Legends and Riot Games are trademarks or
+                                        registered trademarks of Riot Games, Inc. League of Legends © Riot Games, Inc.
+                                </p>
+                        </div>
+                </footer>
+                <script type="text/javascript">
+                        $(document).ready(function() {
+                                $("select.form-control.a").select2({
+                                        dropdownAutoWidth: true,
+                                        templateResult: addUserPic
 
+                                });
+                                $('a[data-toggle="tooltip"]').tooltip({
+                                        animated: 'fade',
+                                        placement: 'bottom',
+                                        html: true
+                                });
+                                $('select.form-control, #op1,#op2,#op3,#op4,#op5,#op6,#op7,#op8,#op9,#op10').change(function() {
+                                        var key = $('option:selected', this).attr('key');
+                                        var img = $(this).attr('img');
+                                        var imgn = 'http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/' + key + '.png';
+                                        if (key == "tmp.png") {
+                                                imgn = key;
+                                        }
+                                        if (key == "poro") {
+                                                imgn = 'http://ddragon.leagueoflegends.com/cdn/6.10.1/img/profileicon/937.png';
+                                        }
+                                        $(img).attr('src', imgn);
+                                        var form = $('#lola');
+                                        var post_url = form.attr('action');
+                                        var post_data = form.serialize();
+
+                                        $.ajax({
+                                                type: 'POST',
+                                                url: post_url,
+                                                data: post_data,
+                                                success: function(msg) {
+                                                        $(".dynamic").fadeOut(800, function() {
+                                                                $(".dynamic").html(msg).fadeIn().delay(2000);
+
+                                                        });
+                                                }
+                                        });
+                                });
+
+                                $('#lola').submit(function(e) {
+                                        e.preventDefault();
+                                        var form = $(this);
+                                        var post_url = form.attr('action');
+                                        var post_data = form.serialize();
+
+                                        $.ajax({
+                                                type: 'POST',
+                                                url: post_url,
+                                                data: post_data,
+                                                success: function(msg) {
+                                                        $(".dynamic").fadeOut(800, function() {
+                                                                $(".dynamic").html(msg).fadeIn().delay(1000);
+
+                                                        });
+                                                }
+                                        });
+                                });
                         });
-                        $('a[data-toggle="tooltip"]').tooltip({
-                                animated: 'fade',
-                                placement: 'bottom',
-                                html: true
-                        });
-                        $('select.form-control, #op1,#op2,#op3,#op4,#op5,#op6,#op7,#op8,#op9,#op10').change(function() {
-                                var key = $('option:selected', this).attr('key');
-                                var img = $(this).attr('img');
-                                var imgn = 'http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/' + key + '.png';
+
+                        function addUserPic(opt) {
+
+                                var key = $(opt.element).attr('key');
+                                var img = '"http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/' + key + '.png"';
                                 if (key == "tmp.png") {
-                                        imgn = key;
+                                        img = key;
                                 }
                                 if (key == "poro") {
-                                        imgn = 'http://ddragon.leagueoflegends.com/cdn/6.10.1/img/profileicon/937.png';
+                                        img = 'http://ddragon.leagueoflegends.com/cdn/6.10.1/img/profileicon/937.png';
                                 }
-                                $(img).attr('src', imgn);
-                                var form = $('#lola');
-                                var post_url = form.attr('action');
-                                var post_data = form.serialize();
+                                var $opt = $(
+                                        '<span><img src=' + img + ' class="img-thumbnail" width="36" height="36" /> ' + $(opt.element).text() + '</span>'
+                                );
+                                return $opt;
 
-                                $.ajax({
-                                        type: 'POST',
-                                        url: post_url,
-                                        data: post_data,
-                                        success: function(msg) {
-                                                $(".dynamic").fadeOut(800, function() {
-                                                        $(".dynamic").html(msg).fadeIn().delay(2000);
-
-                                                });
-                                        }
-                                });
-                        });
-                        
-                        $('#lola').submit(function(e) {
-                                e.preventDefault();
-                                var form = $(this);
-                                var post_url = form.attr('action');
-                                var post_data = form.serialize();
-
-                                $.ajax({
-                                        type: 'POST',
-                                        url: post_url,
-                                        data: post_data,
-                                        success: function(msg) {
-                                                $(".dynamic").fadeOut(800, function() {
-                                                        $(".dynamic").html(msg).fadeIn().delay(1000);
-
-                                                });
-                                        }
-                                });
-                        });
-                });
-
-                function addUserPic(opt) {
-
-                        var key = $(opt.element).attr('key');
-                        var img = '"http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/' + key + '.png"';
-                        if (key == "tmp.png") {
-                                img = key;
-                        }
-                        if (key == "poro") {
-                                img = 'http://ddragon.leagueoflegends.com/cdn/6.10.1/img/profileicon/937.png';
-                        }
-                        var $opt = $(
-                                '<span><img src=' + img + ' class="img-thumbnail" width="36" height="36" /> ' + $(opt.element).text() + '</span>'
-                        );
-                        return $opt;
-
-                };
-        </script>
+                        };
+                </script>
 </body>
 
 </html>
