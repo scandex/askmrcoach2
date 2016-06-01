@@ -114,6 +114,11 @@ class IndexController < ApplicationController
                         }
                     },
                     {
+                        "$match"=> {
+	                        "numerator"=> {"$gt"=>0}
+                        }
+                    },
+                    {
                         "$project"=> {
       	                    "_id"=> 1,		
       	                    "performance"=>{"$divide"=>[ "$numerator", "$denominator" ]},
