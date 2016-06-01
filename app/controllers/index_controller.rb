@@ -123,7 +123,7 @@ class IndexController < ApplicationController
                     {
                         "$project"=> {
       	                    "_id"=> 1,		
-      	                    "performance"=>{"$multiply"=>[ "$performance", "$count" ]},
+      	                    "performance"=>{"$multiply"=>[ "$performance", "$count" ]}
                         }
                     },
                     {
