@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Latest compiled and minified JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
         <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css" rel="stylesheet" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js"></script>
 </head>
@@ -30,7 +31,6 @@
                 </div>
                 <div class="section">
                         <div class="container">
-
                                 <div class="panel panel-info">
                                         <div class="panel-heading text-center">How to use AskMrCoach?</div>
                                         <div class="panel-body text-center" style="color: #ffffff">To use AskMrCoach you just need to put the
@@ -256,9 +256,19 @@
                                                 </div>
                                         </div>
                                 </div>
+
+                        </div>
+                        <div class="container" id="loader">
+                                <div class="row">
+                                        <h3>Loading data... Please wait.</h3>
+                                        <div class="progress progress-striped active page-progress-bar">
+                                                <div class="progress-bar" style="width: 100%;"></div>
+                                        </div>
+                                </div>
                         </div>
                 </div>
                 <br>
+
                 <div class="dynamic">
                         <%=render partial: 'recomm' %>
                 </div>
@@ -271,7 +281,17 @@
                         </div>
                 </footer>
                 <script type="text/javascript">
+                        $('#loader').hide();
                         $(document).ready(function() {
+                                jQuery.ajaxSetup({
+                                        beforeSend: function() {
+                                                $('#loader').show();
+                                        },
+                                        complete: function() {
+                                                $('#loader').hide();
+                                        },
+                                        success: function() {}
+                                });
                                 $("select.form-control.a").select2({
                                         dropdownAutoWidth: true,
                                         templateResult: addUserPic
@@ -303,7 +323,7 @@
                                                 data: post_data,
                                                 success: function(msg) {
                                                         $(".dynamic").fadeOut(800, function() {
-                                                                $(".dynamic").html(msg).fadeIn().delay(2000);
+                                                                $(".dynamic").html(msg).fadeIn().delay(1000);
 
                                                         });
                                                 }
@@ -321,17 +341,13 @@
                                                 url: post_url,
                                                 data: post_data,
                                                 success: function(msg) {
-                                                        $(".dynamic").fadeOut(800, function() {
-                                                                $(".dynamic").html(msg).fadeIn().delay(1000);
 
-                                                        });
                                                 }
                                         });
                                 });
                         });
 
                         function addUserPic(opt) {
-
                                 var key = $(opt.element).attr('key');
                                 var img = '"http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/' + key + '.png"';
                                 if (key == "tmp.png") {

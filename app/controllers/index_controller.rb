@@ -132,7 +132,7 @@ class IndexController < ApplicationController
                 ]
             )
             results = col.map { |attrs| Recommendation.instantiate(attrs) }
-            @resultados = results
+            @resultados = []
             @resultados2 = results
             
             begin
