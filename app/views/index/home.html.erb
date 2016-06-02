@@ -5,19 +5,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Latest compiled and minified JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        
+        <link href="assets/askmrcoach.css" rel="stylesheet" />
         <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css" rel="stylesheet" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js"></script>
 </head>
 
 <body>
         <form class="button_to" method="post" id="lola" action="recommend">
-                <style type="text/css">
-                        .thumbnails li img {
-                                width: 70px;
-                                height: 70px;
-                        }
-                </style>
                 <div class="navbar navbar-default navbar-static-top">
                         <div class="container">
                                 <div class="navbar-header">
@@ -45,7 +42,8 @@
                                         <div class="col-md-6">
                                                 <div class="panel panel-primary">
                                                         <div class="panel-heading">
-                                                                <h3 class="panel-title">Ally Team</h3>
+                                                                <h3 class="panel-title">Ally Team
+                                                                <button type="button" class="btn btn-primary btn-xs pull-right" id="ally"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span>RESET</button></h3>
                                                         </div>
                                                         <div class="panel-body">
                                                                 <div class="btn-group">
@@ -53,7 +51,7 @@
                                                                                 <h4 style="margin-bottom: 0px"><span class="label label-info center-block">Top</span></h4>
                                                                                 <img src='tmp.png' id="btopimg" class="img-thumbnail center-block" width="100" height="100">
                                                                                 <div class="picker">
-                                                                                        <select class="form-control a" id="btop_select" name="p1" style="width: 100px" img='#btopimg'>
+                                                                                        <select class="form-control a ally" id="btop_select" name="p1" style="width: 100px" img='#btopimg'>
                                                                                                 <option value='0' key="tmp.png">No Champion</option>
                                                                                                 <option value='-1' key="poro">This is My Rol</option>
                                                                                                 <% @champions.each do |d|%>
@@ -69,7 +67,7 @@
                                                                                 <h4 style="margin-bottom: 0px"><span class="label label-info center-block">Jungle</span></h4>
                                                                                 <img src='tmp.png' id="bjgimg" class="img-thumbnail center-block" width="100" height="100">
                                                                                 <div class="picker">
-                                                                                        <select class="form-control a" id="bjg_select" name="p2" style="width: 100px" img='#bjgimg'>
+                                                                                        <select class="form-control a ally" id="bjg_select" name="p2" style="width: 100px" img='#bjgimg'>
                                                                                                 <option value='0' key="tmp.png">No Champion</option>
                                                                                                 <option value='-1' key="poro">This is My Rol</option>
                                                                                                 <% @champions.each do |d|%>
@@ -85,7 +83,7 @@
                                                                                 <h4 style="margin-bottom: 0px"><span class="label label-info center-block">Mid</span></h4>
                                                                                 <img src='tmp.png' id="bmidimg" class="img-thumbnail center-block" width="100" height="100">
                                                                                 <div class="picker">
-                                                                                        <select class="form-control a" id="bmid_select" name="p3" style="width: 100px" img='#bmidimg'>
+                                                                                        <select class="form-control a ally" id="bmid_select" name="p3" style="width: 100px" img='#bmidimg'>
                                                                                                 <option value='0' key="tmp.png">No Champion</option>
                                                                                                 <option value='-1' key="poro">This is My Rol</option>
                                                                                                 <% @champions.each do |d|%>
@@ -101,7 +99,7 @@
                                                                                 <h4 style="margin-bottom: 0px"><span class="label label-info center-block">ADC</span></h4>
                                                                                 <img src='tmp.png' id="badcimg" class="img-thumbnail center-block" width="100" height="100">
                                                                                 <div class="picker">
-                                                                                        <select class="form-control a" id="badc_select" name="p4" style="width: 100px" img='#badcimg'>
+                                                                                        <select class="form-control a ally" id="badc_select" name="p4" style="width: 100px" img='#badcimg'>
                                                                                                 <option value='0' key="tmp.png">No Champion</option>
                                                                                                 <option value='-1' key="poro">This is My Rol</option>
                                                                                                 <% @champions.each do |d|%>
@@ -117,7 +115,7 @@
                                                                                 <h4 style="margin-bottom: 0px"><span class="label label-info center-block">Support</span></h4>
                                                                                 <img src='tmp.png' id="bsuppimg" class="img-thumbnail center-block" width="100" height="100">
                                                                                 <div class="picker">
-                                                                                        <select class="form-control a" id="bsupp_select" name="p5" style="width: 100px" img='#bsuppimg'>
+                                                                                        <select class="form-control a ally" id="bsupp_select" name="p5" style="width: 100px" img='#bsuppimg'>
                                                                                                 <option value='0' key="tmp.png">No Champion</option>
                                                                                                 <option value='-1' key="poro">This is My Rol</option>
                                                                                                 <% @champions.each do |d|%>
@@ -172,7 +170,8 @@
                                         <div class="col-md-6">
                                                 <div class="panel panel-danger">
                                                         <div class="panel-heading">
-                                                                <h3 class="panel-title">Enemy Team</h3>
+                                                                <h3 class="panel-title">Enemy Team
+                                                                 <button type="button" class="btn btn-danger btn-xs pull-right" id="enemy"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span>RESET</button></h3>
                                                         </div>
                                                         <div class="panel-body">
                                                                 <div class="btn-group">
@@ -180,7 +179,7 @@
                                                                                 <h4 style="margin-bottom: 0px"><span class="label label-info center-block">Top</span></h4>
                                                                                 <img src='tmp.png' id="rtopimg" class="img-thumbnail center-block" width="100" height="100">
                                                                                 <div class="picker">
-                                                                                        <select class="form-control a" id="rtop_select" name="p6" style="width: 100px" img='#rtopimg'>
+                                                                                        <select class="form-control a ene" id="rtop_select" name="p6" style="width: 100px" img='#rtopimg'>
                                                                                                 <option value='0' key="tmp.png">No Champion</option>
                                                                                                 <% @champions.each do |d|%>
                                                                                                         <option value=<%=d.id%> key=
@@ -195,7 +194,7 @@
                                                                                 <h4 style="margin-bottom: 0px"><span class="label label-info center-block">Jungle</span></h4>
                                                                                 <img src='tmp.png' id="rjgimg" class="img-thumbnail center-block" width="100" height="100">
                                                                                 <div class="picker">
-                                                                                        <select class="form-control a" id="rjg_select" name="p7" style="width: 100px" img='#rjgimg'>
+                                                                                        <select class="form-control a ene" id="rjg_select" name="p7" style="width: 100px" img='#rjgimg'>
                                                                                                 <option value='0' key="tmp.png">No Champion</option>
                                                                                                 <% @champions.each do |d|%>
                                                                                                         <option value=<%=d.id%> key=
@@ -210,7 +209,7 @@
                                                                                 <h4 style="margin-bottom: 0px"><span class="label label-info center-block">Mid</span></h4>
                                                                                 <img src='tmp.png' id="rmidimg" class="img-thumbnail center-block" width="100" height="100">
                                                                                 <div class="picker">
-                                                                                        <select class="form-control a" id="rmid_select" name="p8" style="width: 100px" img='#rmidimg'>
+                                                                                        <select class="form-control a ene" id="rmid_select" name="p8" style="width: 100px" img='#rmidimg'>
                                                                                                 <option value='0' key="tmp.png">No Champion</option>
                                                                                                 <% @champions.each do |d|%>
                                                                                                         <option value=<%=d.id%> key=
@@ -225,7 +224,7 @@
                                                                                 <h4 style="margin-bottom: 0px"><span class="label label-info center-block">ADC</span></h4>
                                                                                 <img src='tmp.png' id="radcimg" class="img-thumbnail center-block" width="100" height="100">
                                                                                 <div class="picker">
-                                                                                        <select class="form-control a" id="radc_select" name="p9" style="width: 100px" img='#radcimg'>
+                                                                                        <select class="form-control a ene" id="radc_select" name="p9" style="width: 100px" img='#radcimg'>
                                                                                                 <option value='0' key="tmp.png">No Champion</option>
                                                                                                 <% @champions.each do |d|%>
                                                                                                         <option value=<%=d.id%> key=
@@ -240,7 +239,7 @@
                                                                                 <h4 style="margin-bottom: 0px"><span class="label label-info center-block">Support</span></h4>
                                                                                 <img src='tmp.png' id="rsuppimg" class="img-thumbnail center-block" width="100" height="100">
                                                                                 <div class="picker">
-                                                                                        <select class="form-control a" id="rsupp_select" name="p10" style="width: 100px" img='#rsuppimg'>
+                                                                                        <select class="form-control a ene" id="rsupp_select" name="p10" style="width: 100px" img='#rsuppimg'>
                                                                                                 <option value='0' key="tmp.png">No Champion</option>
                                                                                                 <% @champions.each do |d|%>
                                                                                                         <option value=<%=d.id%> key=
@@ -283,8 +282,12 @@
                 <script type="text/javascript">
                         $('#loader').hide();
                         $(document).ready(function() {
+                                var currentRequest;
                                 jQuery.ajaxSetup({
                                         beforeSend: function() {
+                                                if (currentRequest != null) {
+                                                        currentRequest.abort();
+                                                }
                                                 $('#loader').show();
                                         },
                                         complete: function() {
@@ -302,7 +305,9 @@
                                         placement: 'bottom',
                                         html: true
                                 });
+
                                 $('select.form-control, #op1,#op2,#op3,#op4,#op5,#op6,#op7,#op8,#op9,#op10').change(function() {
+
                                         var key = $('option:selected', this).attr('key');
                                         var img = $(this).attr('img');
                                         var imgn = 'http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/' + key + '.png';
@@ -317,7 +322,7 @@
                                         var post_url = form.attr('action');
                                         var post_data = form.serialize();
 
-                                        $.ajax({
+                                        currentRequest = $.ajax({
                                                 type: 'POST',
                                                 url: post_url,
                                                 data: post_data,
@@ -345,7 +350,15 @@
                                                 }
                                         });
                                 });
+
                         });
+                        $('#ally').click(function() {
+                                $('select.form-control.a.ally').select2('val', '0');
+                        });
+                        $('#enemy').click(function() {
+                                $('select.form-control.a.ene').select2('val', '0');
+                        });
+
 
                         function addUserPic(opt) {
                                 var key = $(opt.element).attr('key');
