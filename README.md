@@ -16,6 +16,8 @@ improvements on askmrcoach2
 
 A live version of the most recent application can be found here:
 https://askmrcoach2.herokuapp.com
+or
+http://www.askmrcoach.net
 
 ##How to use
 Select the champions and roles of your teammates or enemies and put the poro in your preferred rol and the click the Recommend Button
